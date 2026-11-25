@@ -1,0 +1,248 @@
+[
+  {
+    "file": "rover-reference.png",
+    "origin": "User-supplied proposal DOCX, word/media/image13.png",
+    "sha256": "2959d4144eb56cd22985a1e7dfcdd709fd021607a33abca75c47530d81e9cd61",
+    "bytes": 2133035,
+    "transform": "none",
+    "figure": "3-6",
+    "caption": "图3-6  智能小车自动避障实验场景"
+  },
+  {
+    "file": "pet-feeder-reference.png",
+    "origin": "User-supplied proposal DOCX, word/media/image14.png",
+    "sha256": "ce656ad467cabc8b1ae8b8fe128c735c31f969d440dce23789581067d4db3f78",
+    "bytes": 1790807,
+    "transform": "none",
+    "figure": "3-7",
+    "caption": "图3-7  智能宠物喂养系统整机外观"
+  },
+  {
+    "file": "palace-character.png",
+    "origin": "User-supplied proposal DOCX, word/media/image15.png",
+    "sha256": "07d9d571f8a0ba6cf0ad2a237a5d088d8cd811c7c3373a5883a7db7d92660bfd",
+    "bytes": 1975299,
+    "transform": "none",
+    "figure": "3-8",
+    "caption": "图3-8  主角定妆照（首帧参考）"
+  },
+  {
+    "file": "english-cards.png",
+    "origin": "User-supplied proposal DOCX, word/media/image16.png",
+    "sha256": "d49719451cbeba441c8e60a4763426302e62cff6ffb6f9313a8077a3dd42b1da",
+    "bytes": 1437887,
+    "transform": "none",
+    "figure": "3-9",
+    "caption": "图3-9  卡片正反面示意"
+  },
+  {
+    "file": "city-reference.png",
+    "origin": "User-supplied proposal DOCX, word/media/image8.png",
+    "subject": "城市建筑年代三维地图",
+    "figure": "3-1",
+    "sha256": "c0c0a6246c2195a54a778bc35c00be8fa6afb4bf9afa2ded36ac1f576a52ed23",
+    "bytes": 818686,
+    "transform": "none",
+    "caption": "图3-1  城市建筑年代三维地图"
+  },
+  {
+    "file": "atmosphere-reference.png",
+    "origin": "User-supplied proposal DOCX, word/media/image9.png",
+    "subject": "大气环流三维演示",
+    "figure": "3-2",
+    "sha256": "3dcdefa016758bcb3f71f8139f84c2123c138c185d1ea815abda63209904c870",
+    "bytes": 1149741,
+    "transform": "none",
+    "caption": "图3-2  大气环流三维演示"
+  },
+  {
+    "file": "network-reference.png",
+    "origin": "User-supplied proposal DOCX, word/media/image10.png",
+    "subject": "神经网络与手写数字识别",
+    "figure": "3-3",
+    "sha256": "c487b6deaf6b94b1dfc096a2cbed72f6da18e5ab9d9c90a1d4c9ee582052c5ab",
+    "bytes": 714874,
+    "transform": "none",
+    "caption": "图3-3  神经网络与手写数字识别"
+  },
+  {
+    "file": "contour-reference.png",
+    "origin": "User-supplied proposal DOCX, word/media/image11.png",
+    "subject": "等高线地形三维建模",
+    "figure": "3-4",
+    "sha256": "1edf34c49ca2d6e8ff9f72260e8758c2911db16458eee313fdaabf9769920641",
+    "bytes": 1135929,
+    "transform": "none",
+    "caption": "图3-4  等高线与三维地形"
+  },
+  {
+    "file": "water-reference.png",
+    "origin": "User-supplied proposal DOCX, word/media/image12.png",
+    "subject": "水循环与地表过程",
+    "figure": "3-5",
+    "sha256": "1c027e4037b35c2a3ea5f007a370939c82a79cc73288fcf6e07f3469738c90a3",
+    "bytes": 1340263,
+    "transform": "none",
+    "caption": "图3-5  水循环与地层剖面"
+  },
+  {
+    "file": "plantpal-demo.gif",
+    "origin": "User-supplied proposal DOCX, word/media/image17.GIF",
+    "subject": "PlantPal会说话的多肉",
+    "figure": "3-10",
+    "sha256": "a3521f16074f814bf6c758a35a1c57e33e5f54197999c3fa99737ec06f664487",
+    "bytes": 12255741,
+    "transform": "none",
+    "caption": "图3-10  三幕动图的「喜」：笑脸、薄荷绿灯带、四路读数"
+  },
+  {
+    "file": "bridge-reference.png",
+    "origin": "User-supplied proposal DOCX, word/media/image26.png",
+    "subject": "桥梁称重测试",
+    "figure": "3-19",
+    "sha256": "67b2fb15dea066b6b4c8599a7e13bebd1a278100e260f5a2bf23096e2a464ebb",
+    "bytes": 1717595,
+    "transform": "none",
+    "caption": "图3-19  桥梁模型加载与称重测试"
+  },
+  {
+    "file": "vision-reference.png",
+    "origin": "User-supplied proposal DOCX, word/media/image27.png",
+    "subject": "产品零件视觉质检",
+    "figure": "3-20",
+    "sha256": "09db10aa874a2b36e9aa7f1aef14a1e81a04fb740fb54493233954b23de71950",
+    "bytes": 2024966,
+    "transform": "none",
+    "caption": "图3-20  产品零件视觉质检实验台（三维示意）"
+  },
+  {
+    "file": "wall-e-reference.png",
+    "origin": "User-supplied proposal DOCX, word/media/image28.png",
+    "subject": "瓦力智能机器人",
+    "figure": "3-21",
+    "sha256": "9a72441d9bcef0927ce81a6ba90bae2e9564f669806564afb704bdc82e94ae6b",
+    "bytes": 492427,
+    "transform": "none",
+    "caption": "图3-21  瓦力智能机器人装配与调试"
+  },
+  {
+    "file": "sorting-reference.png",
+    "origin": "User-supplied proposal DOCX, word/media/image29.png",
+    "subject": "果蔬外观智能分拣",
+    "figure": "3-22",
+    "sha256": "3bc51fb7e15f577c07ddd08e64371da7f2b35eda34ed2de90182d407d1902b83",
+    "bytes": 786994,
+    "transform": "none",
+    "caption": "图3-22  果蔬拍摄台与人工复核区示意"
+  },
+  {
+    "file": "mine-reference.png",
+    "origin": "User-supplied proposal DOCX, word/media/image30.png",
+    "subject": "煤矿洞的监测",
+    "figure": "3-23",
+    "sha256": "67f269cd28b492c09e3d780d35d683a421a827822f74942fef6313d0a7f24b6d",
+    "bytes": 3218847,
+    "transform": "none",
+    "caption": "图3-23  煤矿巷道监测点位与设备（三维仿真）"
+  },
+  {
+    "file": "glaze-reference.png",
+    "origin": "User-supplied proposal DOCX, word/media/image31.png",
+    "subject": "京西琉璃AI工艺推演与数字讲解",
+    "figure": "3-24",
+    "sha256": "e1f1541c09daa56afa314dcc891265082295b1a0c41ed18cd76596b30e25ac95",
+    "bytes": 977704,
+    "transform": "none",
+    "caption": "图3-24  京西琉璃AI工艺推演与数字讲解场景效果图"
+  },
+  {
+    "file": "menu-demo.gif",
+    "origin": "User-supplied proposal DOCX, word/media/image32.GIF",
+    "subject": "AI菜单助手",
+    "figure": "3-25",
+    "sha256": "a950aae45098d9787e56d1b9142dec866dd7efc7287f5b5040da704f386f2f49",
+    "bytes": 12108837,
+    "transform": "none",
+    "caption": "图3-25  营养三幕动图的「选」：餐盘待识别，八项指标尚未点亮"
+  },
+  {
+    "file": "printer-reference.png",
+    "origin": "User-supplied proposal DOCX, word/media/image44.png",
+    "subject": "3D打印设备",
+    "figure": "4.6-2",
+    "sha256": "8060e20e1788c6f12120d2c281b13ed5464c180a9d83ca66c195eddc577af5bc",
+    "bytes": 475762,
+    "transform": "none",
+    "caption": "图4.6-2  3D打印设备"
+  },
+  {
+    "file": "learning-practice.png",
+    "origin": "User-supplied proposal DOCX, word/media/image48.png",
+    "subject": "人工智能课程实施与成果交流",
+    "figure": "5-1",
+    "sha256": "82ccd0d1e54ed44032f5c1f132befb443d4a40bfc9724ea798a1e268e255635e",
+    "bytes": 4560715,
+    "transform": "none",
+    "caption": "图5-1  人工智能课程实施与成果生成"
+  },
+  {
+    "file": "mentor-review.png",
+    "origin": "User-supplied proposal DOCX, word/media/image49.png",
+    "subject": "教学成果与竞赛项目双向转化",
+    "figure": "5-2",
+    "sha256": "dfbb34c778667fc788e28de81e16c82b0a921f80062714abb1aa24b16df42398",
+    "bytes": 4558109,
+    "transform": "none",
+    "caption": "图5-2  教学成果整理与参赛材料转化"
+  },
+  {
+    "file": "student-prototype.png",
+    "origin": "User-supplied proposal DOCX, word/media/image50.png",
+    "subject": "学生创新项目测试与专项训练",
+    "figure": "5-3",
+    "sha256": "21c2b3c9f6990f74965df2c3c892077012d129edfacc7c94a9d50e2e32231e93",
+    "bytes": 5271463,
+    "transform": "none",
+    "caption": "图5-3 学生创新项目的测试与迭代"
+  },
+  {
+    "file": "innovation-showcase.png",
+    "origin": "User-supplied proposal DOCX, word/media/image51.png",
+    "subject": "区域科技创新活动现场",
+    "figure": "5-4",
+    "sha256": "74835aeb89ca71574918b8a46e4f9b813fa0c8a56303e72b68d09985aebf1758",
+    "bytes": 5026607,
+    "transform": "none",
+    "caption": "图5-4 区域科技创新活动现场"
+  },
+  {
+    "file": "student-media.png",
+    "origin": "User-supplied proposal DOCX, word/media/image52.png",
+    "subject": "校园新媒体采访与传播",
+    "figure": "5-5",
+    "sha256": "34201489ba5430b7eae2922421795a7888f58255c1d70884923581cc3fcce5ca",
+    "bytes": 4033684,
+    "transform": "none",
+    "caption": "图5-5  校园融媒体采访与传播"
+  },
+  {
+    "file": "agriculture-study.png",
+    "origin": "User-supplied proposal DOCX, word/media/image56.png",
+    "subject": "农业识别与生产科普原型",
+    "figure": "6-3",
+    "sha256": "113b8331b5db42b12b824cac8aa42b1c9d9d823916a5805090ef8c89e6fc6723",
+    "bytes": 566801,
+    "transform": "none",
+    "caption": "图6-3 农业识别与生产科普原型"
+  },
+  {
+    "file": "glaze-workflow.png",
+    "origin": "User-supplied proposal DOCX, word/media/image57.png",
+    "subject": "京西琉璃AI工艺推演课件",
+    "figure": "6-4",
+    "sha256": "e55b235b09b9e913df7cf18a6a6109da06d97d6b3804acb1f3f0d61aa4f5a924",
+    "bytes": 428494,
+    "transform": "none",
+    "caption": "图6-4 京西琉璃工艺教学流程与数字体验模块"
+  }
+]

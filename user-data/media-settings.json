@@ -1,0 +1,135 @@
+{
+  "version": 1,
+  "overrides": {
+    "concept.layers": {
+      "id": "concept.layers",
+      "url": "/user-media/6726581a71e4391fbceecad5a13519e6.png",
+      "mime": "image/png",
+      "kind": "image",
+      "fileName": "5cc0a9f7-4b07-4253-9302-aa2b40de77e4.png",
+      "fit": "cover",
+      "position": "50% 50%",
+      "updatedAt": "2026-11-16T01:09:27.717Z"
+    },
+    "concept.platform": {
+      "id": "concept.platform",
+      "url": "/user-media/6ed738c4786aec829102c4a6ceab6b5e.png",
+      "mime": "image/png",
+      "kind": "image",
+      "fileName": "40a66c80-2a9c-4ccd-9f13-413a3b86de52.png",
+      "fit": "contain",
+      "position": "50% 50%",
+      "updatedAt": "2026-11-16T01:09:45.692Z"
+    },
+    "concept.curriculum": {
+      "id": "concept.curriculum",
+      "url": "/user-media/ab2ed7e7ec2ccf1a21c65211a2cf1619.png",
+      "mime": "image/png",
+      "kind": "image",
+      "fileName": "447e3dbd-a5a2-458c-8990-2a124d70ce9a.png",
+      "fit": "cover",
+      "position": "50% 50%",
+      "updatedAt": "2026-11-16T01:10:01.318Z"
+    },
+    "campus.production.1": {
+      "id": "campus.production.1",
+      "url": "/user-media/f04aabecf4905b73a6936709df224c68.png",
+      "mime": "image/png",
+      "kind": "image",
+      "fileName": "3defc653-0b91-48e8-9ae4-ae9470e3c28f.png",
+      "fit": "cover",
+      "position": "50% 50%",
+      "updatedAt": "2026-11-16T01:10:23.438Z"
+    },
+    "campus.production.2": {
+      "id": "campus.production.2",
+      "url": "/user-media/2cfa5a0a818533c767b18b3a1ded561b.png",
+      "mime": "image/png",
+      "kind": "image",
+      "fileName": "fb2d0af1-093f-4491-bed4-be1272f1ffbf.png",
+      "fit": "cover",
+      "position": "50% 50%",
+      "updatedAt": "2026-11-16T01:10:39.492Z"
+    },
+    "campus.production.5": {
+      "id": "campus.production.5",
+      "url": "/user-media/162ce454d7de92fa63e51d687fa3e8be.png",
+      "mime": "image/png",
+      "kind": "image",
+      "fileName": "e46f189c-feb7-4ddf-86e6-035aa9c7458a.png",
+      "fit": "cover",
+      "position": "50% 50%",
+      "updatedAt": "2026-11-16T01:10:58.228Z"
+    },
+    "campus.life.1": {
+      "id": "campus.life.1",
+      "url": "/user-media/b68fa02d0efe0e7d22f15acd4ca07a2f.png",
+      "mime": "image/png",
+      "kind": "image",
+      "fileName": "e177899c-38be-4d08-9801-aacd0f6603d3.png",
+      "fit": "cover",
+      "position": "50% 50%",
+      "updatedAt": "2026-11-16T01:11:15.188Z"
+    },
+    "campus.life.2": {
+      "id": "campus.life.2",
+      "url": "/user-media/baa3b1ee4e76336d7e01fe64de6efc29.png",
+      "mime": "image/png",
+      "kind": "image",
+      "fileName": "f2707108-7231-4d06-88d7-f95577543029.png",
+      "fit": "cover",
+      "position": "50% 50%",
+      "updatedAt": "2026-11-16T01:11:37.341Z"
+    },
+    "campus.control.life": {
+      "id": "campus.control.life",
+      "url": "/user-media/57cfb89a4d141d2ad662d770f5592972.png",
+      "mime": "image/png",
+      "kind": "image",
+      "fileName": "e54ed27f-076e-401d-a48a-1f1856472734.png",
+      "fit": "cover",
+      "position": "50% 50%",
+      "updatedAt": "2026-11-16T01:11:54.779Z"
+    },
+    "industry.scenes.ecology": {
+      "id": "industry.scenes.ecology",
+      "url": "/user-media/b7cfd4d7f0e75b7ce6cbc2e5295dbf72.png",
+      "mime": "image/png",
+      "kind": "image",
+      "fileName": "3dcf1d45-2850-4416-9fd2-975efcd9908b.png",
+      "fit": "cover",
+      "position": "50% 50%",
+      "updatedAt": "2026-11-16T01:12:14.412Z"
+    },
+    "industry.scenes.agriculture": {
+      "id": "industry.scenes.agriculture",
+      "url": "/user-media/997c757165b1c8c0774a691c9d17ef65.png",
+      "mime": "image/png",
+      "kind": "image",
+      "fileName": "d0f3307f-e6ff-4b5d-b291-5b2460efcb82.png",
+      "fit": "cover",
+      "position": "50% 50%",
+      "updatedAt": "2026-11-16T01:12:30.004Z"
+    },
+    "industry.transfer": {
+      "id": "industry.transfer",
+      "url": "/user-media/30b46d7816fba8ea1fe48e16f78cb255.png",
+      "mime": "image/png",
+      "kind": "image",
+      "fileName": "f34217c0-da33-4424-a231-56f64e29d2e9.png",
+      "fit": "contain",
+      "position": "50% 50%",
+      "updatedAt": "2026-11-16T01:12:43.187Z"
+    },
+    "aigc.process": {
+      "id": "aigc.process",
+      "url": "/user-media/fa6ee1cddfc21dcf4980550485943a76.png",
+      "mime": "image/png",
+      "kind": "image",
+      "fileName": "8abe5ab5-09db-4453-8eeb-9538d35e0ba8.png",
+      "fit": "cover",
+      "position": "50% 50%",
+      "updatedAt": "2026-11-16T01:13:03.788Z"
+    }
+  }
+}

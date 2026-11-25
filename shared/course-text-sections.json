@@ -1,0 +1,1598 @@
+[
+  {
+    "id": "course.robot",
+    "title": "瓦力智能机器人",
+    "group": "courses",
+    "chapter": "campus",
+    "page": 1,
+    "course": "robot",
+    "fields": [
+      {
+        "id": "name",
+        "label": "课程名称",
+        "defaultText": "瓦力智能机器人",
+        "maxLength": 120
+      },
+      {
+        "id": "subtitle",
+        "label": "课程入口名称",
+        "defaultText": "瓦力智能机器人",
+        "maxLength": 120
+      },
+      {
+        "id": "headline",
+        "label": "介绍标题",
+        "defaultText": "听懂你，走到你需要的地方。",
+        "maxLength": 120
+      },
+      {
+        "id": "introduction",
+        "label": "课程介绍",
+        "defaultText": "说出想去的地方，瓦力理解任务、自主移动，并在遇到障碍时调整行动。完成后继续对话，让每一次行动都有回应。",
+        "maxLength": 1200
+      },
+      {
+        "id": "step.0.title",
+        "label": "学习环节 1",
+        "defaultText": "听懂任务",
+        "maxLength": 120
+      },
+      {
+        "id": "step.1.title",
+        "label": "学习环节 2",
+        "defaultText": "自主移动",
+        "maxLength": 120
+      },
+      {
+        "id": "step.2.title",
+        "label": "学习环节 3",
+        "defaultText": "对话反馈",
+        "maxLength": 120
+      },
+      {
+        "id": "output",
+        "label": "作品成果",
+        "defaultText": "机器人任务演示、对话与测试记录",
+        "maxLength": 500
+      },
+      {
+        "id": "value",
+        "label": "学习价值",
+        "defaultText": "从一句指令到一次行动，观察理解、感知、决策与反馈如何协同，比较不同任务和障碍下的表现。",
+        "maxLength": 1200
+      },
+      {
+        "id": "agent",
+        "label": "小景支持说明",
+        "defaultText": "小景帮助理解任务与解释行动，支持追问“为什么停下”或“刚才完成了什么”。",
+        "maxLength": 800
+      },
+      {
+        "id": "arrangement",
+        "label": "课程安排",
+        "defaultText": "P03 · 8 课时 × 45 分钟",
+        "maxLength": 240
+      }
+    ]
+  },
+  {
+    "id": "course.printing",
+    "title": "3D 打印工坊",
+    "group": "courses",
+    "chapter": "campus",
+    "page": 1,
+    "course": "printing",
+    "fields": [
+      {
+        "id": "name",
+        "label": "课程名称",
+        "defaultText": "3D 打印工坊",
+        "maxLength": 120
+      },
+      {
+        "id": "subtitle",
+        "label": "课程入口名称",
+        "defaultText": "3D 打印工坊",
+        "maxLength": 120
+      },
+      {
+        "id": "headline",
+        "label": "介绍标题",
+        "defaultText": "让想象，逐层成为实物。",
+        "maxLength": 120
+      },
+      {
+        "id": "introduction",
+        "label": "课程介绍",
+        "defaultText": "从屏幕中的造型，到桌面上的手办。五秒演示呈现切片、逐层堆叠与成型，让数字制造一目了然。",
+        "maxLength": 1200
+      },
+      {
+        "id": "step.0.title",
+        "label": "学习环节 1",
+        "defaultText": "准备模型",
+        "maxLength": 120
+      },
+      {
+        "id": "step.1.title",
+        "label": "学习环节 2",
+        "defaultText": "逐层打印",
+        "maxLength": 120
+      },
+      {
+        "id": "step.2.title",
+        "label": "学习环节 3",
+        "defaultText": "得到作品",
+        "maxLength": 120
+      },
+      {
+        "id": "output",
+        "label": "作品成果",
+        "defaultText": "打印模型与过程观察",
+        "maxLength": 500
+      },
+      {
+        "id": "value",
+        "label": "学习价值",
+        "defaultText": "理解数字模型与制造过程的联系，认识设计如何受到材料和工艺影响。",
+        "maxLength": 1200
+      },
+      {
+        "id": "agent",
+        "label": "小景支持说明",
+        "defaultText": "小景解释切片和层高，辅助检查造型是否适合打印。",
+        "maxLength": 800
+      },
+      {
+        "id": "arrangement",
+        "label": "课程安排",
+        "defaultText": "延展工具 · 按项目选用",
+        "maxLength": 240
+      }
+    ]
+  },
+  {
+    "id": "course.bridge",
+    "title": "桥梁承重测试",
+    "group": "courses",
+    "chapter": "campus",
+    "page": 1,
+    "course": "bridge",
+    "fields": [
+      {
+        "id": "name",
+        "label": "课程名称",
+        "defaultText": "桥梁承重测试",
+        "maxLength": 120
+      },
+      {
+        "id": "subtitle",
+        "label": "课程入口名称",
+        "defaultText": "桥梁承重测试",
+        "maxLength": 120
+      },
+      {
+        "id": "headline",
+        "label": "介绍标题",
+        "defaultText": "好的结构，经得起验证。",
+        "maxLength": 120
+      },
+      {
+        "id": "introduction",
+        "label": "课程介绍",
+        "defaultText": "把结构设计变成可比较的实体实验。统一跨度、材料与加载方式，完成校零、读数和受控加载，观察承载表现。",
+        "maxLength": 1200
+      },
+      {
+        "id": "step.0.title",
+        "label": "学习环节 1",
+        "defaultText": "明确变量",
+        "maxLength": 120
+      },
+      {
+        "id": "step.1.title",
+        "label": "学习环节 2",
+        "defaultText": "校零试载",
+        "maxLength": 120
+      },
+      {
+        "id": "step.2.title",
+        "label": "学习环节 3",
+        "defaultText": "证据改进",
+        "maxLength": 120
+      },
+      {
+        "id": "output",
+        "label": "作品成果",
+        "defaultText": "桥梁方案、加载记录与改进说明",
+        "maxLength": 500
+      },
+      {
+        "id": "value",
+        "label": "学习价值",
+        "defaultText": "基础层完成统一测试；进阶层解释预测与实测的差异，用记录支持结构改进。",
+        "maxLength": 1200
+      },
+      {
+        "id": "agent",
+        "label": "小景支持说明",
+        "defaultText": "小景辅助解释结构方案、分析加载记录；承载结论以实体测试为依据。",
+        "maxLength": 800
+      },
+      {
+        "id": "arrangement",
+        "label": "课程安排",
+        "defaultText": "P01 · 8 课时 × 45 分钟 · 首批试教",
+        "maxLength": 240
+      }
+    ]
+  },
+  {
+    "id": "course.vision",
+    "title": "产品零件视觉质检",
+    "group": "courses",
+    "chapter": "campus",
+    "page": 1,
+    "course": "vision",
+    "fields": [
+      {
+        "id": "name",
+        "label": "课程名称",
+        "defaultText": "产品零件视觉质检",
+        "maxLength": 120
+      },
+      {
+        "id": "subtitle",
+        "label": "课程入口名称",
+        "defaultText": "产品零件视觉质检",
+        "maxLength": 120
+      },
+      {
+        "id": "headline",
+        "label": "介绍标题",
+        "defaultText": "让机器，看懂细微差别。",
+        "maxLength": 120
+      },
+      {
+        "id": "introduction",
+        "label": "课程介绍",
+        "defaultText": "先定义可见缺陷，再标注、识别与人工复核。同一个零件在光照或角度改变后，机器判断也可能不同。",
+        "maxLength": 1200
+      },
+      {
+        "id": "step.0.title",
+        "label": "学习环节 1",
+        "defaultText": "标注标准",
+        "maxLength": 120
+      },
+      {
+        "id": "step.1.title",
+        "label": "学习环节 2",
+        "defaultText": "独立测试",
+        "maxLength": 120
+      },
+      {
+        "id": "step.2.title",
+        "label": "学习环节 3",
+        "defaultText": "人工复核",
+        "maxLength": 120
+      },
+      {
+        "id": "output",
+        "label": "作品成果",
+        "defaultText": "缺陷标准、识别记录与误判分析",
+        "maxLength": 500
+      },
+      {
+        "id": "value",
+        "label": "学习价值",
+        "defaultText": "基础层按统一标准完成识别；进阶层分开训练与测试样本，解释误报和漏检。",
+        "maxLength": 1200
+      },
+      {
+        "id": "agent",
+        "label": "小景支持说明",
+        "defaultText": "小景帮助解释识别依据与误判原因；外观判断交叉复核，尺寸测量另用量具。",
+        "maxLength": 800
+      },
+      {
+        "id": "arrangement",
+        "label": "课程安排",
+        "defaultText": "P02 · 8 课时 × 45 分钟",
+        "maxLength": 240
+      }
+    ]
+  },
+  {
+    "id": "course.sorting",
+    "title": "果蔬外观智能分拣",
+    "group": "courses",
+    "chapter": "campus",
+    "page": 1,
+    "course": "sorting",
+    "fields": [
+      {
+        "id": "name",
+        "label": "课程名称",
+        "defaultText": "果蔬外观智能分拣",
+        "maxLength": 120
+      },
+      {
+        "id": "subtitle",
+        "label": "课程入口名称",
+        "defaultText": "果蔬外观智能分拣",
+        "maxLength": 120
+      },
+      {
+        "id": "headline",
+        "label": "介绍标题",
+        "defaultText": "把观察，变成生产决策。",
+        "maxLength": 120
+      },
+      {
+        "id": "introduction",
+        "label": "课程介绍",
+        "defaultText": "依据可见外伤建立标签，完成采集、识别与人工分拨。设备就绪后接入机械分流，将外观观察转成生产任务。",
+        "maxLength": 1200
+      },
+      {
+        "id": "step.0.title",
+        "label": "学习环节 1",
+        "defaultText": "外观标注",
+        "maxLength": 120
+      },
+      {
+        "id": "step.1.title",
+        "label": "学习环节 2",
+        "defaultText": "识别分类",
+        "maxLength": 120
+      },
+      {
+        "id": "step.2.title",
+        "label": "学习环节 3",
+        "defaultText": "分拨复核",
+        "maxLength": 120
+      },
+      {
+        "id": "output",
+        "label": "作品成果",
+        "defaultText": "分类标准、样本记录与复核结果",
+        "maxLength": 500
+      },
+      {
+        "id": "value",
+        "label": "学习价值",
+        "defaultText": "基础层保持标签一致并完成复核；进阶层控制拍摄条件，分析漏检和误剔除。",
+        "maxLength": 1200
+      },
+      {
+        "id": "agent",
+        "label": "小景支持说明",
+        "defaultText": "小景辅助整理外观特征与分类依据；图像不清或有争议的样本进入人工复核。",
+        "maxLength": 800
+      },
+      {
+        "id": "arrangement",
+        "label": "课程安排",
+        "defaultText": "P04 · 8 课时 × 45 分钟",
+        "maxLength": 240
+      }
+    ]
+  },
+  {
+    "id": "course.mine",
+    "title": "煤矿洞的监测",
+    "group": "courses",
+    "chapter": "campus",
+    "page": 1,
+    "course": "mine",
+    "fields": [
+      {
+        "id": "name",
+        "label": "课程名称",
+        "defaultText": "煤矿洞的监测",
+        "maxLength": 120
+      },
+      {
+        "id": "subtitle",
+        "label": "课程入口名称",
+        "defaultText": "煤矿洞的监测",
+        "maxLength": 120
+      },
+      {
+        "id": "headline",
+        "label": "介绍标题",
+        "defaultText": "从一个信号，读懂环境。",
+        "maxLength": 120
+      },
+      {
+        "id": "introduction",
+        "label": "课程介绍",
+        "defaultText": "在三维巷道与模拟数据中对应点位、单位和读数。区分正常波动、持续异常与数据失联，理解监测的完整过程。",
+        "maxLength": 1200
+      },
+      {
+        "id": "step.0.title",
+        "label": "学习环节 1",
+        "defaultText": "对应点位",
+        "maxLength": 120
+      },
+      {
+        "id": "step.1.title",
+        "label": "学习环节 2",
+        "defaultText": "比较趋势",
+        "maxLength": 120
+      },
+      {
+        "id": "step.2.title",
+        "label": "学习环节 3",
+        "defaultText": "确认恢复",
+        "maxLength": 120
+      },
+      {
+        "id": "output",
+        "label": "作品成果",
+        "defaultText": "监测看板与异常确认、恢复记录",
+        "maxLength": 500
+      },
+      {
+        "id": "value",
+        "label": "学习价值",
+        "defaultText": "基础层读懂点位和状态；进阶层比较瞬时越限与持续异常，设计确认和恢复规则。",
+        "maxLength": 1200
+      },
+      {
+        "id": "agent",
+        "label": "小景支持说明",
+        "defaultText": "小景辅助解释趋势和异常依据，所有判断都要对照监测记录核验。",
+        "maxLength": 800
+      },
+      {
+        "id": "arrangement",
+        "label": "课程安排",
+        "defaultText": "P05 · 8 课时 × 45 分钟",
+        "maxLength": 240
+      }
+    ]
+  },
+  {
+    "id": "course.glaze",
+    "title": "京西琉璃 AI 工艺推演与数字讲解",
+    "group": "courses",
+    "chapter": "campus",
+    "page": 1,
+    "course": "glaze",
+    "fields": [
+      {
+        "id": "name",
+        "label": "课程名称",
+        "defaultText": "京西琉璃 AI 工艺推演与数字讲解",
+        "maxLength": 120
+      },
+      {
+        "id": "subtitle",
+        "label": "课程入口名称",
+        "defaultText": "京西琉璃 AI 工艺推演与数字讲解",
+        "maxLength": 120
+      },
+      {
+        "id": "headline",
+        "label": "介绍标题",
+        "defaultText": "让京西工艺，有新的讲法。",
+        "maxLength": 120
+      },
+      {
+        "id": "introduction",
+        "label": "课程介绍",
+        "defaultText": "选土、制泥、成型、晾干、素烧、施釉、彩烧。把七道京西工序转成可选择、有反馈、能查阅依据的数字讲解。",
+        "maxLength": 1200
+      },
+      {
+        "id": "step.0.title",
+        "label": "学习环节 1",
+        "defaultText": "核读工艺",
+        "maxLength": 120
+      },
+      {
+        "id": "step.1.title",
+        "label": "学习环节 2",
+        "defaultText": "设计选择",
+        "maxLength": 120
+      },
+      {
+        "id": "step.2.title",
+        "label": "学习环节 3",
+        "defaultText": "测试复讲",
+        "maxLength": 120
+      },
+      {
+        "id": "output",
+        "label": "作品成果",
+        "defaultText": "工序交互页、资料包与复测记录",
+        "maxLength": 500
+      },
+      {
+        "id": "value",
+        "label": "学习价值",
+        "defaultText": "七、八年级完成一个工序模块；高一串联七工序与错误分支，通过用户测试修订。",
+        "maxLength": 1200
+      },
+      {
+        "id": "agent",
+        "label": "小景支持说明",
+        "defaultText": "小景辅助脚本、画面与旁白制作，工艺判断回到核验资料，并区分真实资料与生成示意。",
+        "maxLength": 800
+      },
+      {
+        "id": "arrangement",
+        "label": "课程安排",
+        "defaultText": "P06 · 8 课时 × 45 分钟 · 重点展示",
+        "maxLength": 240
+      }
+    ]
+  },
+  {
+    "id": "course.menu",
+    "title": "AI 菜单助手",
+    "group": "courses",
+    "chapter": "campus",
+    "page": 1,
+    "course": "menu",
+    "fields": [
+      {
+        "id": "name",
+        "label": "课程名称",
+        "defaultText": "AI 菜单助手",
+        "maxLength": 120
+      },
+      {
+        "id": "subtitle",
+        "label": "课程入口名称",
+        "defaultText": "AI 菜单助手",
+        "maxLength": 120
+      },
+      {
+        "id": "headline",
+        "label": "介绍标题",
+        "defaultText": "让校园的一餐，更有依据。",
+        "maxLength": 120
+      },
+      {
+        "id": "introduction",
+        "label": "课程介绍",
+        "defaultText": "核对菜品台账与实测可食份量，让小票上的数值可以复算。油脂、汤汁与资料缺失，都可能改变判断。",
+        "maxLength": 1200
+      },
+      {
+        "id": "step.0.title",
+        "label": "学习环节 1",
+        "defaultText": "核对台账",
+        "maxLength": 120
+      },
+      {
+        "id": "step.1.title",
+        "label": "学习环节 2",
+        "defaultText": "按量复算",
+        "maxLength": 120
+      },
+      {
+        "id": "step.2.title",
+        "label": "学习环节 3",
+        "defaultText": "解释边界",
+        "maxLength": 120
+      },
+      {
+        "id": "output",
+        "label": "作品成果",
+        "defaultText": "营养小票、计算依据与误判修正",
+        "maxLength": 500
+      },
+      {
+        "id": "value",
+        "label": "学习价值",
+        "defaultText": "基础层核对份量、单位与计算；进阶层修正误判。第 3 节数据微课包含在八课时内。",
+        "maxLength": 1200
+      },
+      {
+        "id": "agent",
+        "label": "小景支持说明",
+        "defaultText": "小景帮助整理台账、解释规则与生成小票；教学估算不替代个人营养诊断。",
+        "maxLength": 800
+      },
+      {
+        "id": "arrangement",
+        "label": "课程安排",
+        "defaultText": "P07 · 8 课时 × 45 分钟",
+        "maxLength": 240
+      }
+    ]
+  },
+  {
+    "id": "course.rover",
+    "title": "智能小车自动避障",
+    "group": "courses",
+    "chapter": "campus",
+    "page": 2,
+    "course": "rover",
+    "fields": [
+      {
+        "id": "name",
+        "label": "课程名称",
+        "defaultText": "智能小车自动避障",
+        "maxLength": 120
+      },
+      {
+        "id": "subtitle",
+        "label": "课程入口名称",
+        "defaultText": "智能小车自动避障",
+        "maxLength": 120
+      },
+      {
+        "id": "headline",
+        "label": "介绍标题",
+        "defaultText": "小车会绕行，学习有方向。",
+        "maxLength": 120
+      },
+      {
+        "id": "introduction",
+        "label": "课程介绍",
+        "defaultText": "读懂距离数据，设置停止与转向条件，让小车完成一段约定路线。从感知、判断到行动，理解智能系统。",
+        "maxLength": 1200
+      },
+      {
+        "id": "step.0.title",
+        "label": "学习环节 1",
+        "defaultText": "读取距离",
+        "maxLength": 120
+      },
+      {
+        "id": "step.1.title",
+        "label": "学习环节 2",
+        "defaultText": "设置条件",
+        "maxLength": 120
+      },
+      {
+        "id": "step.2.title",
+        "label": "学习环节 3",
+        "defaultText": "路线验证",
+        "maxLength": 120
+      },
+      {
+        "id": "output",
+        "label": "作品成果",
+        "defaultText": "路线任务、规则与失败修订记录",
+        "maxLength": 500
+      },
+      {
+        "id": "value",
+        "label": "学习价值",
+        "defaultText": "基础层解释一次动作的触发条件；进阶层改变障碍材质、角度或规则并比较结果。",
+        "maxLength": 1200
+      },
+      {
+        "id": "agent",
+        "label": "小景支持说明",
+        "defaultText": "小景协助解释测距与动作的联系，追问失败原因；基础版本用可解释规则完成任务。",
+        "maxLength": 800
+      },
+      {
+        "id": "arrangement",
+        "label": "课程安排",
+        "defaultText": "L01 · 8 课时 × 45 分钟 · 首批试教",
+        "maxLength": 240
+      }
+    ]
+  },
+  {
+    "id": "course.pet",
+    "title": "智能宠物喂养",
+    "group": "courses",
+    "chapter": "campus",
+    "page": 2,
+    "course": "pet",
+    "fields": [
+      {
+        "id": "name",
+        "label": "课程名称",
+        "defaultText": "智能宠物喂养",
+        "maxLength": 120
+      },
+      {
+        "id": "subtitle",
+        "label": "课程入口名称",
+        "defaultText": "智能宠物喂养",
+        "maxLength": 120
+      },
+      {
+        "id": "headline",
+        "label": "介绍标题",
+        "defaultText": "让照顾，成为一个好设计。",
+        "maxLength": 120
+      },
+      {
+        "id": "introduction",
+        "label": "课程介绍",
+        "defaultText": "用教学样本识别身份，再按配额和间隔决定是否投喂。称重反馈让一次生活服务成为可验证的工程任务。",
+        "maxLength": 1200
+      },
+      {
+        "id": "step.0.title",
+        "label": "学习环节 1",
+        "defaultText": "识别身份",
+        "maxLength": 120
+      },
+      {
+        "id": "step.1.title",
+        "label": "学习环节 2",
+        "defaultText": "核对许可",
+        "maxLength": 120
+      },
+      {
+        "id": "step.2.title",
+        "label": "学习环节 3",
+        "defaultText": "称重复核",
+        "maxLength": 120
+      },
+      {
+        "id": "output",
+        "label": "作品成果",
+        "defaultText": "受控投喂演示与异常处理记录",
+        "maxLength": 500
+      },
+      {
+        "id": "value",
+        "label": "学习价值",
+        "defaultText": "基础层完成受控投喂；进阶层处理未知身份、重复触发和出粮偏差，分清识别与执行错误。",
+        "maxLength": 1200
+      },
+      {
+        "id": "agent",
+        "label": "小景支持说明",
+        "defaultText": "小景协助解释身份、许可与反馈的关系；课堂使用模型、照片或预录样本开展演示。",
+        "maxLength": 800
+      },
+      {
+        "id": "arrangement",
+        "label": "课程安排",
+        "defaultText": "L02 · 8 课时 × 45 分钟",
+        "maxLength": 240
+      }
+    ]
+  },
+  {
+    "id": "course.palace",
+    "title": "故宫猫猫上班记",
+    "group": "courses",
+    "chapter": "campus",
+    "page": 2,
+    "course": "palace",
+    "fields": [
+      {
+        "id": "name",
+        "label": "课程名称",
+        "defaultText": "故宫猫猫上班记",
+        "maxLength": 120
+      },
+      {
+        "id": "subtitle",
+        "label": "课程入口名称",
+        "defaultText": "故宫猫猫上班记",
+        "maxLength": 120
+      },
+      {
+        "id": "headline",
+        "label": "介绍标题",
+        "defaultText": "一只宫猫，带出一个故事。",
+        "maxLength": 120
+      },
+      {
+        "id": "introduction",
+        "label": "课程介绍",
+        "defaultText": "把文化主题转成角色、故事与分镜。AI 辅助制作画面、片段和声音，学生决定选题、镜头取舍与剪辑。",
+        "maxLength": 1200
+      },
+      {
+        "id": "step.0.title",
+        "label": "学习环节 1",
+        "defaultText": "主题分镜",
+        "maxLength": 120
+      },
+      {
+        "id": "step.1.title",
+        "label": "学习环节 2",
+        "defaultText": "素材核验",
+        "maxLength": 120
+      },
+      {
+        "id": "step.2.title",
+        "label": "学习环节 3",
+        "defaultText": "剪辑表达",
+        "maxLength": 120
+      },
+      {
+        "id": "output",
+        "label": "作品成果",
+        "defaultText": "AI 辅助短片、来源说明与修改记录",
+        "maxLength": 500
+      },
+      {
+        "id": "value",
+        "label": "学习价值",
+        "defaultText": "基础层完成连贯短片；进阶层核对角色与建筑细节，修正至少一处生成失真。",
+        "maxLength": 1200
+      },
+      {
+        "id": "agent",
+        "label": "小景支持说明",
+        "defaultText": "小景协助组织故事和分镜，支持一致性检查；文化事实与素材来源由师生核验。",
+        "maxLength": 800
+      },
+      {
+        "id": "arrangement",
+        "label": "课程安排",
+        "defaultText": "L03 · 8 课时 × 45 分钟",
+        "maxLength": 240
+      }
+    ]
+  },
+  {
+    "id": "course.english",
+    "title": "English Juice 英文卡片",
+    "group": "courses",
+    "chapter": "campus",
+    "page": 2,
+    "course": "english",
+    "fields": [
+      {
+        "id": "name",
+        "label": "课程名称",
+        "defaultText": "English Juice 英文卡片",
+        "maxLength": 120
+      },
+      {
+        "id": "subtitle",
+        "label": "课程入口名称",
+        "defaultText": "English Juice 英文卡片",
+        "maxLength": 120
+      },
+      {
+        "id": "headline",
+        "label": "介绍标题",
+        "defaultText": "把一个词，放进真实生活。",
+        "maxLength": 120
+      },
+      {
+        "id": "introduction",
+        "label": "课程介绍",
+        "defaultText": "把目标词放进校园情境，制作可独立阅读的实体卡片和配套交互页面。让词汇、插画与故事形成完整表达。",
+        "maxLength": 1200
+      },
+      {
+        "id": "step.0.title",
+        "label": "学习环节 1",
+        "defaultText": "选择情境",
+        "maxLength": 120
+      },
+      {
+        "id": "step.1.title",
+        "label": "学习环节 2",
+        "defaultText": "制作卡片",
+        "maxLength": 120
+      },
+      {
+        "id": "step.2.title",
+        "label": "学习环节 3",
+        "defaultText": "核验表达",
+        "maxLength": 120
+      },
+      {
+        "id": "output",
+        "label": "作品成果",
+        "defaultText": "实体英文卡片与配套交互页面",
+        "maxLength": 500
+      },
+      {
+        "id": "value",
+        "label": "学习价值",
+        "defaultText": "基础层正确使用目标词；进阶层比较表达，说明至少一处采纳、修改或拒绝 AI 建议的理由。",
+        "maxLength": 1200
+      },
+      {
+        "id": "agent",
+        "label": "小景支持说明",
+        "defaultText": "小景辅助插画、表达反馈与故事生成，词义、语法和语境仍需师生核验。",
+        "maxLength": 800
+      },
+      {
+        "id": "arrangement",
+        "label": "课程安排",
+        "defaultText": "L04 · 8 课时 × 45 分钟",
+        "maxLength": 240
+      }
+    ]
+  },
+  {
+    "id": "course.plant",
+    "title": "PlantPal 会说话的多肉",
+    "group": "courses",
+    "chapter": "campus",
+    "page": 2,
+    "course": "plant",
+    "fields": [
+      {
+        "id": "name",
+        "label": "课程名称",
+        "defaultText": "PlantPal 会说话的多肉",
+        "maxLength": 120
+      },
+      {
+        "id": "subtitle",
+        "label": "课程入口名称",
+        "defaultText": "PlantPal 会说话的多肉",
+        "maxLength": 120
+      },
+      {
+        "id": "headline",
+        "label": "介绍标题",
+        "defaultText": "听见一盆植物的需要。",
+        "maxLength": 120
+      },
+      {
+        "id": "introduction",
+        "label": "课程介绍",
+        "defaultText": "从带标签的观察数据中归纳规则，再让读数、状态、表情与解释联动。多肉每一次回应，都能找到数据依据。",
+        "maxLength": 1200
+      },
+      {
+        "id": "step.0.title",
+        "label": "学习环节 1",
+        "defaultText": "样本归纳",
+        "maxLength": 120
+      },
+      {
+        "id": "step.1.title",
+        "label": "学习环节 2",
+        "defaultText": "独立盲测",
+        "maxLength": 120
+      },
+      {
+        "id": "step.2.title",
+        "label": "学习环节 3",
+        "defaultText": "联动表达",
+        "maxLength": 120
+      },
+      {
+        "id": "output",
+        "label": "作品成果",
+        "defaultText": "植物交互原型、规则与盲测记录",
+        "maxLength": 500
+      },
+      {
+        "id": "value",
+        "label": "学习价值",
+        "defaultText": "基础层写规则并用新样本检验；进阶层加入叶片、温度等特征，解释并修正误判。",
+        "maxLength": 1200
+      },
+      {
+        "id": "agent",
+        "label": "小景支持说明",
+        "defaultText": "小景把规则结果转成可理解的表达；第 3 节微课的 12 张样本与 4 张盲测均计入八课时。",
+        "maxLength": 800
+      },
+      {
+        "id": "arrangement",
+        "label": "课程安排",
+        "defaultText": "L05 · 8 课时 × 45 分钟 · 重点展示",
+        "maxLength": 240
+      }
+    ]
+  },
+  {
+    "id": "course.film",
+    "title": "AIGC 影像工作流",
+    "group": "courses",
+    "chapter": "campus",
+    "page": 2,
+    "course": "film",
+    "fields": [
+      {
+        "id": "name",
+        "label": "课程名称",
+        "defaultText": "AIGC 影像工作流",
+        "maxLength": 120
+      },
+      {
+        "id": "subtitle",
+        "label": "课程入口名称",
+        "defaultText": "AIGC 影像工作流",
+        "maxLength": 120
+      },
+      {
+        "id": "headline",
+        "label": "介绍标题",
+        "defaultText": "让创意，拥有自己的镜头。",
+        "maxLength": 120
+      },
+      {
+        "id": "introduction",
+        "label": "课程介绍",
+        "defaultText": "从一句想法到一段影像。把脚本、分镜、画面和声音连接起来，让创作者始终决定作品要表达什么。",
+        "maxLength": 1200
+      },
+      {
+        "id": "step.0.title",
+        "label": "学习环节 1",
+        "defaultText": "写出故事",
+        "maxLength": 120
+      },
+      {
+        "id": "step.1.title",
+        "label": "学习环节 2",
+        "defaultText": "准备镜头",
+        "maxLength": 120
+      },
+      {
+        "id": "step.2.title",
+        "label": "学习环节 3",
+        "defaultText": "剪辑成片",
+        "maxLength": 120
+      },
+      {
+        "id": "output",
+        "label": "作品成果",
+        "defaultText": "短片与分镜文件",
+        "maxLength": 500
+      },
+      {
+        "id": "value",
+        "label": "学习价值",
+        "defaultText": "掌握影像生产的完整思路，学会选择、编排与评价生成内容。",
+        "maxLength": 1200
+      },
+      {
+        "id": "agent",
+        "label": "小景支持说明",
+        "defaultText": "小景支持脚本推敲、提示词整理与镜头衔接，辅助完成创作。",
+        "maxLength": 800
+      },
+      {
+        "id": "arrangement",
+        "label": "课程安排",
+        "defaultText": "延展工具 · 按项目选用",
+        "maxLength": 240
+      }
+    ]
+  },
+  {
+    "id": "course.companion",
+    "title": "陪伴语音助手",
+    "group": "courses",
+    "chapter": "campus",
+    "page": 2,
+    "course": "companion",
+    "fields": [
+      {
+        "id": "name",
+        "label": "课程名称",
+        "defaultText": "陪伴语音助手",
+        "maxLength": 120
+      },
+      {
+        "id": "subtitle",
+        "label": "课程入口名称",
+        "defaultText": "陪伴语音助手",
+        "maxLength": 120
+      },
+      {
+        "id": "headline",
+        "label": "介绍标题",
+        "defaultText": "好的回应，从听懂开始。",
+        "maxLength": 120
+      },
+      {
+        "id": "introduction",
+        "label": "课程介绍",
+        "defaultText": "围绕学习计划、校园服务与日常交流，设计一个能够理解问题、组织信息并给出行动建议的语音助手。",
+        "maxLength": 1200
+      },
+      {
+        "id": "step.0.title",
+        "label": "学习环节 1",
+        "defaultText": "理解问题",
+        "maxLength": 120
+      },
+      {
+        "id": "step.1.title",
+        "label": "学习环节 2",
+        "defaultText": "连接信息",
+        "maxLength": 120
+      },
+      {
+        "id": "step.2.title",
+        "label": "学习环节 3",
+        "defaultText": "给出帮助",
+        "maxLength": 120
+      },
+      {
+        "id": "output",
+        "label": "作品成果",
+        "defaultText": "对话原型与体验记录",
+        "maxLength": 500
+      },
+      {
+        "id": "value",
+        "label": "学习价值",
+        "defaultText": "理解对话意图、上下文与服务边界，学会评价回应是否真正有用。",
+        "maxLength": 1200
+      },
+      {
+        "id": "agent",
+        "label": "小景支持说明",
+        "defaultText": "小景就是贯穿课程的对话入口，可以围绕当前学习继续提问。",
+        "maxLength": 800
+      },
+      {
+        "id": "arrangement",
+        "label": "课程安排",
+        "defaultText": "延展工具 · 按项目选用",
+        "maxLength": 240
+      }
+    ]
+  },
+  {
+    "id": "course.quest",
+    "title": "AI＋游戏闯关",
+    "group": "courses",
+    "chapter": "campus",
+    "page": 3,
+    "course": "quest",
+    "fields": [
+      {
+        "id": "name",
+        "label": "课程名称",
+        "defaultText": "AI＋游戏闯关",
+        "maxLength": 120
+      },
+      {
+        "id": "subtitle",
+        "label": "课程入口名称",
+        "defaultText": "AI＋游戏闯关",
+        "maxLength": 120
+      },
+      {
+        "id": "headline",
+        "label": "介绍标题",
+        "defaultText": "每一道关卡，都有实验作答。",
+        "maxLength": 120
+      },
+      {
+        "id": "introduction",
+        "label": "课程介绍",
+        "defaultText": "点亮电路、辨认酸碱、让杠杆平衡。三道虚拟实验自动展开，从提出问题到观察变化，再用证据解释现象。",
+        "maxLength": 1200
+      },
+      {
+        "id": "step.0.title",
+        "label": "学习环节 1",
+        "defaultText": "理解原理",
+        "maxLength": 120
+      },
+      {
+        "id": "step.1.title",
+        "label": "学习环节 2",
+        "defaultText": "观察实验",
+        "maxLength": 120
+      },
+      {
+        "id": "step.2.title",
+        "label": "学习环节 3",
+        "defaultText": "解释现象",
+        "maxLength": 120
+      },
+      {
+        "id": "output",
+        "label": "作品成果",
+        "defaultText": "实验观察、原理讲解与课件创意",
+        "maxLength": 500
+      },
+      {
+        "id": "value",
+        "label": "学习价值",
+        "defaultText": "从观看实验走向创造课件：后续可由学生制作讲解与交互演示，经教师核对科学性和教学设计后，用于后续课堂。",
+        "maxLength": 1200
+      },
+      {
+        "id": "agent",
+        "label": "小景支持说明",
+        "defaultText": "小景帮助提出问题、理解原理与编写实验讲解，支持学生把观察变成自己的课件创意。",
+        "maxLength": 800
+      },
+      {
+        "id": "arrangement",
+        "label": "课程安排",
+        "defaultText": "学习方式 · 融入项目任务",
+        "maxLength": 240
+      }
+    ]
+  },
+  {
+    "id": "course.city",
+    "title": "城市建筑年代三维地图",
+    "group": "courses",
+    "chapter": "campus",
+    "page": 3,
+    "course": "city",
+    "fields": [
+      {
+        "id": "name",
+        "label": "课程名称",
+        "defaultText": "城市建筑年代三维地图",
+        "maxLength": 120
+      },
+      {
+        "id": "subtitle",
+        "label": "课程入口名称",
+        "defaultText": "城市建筑年代三维地图",
+        "maxLength": 120
+      },
+      {
+        "id": "headline",
+        "label": "介绍标题",
+        "defaultText": "让一座城市，讲述时间。",
+        "maxLength": 120
+      },
+      {
+        "id": "introduction",
+        "label": "课程介绍",
+        "defaultText": "把建筑年代放回空间之中。观察不同片区的建设变化，理解时间、位置与城市发展的关系。",
+        "maxLength": 1200
+      },
+      {
+        "id": "step.0.title",
+        "label": "学习环节 1",
+        "defaultText": "组织数据",
+        "maxLength": 120
+      },
+      {
+        "id": "step.1.title",
+        "label": "学习环节 2",
+        "defaultText": "观察分布",
+        "maxLength": 120
+      },
+      {
+        "id": "step.2.title",
+        "label": "学习环节 3",
+        "defaultText": "提出问题",
+        "maxLength": 120
+      },
+      {
+        "id": "output",
+        "label": "作品成果",
+        "defaultText": "年代筛选与观察记录",
+        "maxLength": 500
+      },
+      {
+        "id": "value",
+        "label": "学习价值",
+        "defaultText": "建立空间数据意识，从可视化中提出值得继续研究的问题。",
+        "maxLength": 1200
+      },
+      {
+        "id": "agent",
+        "label": "小景支持说明",
+        "defaultText": "小景辅助解释筛选结果，帮助将观察整理成研究线索。",
+        "maxLength": 800
+      },
+      {
+        "id": "arrangement",
+        "label": "课程安排",
+        "defaultText": "可复用课件 · 计入项目课时",
+        "maxLength": 240
+      }
+    ]
+  },
+  {
+    "id": "course.atmosphere",
+    "title": "大气环流三维演示",
+    "group": "courses",
+    "chapter": "campus",
+    "page": 3,
+    "course": "atmosphere",
+    "fields": [
+      {
+        "id": "name",
+        "label": "课程名称",
+        "defaultText": "大气环流三维演示",
+        "maxLength": 120
+      },
+      {
+        "id": "subtitle",
+        "label": "课程入口名称",
+        "defaultText": "大气环流三维演示",
+        "maxLength": 120
+      },
+      {
+        "id": "headline",
+        "label": "介绍标题",
+        "defaultText": "看不见的风，也有规律。",
+        "maxLength": 120
+      },
+      {
+        "id": "introduction",
+        "label": "课程介绍",
+        "defaultText": "把气压带与风带放在立体地球上，观察从赤道到两极的大气运动，让抽象原理有可见的空间关系。",
+        "maxLength": 1200
+      },
+      {
+        "id": "step.0.title",
+        "label": "学习环节 1",
+        "defaultText": "认识纬度",
+        "maxLength": 120
+      },
+      {
+        "id": "step.1.title",
+        "label": "学习环节 2",
+        "defaultText": "观察气流",
+        "maxLength": 120
+      },
+      {
+        "id": "step.2.title",
+        "label": "学习环节 3",
+        "defaultText": "解释现象",
+        "maxLength": 120
+      },
+      {
+        "id": "output",
+        "label": "作品成果",
+        "defaultText": "气流观察与原理说明",
+        "maxLength": 500
+      },
+      {
+        "id": "value",
+        "label": "学习价值",
+        "defaultText": "通过空间观察理解能量、气压与气流，建立地理过程的整体认识。",
+        "maxLength": 1200
+      },
+      {
+        "id": "agent",
+        "label": "小景支持说明",
+        "defaultText": "小景围绕纬度和气流方向追问，帮助把观察转化为原理说明。",
+        "maxLength": 800
+      },
+      {
+        "id": "arrangement",
+        "label": "课程安排",
+        "defaultText": "可复用课件 · 计入项目课时",
+        "maxLength": 240
+      }
+    ]
+  },
+  {
+    "id": "course.network",
+    "title": "神经网络与手写数字识别",
+    "group": "courses",
+    "chapter": "campus",
+    "page": 3,
+    "course": "network",
+    "fields": [
+      {
+        "id": "name",
+        "label": "课程名称",
+        "defaultText": "神经网络与手写数字识别",
+        "maxLength": 120
+      },
+      {
+        "id": "subtitle",
+        "label": "课程入口名称",
+        "defaultText": "神经网络与手写数字识别",
+        "maxLength": 120
+      },
+      {
+        "id": "headline",
+        "label": "介绍标题",
+        "defaultText": "从一笔数字，看见识别过程。",
+        "maxLength": 120
+      },
+      {
+        "id": "introduction",
+        "label": "课程介绍",
+        "defaultText": "一个手写数字如何变成机器可以处理的信息？从像素输入到特征提取，再到候选结果，逐步展开识别过程。",
+        "maxLength": 1200
+      },
+      {
+        "id": "step.0.title",
+        "label": "学习环节 1",
+        "defaultText": "读取输入",
+        "maxLength": 120
+      },
+      {
+        "id": "step.1.title",
+        "label": "学习环节 2",
+        "defaultText": "提取特征",
+        "maxLength": 120
+      },
+      {
+        "id": "step.2.title",
+        "label": "学习环节 3",
+        "defaultText": "比较候选",
+        "maxLength": 120
+      },
+      {
+        "id": "output",
+        "label": "作品成果",
+        "defaultText": "输入样本与识别对照",
+        "maxLength": 500
+      },
+      {
+        "id": "value",
+        "label": "学习价值",
+        "defaultText": "认识人工智能的基本工作方式，理解不同写法会影响结果。",
+        "maxLength": 1200
+      },
+      {
+        "id": "agent",
+        "label": "小景支持说明",
+        "defaultText": "小景解释输入、特征与输出的联系，帮助比较机器判断和人的理解。",
+        "maxLength": 800
+      },
+      {
+        "id": "arrangement",
+        "label": "课程安排",
+        "defaultText": "可复用课件 · 计入项目课时",
+        "maxLength": 240
+      }
+    ]
+  },
+  {
+    "id": "course.terrain",
+    "title": "等高线与三维地形",
+    "group": "courses",
+    "chapter": "campus",
+    "page": 3,
+    "course": "terrain",
+    "fields": [
+      {
+        "id": "name",
+        "label": "课程名称",
+        "defaultText": "等高线与三维地形",
+        "maxLength": 120
+      },
+      {
+        "id": "subtitle",
+        "label": "课程入口名称",
+        "defaultText": "等高线与三维地形",
+        "maxLength": 120
+      },
+      {
+        "id": "headline",
+        "label": "介绍标题",
+        "defaultText": "在一张图上，读懂山的形状。",
+        "maxLength": 120
+      },
+      {
+        "id": "introduction",
+        "label": "课程介绍",
+        "defaultText": "将三维山体与等高线相互对照。观察山峰、山谷与坡度，理解平面地图如何表达立体空间。",
+        "maxLength": 1200
+      },
+      {
+        "id": "step.0.title",
+        "label": "学习环节 1",
+        "defaultText": "观察山体",
+        "maxLength": 120
+      },
+      {
+        "id": "step.1.title",
+        "label": "学习环节 2",
+        "defaultText": "连接等高线",
+        "maxLength": 120
+      },
+      {
+        "id": "step.2.title",
+        "label": "学习环节 3",
+        "defaultText": "读懂地形",
+        "maxLength": 120
+      },
+      {
+        "id": "output",
+        "label": "作品成果",
+        "defaultText": "地形参数与空间观察",
+        "maxLength": 500
+      },
+      {
+        "id": "value",
+        "label": "学习价值",
+        "defaultText": "培养空间想象和地图阅读能力，把地理知识连接到京西山地观察。",
+        "maxLength": 1200
+      },
+      {
+        "id": "agent",
+        "label": "小景支持说明",
+        "defaultText": "小景辅助解释线条疏密与地形变化，带领学生用证据描述地貌。",
+        "maxLength": 800
+      },
+      {
+        "id": "arrangement",
+        "label": "课程安排",
+        "defaultText": "可复用课件 · 计入项目课时",
+        "maxLength": 240
+      }
+    ]
+  },
+  {
+    "id": "course.water",
+    "title": "水循环与地层剖面",
+    "group": "courses",
+    "chapter": "campus",
+    "page": 3,
+    "course": "water",
+    "fields": [
+      {
+        "id": "name",
+        "label": "课程名称",
+        "defaultText": "水循环与地层剖面",
+        "maxLength": 120
+      },
+      {
+        "id": "subtitle",
+        "label": "课程入口名称",
+        "defaultText": "水循环与地层剖面",
+        "maxLength": 120
+      },
+      {
+        "id": "headline",
+        "label": "介绍标题",
+        "defaultText": "一滴雨，连接整个环境。",
+        "maxLength": 120
+      },
+      {
+        "id": "introduction",
+        "label": "课程介绍",
+        "defaultText": "从降水进入地表开始，观察径流、下渗与储水。不同地表条件，让同一场雨有不同的去向。",
+        "maxLength": 1200
+      },
+      {
+        "id": "step.0.title",
+        "label": "学习环节 1",
+        "defaultText": "降水输入",
+        "maxLength": 120
+      },
+      {
+        "id": "step.1.title",
+        "label": "学习环节 2",
+        "defaultText": "地表分配",
+        "maxLength": 120
+      },
+      {
+        "id": "step.2.title",
+        "label": "学习环节 3",
+        "defaultText": "理解联系",
+        "maxLength": 120
+      },
+      {
+        "id": "output",
+        "label": "作品成果",
+        "defaultText": "水量变化与过程记录",
+        "maxLength": 500
+      },
+      {
+        "id": "value",
+        "label": "学习价值",
+        "defaultText": "建立系统思维，将水循环知识与区域环境、城市建设相联系。",
+        "maxLength": 1200
+      },
+      {
+        "id": "agent",
+        "label": "小景支持说明",
+        "defaultText": "小景帮助解释水量去向，辅助比较不同地表条件下的结果。",
+        "maxLength": 800
+      },
+      {
+        "id": "arrangement",
+        "label": "课程安排",
+        "defaultText": "可复用课件 · 计入项目课时",
+        "maxLength": 240
+      }
+    ]
+  }
+]

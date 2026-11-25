@@ -1,0 +1,824 @@
+{
+  "format": "jingshan-windows-package",
+  "version": 1,
+  "builtAt": "2026-11-16T01:15:40.955Z",
+  "runtime": {
+    "version": "v24.22.0",
+    "platform": "win32",
+    "arch": "x64"
+  },
+  "mediaOverrides": 13,
+  "textOverrides": 0,
+  "staticFiles": 118,
+  "excludes": [
+    ".local",
+    "DPAPI credentials",
+    ".env",
+    ".git",
+    "node_modules",
+    "frontend source",
+    "orphaned media"
+  ],
+  "files": [
+    {
+      "file": "配置小景对话.cmd",
+      "bytes": 150,
+      "sha256": "3c559697e708c2ca25b5023f08fbb174a6c92fd2a76fc1b781a9ee867276dbb2"
+    },
+    {
+      "file": "启动景山演示.cmd",
+      "bytes": 162,
+      "sha256": "e97f9b726cb4a47af2b7ec60b1a5c52016f4d0e32f1bfabd22a01207592dd3b1"
+    },
+    {
+      "file": "使用说明.txt",
+      "bytes": 5437,
+      "sha256": "54a53ae60cee9ba027c1419c98b67a40cabb0c4800e920bcaa2bbc0e10ba88f8"
+    },
+    {
+      "file": "停止景山演示.cmd",
+      "bytes": 145,
+      "sha256": "3c3563341fee6f7cda4c0ea8d0e9b89829140af97b9c2301555d325c256c13a7"
+    },
+    {
+      "file": "Configure-Xiaojing.ps1",
+      "bytes": 1945,
+      "sha256": "f89a2eb6a38f6490b3a0b04d94a09acb4478f9b563f84a17e1611800a744cea0"
+    },
+    {
+      "file": "dist/assets/index-CEFoGbBQ.js",
+      "bytes": 586870,
+      "sha256": "36323d94649e251c06b92219e626c75bf183f26cddae4d18be5e8fe6f133947f"
+    },
+    {
+      "file": "dist/assets/index-CiwR2OEh.css",
+      "bytes": 122793,
+      "sha256": "01d0bc2990b96c93fab71be7803d5116cbc8afeb3609229fad76cc49149503d5"
+    },
+    {
+      "file": "dist/assets/ProductionLab-DCexnW7s.css",
+      "bytes": 71230,
+      "sha256": "f35fcbf20a5c1433924426c93076ba62940932a4202617406892aaeaa0e8b3ab"
+    },
+    {
+      "file": "dist/assets/ProductionLab-Dn0SXGcN.js",
+      "bytes": 741564,
+      "sha256": "aee472c69f3db83f63134b22bb6ef107f48d6ddf41132336667e8fcdaba1ce51"
+    },
+    {
+      "file": "dist/documents/jingshan-final-project-plan.pdf",
+      "bytes": 10387546,
+      "sha256": "aedf705a84583df2385a28d0ff3e73c16a12ec583f5a418f83cab2ae1138a524"
+    },
+    {
+      "file": "dist/index.html",
+      "bytes": 763,
+      "sha256": "2ce0d5c18bf7184eedccbb94738b9db6fbe7d2f981df41482cbb7c2e45d4b31c"
+    },
+    {
+      "file": "dist/media/20261112/aigc/aigc-case-01-jingxi-film.png",
+      "bytes": 2974993,
+      "sha256": "ff024b1da8684672e2bef5bf1455c4aaf92446287fa91abe97e287644f7aa695"
+    },
+    {
+      "file": "dist/media/20261112/aigc/aigc-case-02-nature.png",
+      "bytes": 2983818,
+      "sha256": "cfc33ed1bf41805f63fec5eaf724153be3871cae7a0100e84ac50525a02a5faf"
+    },
+    {
+      "file": "dist/media/20261112/aigc/aigc-case-03-stop-motion.png",
+      "bytes": 2363854,
+      "sha256": "f4cd2d211ced465a5211696d58b94fb0349a6cfe84603508bcf9880edfe47fd7"
+    },
+    {
+      "file": "dist/media/20261112/aigc/aigc-case-04-editing.png",
+      "bytes": 2143451,
+      "sha256": "e63f81c5c87b72434e3e270afd0e6d30af4aa4a8cb5ac294f5407608df650703"
+    },
+    {
+      "file": "dist/media/20261112/aigc/aigc-case-05-podcast.png",
+      "bytes": 2301586,
+      "sha256": "78a4581984b8d5015c00a88c5e6d913c0070802d131da3de324a4264b3757f30"
+    },
+    {
+      "file": "dist/media/20261112/aigc/aigc-case-06-screening.png",
+      "bytes": 2154448,
+      "sha256": "4b7e50de0db91fa8d01235e095d2ea736d2bb2f8a67899d222ea8319760fb97f"
+    },
+    {
+      "file": "dist/media/20261112/aigc/aigc-hero.png",
+      "bytes": 2286471,
+      "sha256": "0328e5fa00002e7591d13dcf8914c32893f2ae5ad32047ff6f5e734c68481d15"
+    },
+    {
+      "file": "dist/media/20261112/aigc/aigc-manifest.json",
+      "bytes": 15403,
+      "sha256": "5e1b94bb99a1e832e43281860ce3a1eeefe4fbecf48aa9126b6ea5799243a08b"
+    },
+    {
+      "file": "dist/media/20261112/assets-manifest.json",
+      "bytes": 59034,
+      "sha256": "0dcaafbc4244db87ec1f425425e95dc965e409f06f1193eb3e4e98f057341222"
+    },
+    {
+      "file": "dist/media/20261112/classroom/classroom-manifest.json",
+      "bytes": 12266,
+      "sha256": "5b34e15832f74e39073647c55d944d39b2f8834aac234e5a6c98cf0ead2cf42a"
+    },
+    {
+      "file": "dist/media/20261112/classroom/life-collaboration.png",
+      "bytes": 2376618,
+      "sha256": "c8ed85678c37527a3f909bbb634d677b1b7ac0342797b8106abf682aa64e7006"
+    },
+    {
+      "file": "dist/media/20261112/classroom/life-teaching.png",
+      "bytes": 2593262,
+      "sha256": "b8a830af4364ce5f6ce1dc84ef112792e400d62273f65d6e8208e26e2681eb05"
+    },
+    {
+      "file": "dist/media/20261112/classroom/life-wide.png",
+      "bytes": 2287334,
+      "sha256": "834e30b8b444e4ad00308dbd1d6be36718c40d4001ef0ca7c963750da1a8b1f4"
+    },
+    {
+      "file": "dist/media/20261112/classroom/production-front.png",
+      "bytes": 2423525,
+      "sha256": "47cf428f1e1acbaa44c0c62d681e3a006f5ad32f3ea114545d9094874c690200"
+    },
+    {
+      "file": "dist/media/20261112/classroom/production-printer.png",
+      "bytes": 2312198,
+      "sha256": "480987b4892627484a3185ddeb0dd4889b874fc5318b5e459f7d3acee980c43e"
+    },
+    {
+      "file": "dist/media/20261112/classroom/production-wide.png",
+      "bytes": 2241175,
+      "sha256": "f4aaf3f4af797624a065ce994712cc75541f6639d35fca6041566e08da071442"
+    },
+    {
+      "file": "dist/media/20261112/general/cafeteria-breakfast.png",
+      "bytes": 2579182,
+      "sha256": "f8f6f3bbc189e8ebe413129ba34d83ba4fbbc2874f52ffcbc06816af3bb66e2a"
+    },
+    {
+      "file": "dist/media/20261112/general/cafeteria-dinner.png",
+      "bytes": 2761762,
+      "sha256": "13d66aa172478377b7162dcb39cd274f94949be5fba441e7fbf8e15965d84647"
+    },
+    {
+      "file": "dist/media/20261112/general/cafeteria-lunch.png",
+      "bytes": 2606602,
+      "sha256": "fdcc92153987a4e2bb18853a9f761f6b6595bf0d986eb14209c4148dcce6c552"
+    },
+    {
+      "file": "dist/media/20261112/general/campus-hero.png",
+      "bytes": 2788522,
+      "sha256": "3ba15265e80509cf41743433903db8e47f11a3927d3fad47e3c4146597f83fb9"
+    },
+    {
+      "file": "dist/media/20261112/general/ecology-fieldwork.png",
+      "bytes": 2915372,
+      "sha256": "00b78488624b521012b23b3a7804eb24d181c1015678b667d754b11e6e36c880"
+    },
+    {
+      "file": "dist/media/20261112/general/general-manifest.json",
+      "bytes": 16552,
+      "sha256": "7c5d7517654748019c6bd6954523c152c7f57b1362723d316bd194f7a8b3bfff"
+    },
+    {
+      "file": "dist/media/20261112/general/industry-collaboration.png",
+      "bytes": 2311026,
+      "sha256": "84d6056ccf349a797db159283b4670318311a457db11dea92f712b69e549cdad"
+    },
+    {
+      "file": "dist/media/20261112/general/learning-collaboration.png",
+      "bytes": 2307740,
+      "sha256": "d31b439f720d508d5b4597372091f4cbf5d8d6ebf13fe64a383c7d91ad4be64e"
+    },
+    {
+      "file": "dist/media/20261112/general/mentor-guidance.png",
+      "bytes": 2444686,
+      "sha256": "58a645936a7832518524a7e888d548fbbf8a652f88cebe12ca6ebe1dcbe058d1"
+    },
+    {
+      "file": "dist/media/20261112/general/mentougou-landscape.png",
+      "bytes": 2901902,
+      "sha256": "30bf941281420ed137286255c20fb38c9f0be4274c1beb592495b082b3c6360e"
+    },
+    {
+      "file": "dist/media/20261112/general/student-project-showcase.png",
+      "bytes": 2432980,
+      "sha256": "e25aed2e1d5c30ed1a48a6d6347777863b120bb38ca31a641d1c6252ffc87c6e"
+    },
+    {
+      "file": "dist/media/20261112/hackathon/01-robot-complete.png",
+      "bytes": 2180678,
+      "sha256": "6fb495f4ce4be60ca5cc7fc9cb16162235b85eea46df37c6124d8c085079a0be"
+    },
+    {
+      "file": "dist/media/20261112/hackathon/02-robot-assembly.png",
+      "bytes": 2658054,
+      "sha256": "86a70191b2184292229001eaaba13bf556c642f5366cdad5274a1dc6ca67e40b"
+    },
+    {
+      "file": "dist/media/20261112/hackathon/03-printer-figurine.png",
+      "bytes": 2437727,
+      "sha256": "3cdd5b40fccd679c8ee6e6741ab19162ed3263878a98ea4a7db4cb01afbd818a"
+    },
+    {
+      "file": "dist/media/20261112/hackathon/04-bridge-load-test.png",
+      "bytes": 2314495,
+      "sha256": "4ef895804be96d0c4a1f7fc1df8d286a07a55b1cc86abb48148f06b1d28050f6"
+    },
+    {
+      "file": "dist/media/20261112/hackathon/05-ecology-sensing.png",
+      "bytes": 2799110,
+      "sha256": "e7669b328e04baf5456c078821ee310096c33052abe10ee9d593939b14846dd0"
+    },
+    {
+      "file": "dist/media/20261112/hackathon/06-campus-voice-assistant.png",
+      "bytes": 2378988,
+      "sha256": "4491fef09ee7ed17dd3516c4eec7e2487174930baec3a96d1609fdc635fefbad"
+    },
+    {
+      "file": "dist/media/20261112/hackathon/hackathon-hero.png",
+      "bytes": 2566143,
+      "sha256": "0964dea0b2ed223b744709a03940a242427fdc1a55de99cebb33ae1c898009de"
+    },
+    {
+      "file": "dist/media/20261112/hackathon/hackathon-manifest.json",
+      "bytes": 14678,
+      "sha256": "d021bfd0176fe28a8f6bb0cfae7eb40b94a4993186ebca5b51be35f19ed7f6b4"
+    },
+    {
+      "file": "dist/media/20261112/index.html",
+      "bytes": 29085,
+      "sha256": "b213453b81d4a9b404fee33c9b6478fcfbc53e79cdd01c41f38366b930eec17b"
+    },
+    {
+      "file": "dist/media/classroom-design-20261112/classroom-design-01.png",
+      "bytes": 2946951,
+      "sha256": "9548e84333cbbc26140b3881dd49ff7d08b3c9c5c295a59304e0b40166928124"
+    },
+    {
+      "file": "dist/media/classroom-design-20261112/classroom-design-02.png",
+      "bytes": 1553834,
+      "sha256": "9a49cab7eb7ee3258e88637a706370c80724baa6e3631c8b637913dc15b7571e"
+    },
+    {
+      "file": "dist/media/classroom-design-20261112/classroom-design-03.png",
+      "bytes": 1426616,
+      "sha256": "de8108dd31eea348b1bc64f107246779f269e31ce9e389ca27521feabea2b783"
+    },
+    {
+      "file": "dist/media/classroom-design-20261112/classroom-design-04.png",
+      "bytes": 1733639,
+      "sha256": "5d308ae3d2e0e5f12628aa209264553616527632ad9e66b47b564b9f82667bac"
+    },
+    {
+      "file": "dist/media/classroom-design-20261112/classroom-design-05.jpeg",
+      "bytes": 2575937,
+      "sha256": "84c67226bd4b5c56d638ecc6391de3f774cee7aa3be1a8398cae9e1ea78c626f"
+    },
+    {
+      "file": "dist/media/classroom-design-20261112/classroom-design-06.png",
+      "bytes": 1655800,
+      "sha256": "94f2f275ac79e0ddf29b7a0af386dc6bafc834271290410a3712f0a0dcc215cf"
+    },
+    {
+      "file": "dist/media/classroom-design-20261112/classroom-design-07.png",
+      "bytes": 1609184,
+      "sha256": "8cf6d41f3efb4c1fd40a136acea6e7a62db6b87341d261e8e99bb717ccd330c3"
+    },
+    {
+      "file": "dist/media/classroom-design-20261112/manifest.json",
+      "bytes": 6073,
+      "sha256": "39aaf9aaf9cee81571d5b9a21e38b5df5942727c68493c1ff7932666e0073247"
+    },
+    {
+      "file": "dist/media/final-plan-20261113/bus-stop.jpg",
+      "bytes": 260964,
+      "sha256": "79dfce88f506cf52df56691bb8e0020cc90124fe9c660bcb611b94477ffdb070"
+    },
+    {
+      "file": "dist/media/final-plan-20261113/campus-learning-cycle.jpg",
+      "bytes": 82202,
+      "sha256": "31c8cd4f964e6897fb6759bb6a561fc2c1b3d16efe148e00752ad4f6051625bb"
+    },
+    {
+      "file": "dist/media/final-plan-20261113/city-feedback.jpg",
+      "bytes": 81021,
+      "sha256": "7b2006fc1b8c86c6c344a077e7be8c0e16c1a6c1e5d29c162a0e38da0664efa8"
+    },
+    {
+      "file": "dist/media/final-plan-20261113/co-development.jpg",
+      "bytes": 173827,
+      "sha256": "6daf4980903aca0cd4ed4c0c85f8b12d859f8149806dbd9f7d76e1d7ec193329"
+    },
+    {
+      "file": "dist/media/final-plan-20261113/competition-overview.jpg",
+      "bytes": 140634,
+      "sha256": "b55e1497a28e9d4c874f279a5e2a75e4ad695c07469b08a281b6b91906b0ee1a"
+    },
+    {
+      "file": "dist/media/final-plan-20261113/expansion-path.jpg",
+      "bytes": 81756,
+      "sha256": "61ef7971f71510a7f41a69469d6ce689113595e99778edcc475920fbf925cac6"
+    },
+    {
+      "file": "dist/media/final-plan-20261113/four-layer-architecture.jpg",
+      "bytes": 115749,
+      "sha256": "500f037f18410c359a88c66cc919dda40912a695e6e462c30788aa6149677aad"
+    },
+    {
+      "file": "dist/media/final-plan-20261113/foyer-entry.jpg",
+      "bytes": 101587,
+      "sha256": "9904e3efc1a5f66de4ae2a01bf9101c028f1f757693e98827d6cb552ab3bf58a"
+    },
+    {
+      "file": "dist/media/final-plan-20261113/foyer-gallery.jpg",
+      "bytes": 111683,
+      "sha256": "b747d1dd0c56f052675aa3c12c6a8a09a734df79282944f4d695920bf3bf924c"
+    },
+    {
+      "file": "dist/media/final-plan-20261113/foyer-welcome.jpg",
+      "bytes": 133882,
+      "sha256": "124a8ac10983fd60d91a546e66490ce96def4a57ccaa015a4fcba297416e4871"
+    },
+    {
+      "file": "dist/media/final-plan-20261113/implementation-stages.jpg",
+      "bytes": 193758,
+      "sha256": "a62c10a3b455cf5189a1700584faa9fbac70182385baf1df571b7e558f162ceb"
+    },
+    {
+      "file": "dist/media/final-plan-20261113/incubation-cycle.jpg",
+      "bytes": 145975,
+      "sha256": "f163b8268d55374376369f7053d4d4dca0cc7c5b41f4b78d00f92c317af8c463"
+    },
+    {
+      "file": "dist/media/final-plan-20261113/innovation-project.jpg",
+      "bytes": 376397,
+      "sha256": "c490095694f3eda1330b5f53374778af2ad5fc19026cf3dadbe00860b7a962d0"
+    },
+    {
+      "file": "dist/media/final-plan-20261113/life-main.jpg",
+      "bytes": 107510,
+      "sha256": "2c8890807d771c5038681be7672bfb523bc5a6e4748fe6788c03e889eecd4b66"
+    },
+    {
+      "file": "dist/media/final-plan-20261113/life-overview.jpg",
+      "bytes": 45988,
+      "sha256": "7b56cf517e33eb698942e9820620fcd067c47a37e95d091b26300278b4bcae51"
+    },
+    {
+      "file": "dist/media/final-plan-20261113/life-zones.jpg",
+      "bytes": 151240,
+      "sha256": "ab52895cb55c700ba2fa557b7a76be7198a06d69258d176d69207b395d2212db"
+    },
+    {
+      "file": "dist/media/final-plan-20261113/manifest.json",
+      "bytes": 12947,
+      "sha256": "6a6a172e7370a1d093bc555c9966af5bc4f490ad2c4f3e356c7cabfdd5e9ffce"
+    },
+    {
+      "file": "dist/media/final-plan-20261113/mountain-agriculture.jpg",
+      "bytes": 548434,
+      "sha256": "43cddea926606039fec34701535d77c1f23ae2d2efac319cb141ba577c80aee3"
+    },
+    {
+      "file": "dist/media/final-plan-20261113/open-operation.jpg",
+      "bytes": 86019,
+      "sha256": "209046f1278520a030618dcd9eea31a5a68c6e80901d1ea5252572840248cf83"
+    },
+    {
+      "file": "dist/media/final-plan-20261113/production-main.jpg",
+      "bytes": 169480,
+      "sha256": "db2ef8c5cf274d0fafbb9c406bace2d6101423c58adc90425125bdb98dbafa2d"
+    },
+    {
+      "file": "dist/media/final-plan-20261113/production-option-1.jpg",
+      "bytes": 75886,
+      "sha256": "efa0ac360ade2be75f07dc3efef47db68cb37902c33d5fb0bf5454d318367101"
+    },
+    {
+      "file": "dist/media/final-plan-20261113/production-option-2.jpg",
+      "bytes": 81358,
+      "sha256": "f05268349639dd66c6e24b2eeed43e8e23e2b462e96bc4fe6d6790f99970835c"
+    },
+    {
+      "file": "dist/media/final-plan-20261113/production-option-3.jpg",
+      "bytes": 54184,
+      "sha256": "6912f3c36232f795df16303f8cabf16c2354d9aeccfff96a8ef93f40ced2c574"
+    },
+    {
+      "file": "dist/media/final-plan-20261113/production-option-4.jpg",
+      "bytes": 51562,
+      "sha256": "9cdd34d9b8fdb2755e868c502bca8efb76c861cdf3417195bac5f7928e2f79e9"
+    },
+    {
+      "file": "dist/media/final-plan-20261113/production-option-5.jpg",
+      "bytes": 69072,
+      "sha256": "75ec3a35a96c542db00eb81957d860026398e6afed6c20e1cef05b62ba95b1ff"
+    },
+    {
+      "file": "dist/media/final-plan-20261113/production-zones.jpg",
+      "bytes": 93348,
+      "sha256": "551c2b3b7ba7460f8a39d94b98798ef9c60c7c4d1594646f8147e9cd5a9e4844"
+    },
+    {
+      "file": "dist/media/final-plan-20261113/regional-collaboration.jpg",
+      "bytes": 102162,
+      "sha256": "808f63ee67a7520d87bc5215c70d2693c18c9a4a5d636b3d22761f73bd1b4e55"
+    },
+    {
+      "file": "dist/media/final-plan-20261113/transit-sandbox.jpg",
+      "bytes": 309240,
+      "sha256": "5827c9f94c6696e63573fe841b6f28f423060f82df4cf82ff1d70d550c927bc9"
+    },
+    {
+      "file": "dist/media/final-plan-20261113/warm-front.jpg",
+      "bytes": 50944,
+      "sha256": "087b6ce1f98275b1625ec4acb75f0d0e05ccde8e50e8d1d58d87058e5248b429"
+    },
+    {
+      "file": "dist/media/final-plan-20261113/warm-overview.jpg",
+      "bytes": 36468,
+      "sha256": "04908edbda1d193ead7cf9fb02f78c7f00f284032491fd6a599477b026fbe3b7"
+    },
+    {
+      "file": "dist/media/final-plan-20261113/water-observation.jpg",
+      "bytes": 269264,
+      "sha256": "5f07cf6f16c487cd0abe57fbb0d0c0aab55ef9a7a19479277c7d27ee08acf1d1"
+    },
+    {
+      "file": "dist/media/final-plan-20261113/xiaojing-platform.jpg",
+      "bytes": 109071,
+      "sha256": "dcf93d88024afa1e07fe07555cb4e5f22d28c2d6e5cc5c07c5ad09b76a02bbae"
+    },
+    {
+      "file": "dist/media/life-classroom-20261112/life-front.png",
+      "bytes": 2198038,
+      "sha256": "f471988326274d1e8a56f3e1e57770c2a0a5c11c1f781c4fe47e2afa6590b1e7"
+    },
+    {
+      "file": "dist/media/life-classroom-20261112/life-layout.png",
+      "bytes": 2054359,
+      "sha256": "30cfbcc54734b45f3e7427a2ac6a8ac341c5619c1af1c2f63928585f018ff4a9"
+    },
+    {
+      "file": "dist/media/life-classroom-20261112/life-media.png",
+      "bytes": 2281593,
+      "sha256": "301156a31cb91437b8506d7bceee19cf370216f1c1791a7edf8e3f2d3ecbb362"
+    },
+    {
+      "file": "dist/media/life-classroom-20261112/life-reverse.png",
+      "bytes": 2273777,
+      "sha256": "9da166e9ad2d1640f2b20bad4ec86c6fe6384eba929cc4e901799efafa6eaee8"
+    },
+    {
+      "file": "dist/media/life-classroom-20261112/manifest.json",
+      "bytes": 11365,
+      "sha256": "2dd2bcfb18223d51d8e3041323886bff6e7db011974e4e883fdfabb0b6e389dd"
+    },
+    {
+      "file": "dist/media/manuscript-reference/agriculture-study.png",
+      "bytes": 566801,
+      "sha256": "113b8331b5db42b12b824cac8aa42b1c9d9d823916a5805090ef8c89e6fc6723"
+    },
+    {
+      "file": "dist/media/manuscript-reference/atmosphere-reference.png",
+      "bytes": 1149741,
+      "sha256": "3dcdefa016758bcb3f71f8139f84c2123c138c185d1ea815abda63209904c870"
+    },
+    {
+      "file": "dist/media/manuscript-reference/bridge-reference.png",
+      "bytes": 1717595,
+      "sha256": "67b2fb15dea066b6b4c8599a7e13bebd1a278100e260f5a2bf23096e2a464ebb"
+    },
+    {
+      "file": "dist/media/manuscript-reference/city-reference.png",
+      "bytes": 818686,
+      "sha256": "c0c0a6246c2195a54a778bc35c00be8fa6afb4bf9afa2ded36ac1f576a52ed23"
+    },
+    {
+      "file": "dist/media/manuscript-reference/contour-reference.png",
+      "bytes": 1135929,
+      "sha256": "1edf34c49ca2d6e8ff9f72260e8758c2911db16458eee313fdaabf9769920641"
+    },
+    {
+      "file": "dist/media/manuscript-reference/english-cards.png",
+      "bytes": 1437887,
+      "sha256": "d49719451cbeba441c8e60a4763426302e62cff6ffb6f9313a8077a3dd42b1da"
+    },
+    {
+      "file": "dist/media/manuscript-reference/glaze-reference.png",
+      "bytes": 977704,
+      "sha256": "e1f1541c09daa56afa314dcc891265082295b1a0c41ed18cd76596b30e25ac95"
+    },
+    {
+      "file": "dist/media/manuscript-reference/glaze-workflow.png",
+      "bytes": 428494,
+      "sha256": "e55b235b09b9e913df7cf18a6a6109da06d97d6b3804acb1f3f0d61aa4f5a924"
+    },
+    {
+      "file": "dist/media/manuscript-reference/innovation-showcase.png",
+      "bytes": 5026607,
+      "sha256": "74835aeb89ca71574918b8a46e4f9b813fa0c8a56303e72b68d09985aebf1758"
+    },
+    {
+      "file": "dist/media/manuscript-reference/learning-practice.png",
+      "bytes": 4560715,
+      "sha256": "82ccd0d1e54ed44032f5c1f132befb443d4a40bfc9724ea798a1e268e255635e"
+    },
+    {
+      "file": "dist/media/manuscript-reference/manifest.json",
+      "bytes": 9418,
+      "sha256": "dda9c792b481c863771f64d5591f2b41d9c5475a28b0f5cfaacf44722b0b10d2"
+    },
+    {
+      "file": "dist/media/manuscript-reference/mentor-review.png",
+      "bytes": 4558109,
+      "sha256": "dfbb34c778667fc788e28de81e16c82b0a921f80062714abb1aa24b16df42398"
+    },
+    {
+      "file": "dist/media/manuscript-reference/menu-demo.gif",
+      "bytes": 12108837,
+      "sha256": "a950aae45098d9787e56d1b9142dec866dd7efc7287f5b5040da704f386f2f49"
+    },
+    {
+      "file": "dist/media/manuscript-reference/mine-reference.png",
+      "bytes": 3218847,
+      "sha256": "67f269cd28b492c09e3d780d35d683a421a827822f74942fef6313d0a7f24b6d"
+    },
+    {
+      "file": "dist/media/manuscript-reference/network-reference.png",
+      "bytes": 714874,
+      "sha256": "c487b6deaf6b94b1dfc096a2cbed72f6da18e5ab9d9c90a1d4c9ee582052c5ab"
+    },
+    {
+      "file": "dist/media/manuscript-reference/palace-character.png",
+      "bytes": 1975299,
+      "sha256": "07d9d571f8a0ba6cf0ad2a237a5d088d8cd811c7c3373a5883a7db7d92660bfd"
+    },
+    {
+      "file": "dist/media/manuscript-reference/pet-feeder-reference.png",
+      "bytes": 1790807,
+      "sha256": "ce656ad467cabc8b1ae8b8fe128c735c31f969d440dce23789581067d4db3f78"
+    },
+    {
+      "file": "dist/media/manuscript-reference/plantpal-demo.gif",
+      "bytes": 12255741,
+      "sha256": "a3521f16074f814bf6c758a35a1c57e33e5f54197999c3fa99737ec06f664487"
+    },
+    {
+      "file": "dist/media/manuscript-reference/printer-reference.png",
+      "bytes": 475762,
+      "sha256": "8060e20e1788c6f12120d2c281b13ed5464c180a9d83ca66c195eddc577af5bc"
+    },
+    {
+      "file": "dist/media/manuscript-reference/rover-reference.png",
+      "bytes": 2133035,
+      "sha256": "2959d4144eb56cd22985a1e7dfcdd709fd021607a33abca75c47530d81e9cd61"
+    },
+    {
+      "file": "dist/media/manuscript-reference/sorting-reference.png",
+      "bytes": 786994,
+      "sha256": "3bc51fb7e15f577c07ddd08e64371da7f2b35eda34ed2de90182d407d1902b83"
+    },
+    {
+      "file": "dist/media/manuscript-reference/student-media.png",
+      "bytes": 4033684,
+      "sha256": "34201489ba5430b7eae2922421795a7888f58255c1d70884923581cc3fcce5ca"
+    },
+    {
+      "file": "dist/media/manuscript-reference/student-prototype.png",
+      "bytes": 5271463,
+      "sha256": "21c2b3c9f6990f74965df2c3c892077012d129edfacc7c94a9d50e2e32231e93"
+    },
+    {
+      "file": "dist/media/manuscript-reference/vision-reference.png",
+      "bytes": 2024966,
+      "sha256": "09db10aa874a2b36e9aa7f1aef14a1e81a04fb740fb54493233954b23de71950"
+    },
+    {
+      "file": "dist/media/manuscript-reference/wall-e-reference.png",
+      "bytes": 492427,
+      "sha256": "9a72441d9bcef0927ce81a6ba90bae2e9564f669806564afb704bdc82e94ae6b"
+    },
+    {
+      "file": "dist/media/manuscript-reference/water-reference.png",
+      "bytes": 1340263,
+      "sha256": "1c027e4037b35c2a3ea5f007a370939c82a79cc73288fcf6e07f3469738c90a3"
+    },
+    {
+      "file": "dist/media/story-refresh-20261112/aigc-public-screening.png",
+      "bytes": 2666324,
+      "sha256": "2503e5eb48311bd8f3f7e682cf0565613eb92755c0365e03964de4c768bc012e"
+    },
+    {
+      "file": "dist/media/story-refresh-20261112/hackathon-build-process.png",
+      "bytes": 2193828,
+      "sha256": "c49a7f6fcb990f3574eca294468d28571e6b2e9f62ad9dee34f9c8bb08a74c1d"
+    },
+    {
+      "file": "dist/media/story-refresh-20261112/hackathon-exhibition.png",
+      "bytes": 2351503,
+      "sha256": "328ded28c765290872d90a7544cabd0d96c446cc723f49076b03eb52b64e6538"
+    },
+    {
+      "file": "dist/media/story-refresh-20261112/manifest.json",
+      "bytes": 7483,
+      "sha256": "386499e31e9208c6d6a1547947de039d5fea2d1765e5f3110e6119ffde667e11"
+    },
+    {
+      "file": "dist/media/story-refresh-20261112/regional-workshop.png",
+      "bytes": 2355284,
+      "sha256": "481e03c8f156bdec531e08cc21a153668382793d54ef10edb5bb23e615fbc44b"
+    },
+    {
+      "file": "Launcher-Common.ps1",
+      "bytes": 1942,
+      "sha256": "e02f3b7aef236205c5845bc924a3e4dd0f8c4ea00aa52cd4e8e3cd0a4de8c271"
+    },
+    {
+      "file": "licenses/media/campus-image-provenance.md",
+      "bytes": 2322,
+      "sha256": "cc78f87ee1e04257d85286029bbe0469f7c0d2be72affb2d0d29adb2ff485841"
+    },
+    {
+      "file": "licenses/media/demonstration-video.md",
+      "bytes": 1004,
+      "sha256": "64cd80dac570ec4ccb7c7921da10f3822f122860c82178f7ca4ce04cfc807714"
+    },
+    {
+      "file": "licenses/React-DOM-LICENSE.txt",
+      "bytes": 1088,
+      "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93"
+    },
+    {
+      "file": "licenses/React-LICENSE.txt",
+      "bytes": 1088,
+      "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93"
+    },
+    {
+      "file": "licenses/Scheduler-LICENSE.txt",
+      "bytes": 1088,
+      "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93"
+    },
+    {
+      "file": "licenses/Three-LICENSE.txt",
+      "bytes": 1081,
+      "sha256": "8b378ebe60e2fe500158cb0ac71cb5e8b7d92953c2abcc63a0eb90499653b5bc"
+    },
+    {
+      "file": "runtime/LICENSE",
+      "bytes": 160555,
+      "sha256": "ed34dd8e3f0a78dbaf00d0444ce8e285b015b765379c2e17880455f70370f8e9"
+    },
+    {
+      "file": "runtime/node.exe",
+      "bytes": 93882184,
+      "sha256": "ba93f9a70bd86fce3ebbb39ec758501458453467aa92a34a0a3602d1e3fc2b9c"
+    },
+    {
+      "file": "runtime/VERSION.txt",
+      "bytes": 102,
+      "sha256": "0ca22546a2113a9c887ed08e71494f4a127c73fb4430ba60d2cad85475d98a28"
+    },
+    {
+      "file": "server/credentials.mjs",
+      "bytes": 2663,
+      "sha256": "5b22f58f5ce16528e480de253415ff06a310982bc0219cfcda7fe188dacb51c0"
+    },
+    {
+      "file": "server/deepseek-plugin.mjs",
+      "bytes": 14283,
+      "sha256": "50156aeb50a36141c1a1d3eb4d26c61e38208c68887aac3d8091a4c231ed0dcc"
+    },
+    {
+      "file": "server/media-plugin.mjs",
+      "bytes": 22717,
+      "sha256": "db00c10a1ffe411dac243127ed62f4c77eb8db626b01781db48ed82f87fbe081"
+    },
+    {
+      "file": "server/project-context.mjs",
+      "bytes": 28824,
+      "sha256": "f0e8dc672398dd5c27b26ea9fb7ed53cdd56c6815c81619d4a32d1d414d05fa6"
+    },
+    {
+      "file": "server/standalone.mjs",
+      "bytes": 7372,
+      "sha256": "4af11e3965656b11681a8669090db2ad50f53bda72c9b932419473880ea0c917"
+    },
+    {
+      "file": "server/static-files.mjs",
+      "bytes": 3073,
+      "sha256": "a514b0cf28d08b4f1abb0d9be30b527c0c0569afb5ea3594f3db0e4dcc1bafc9"
+    },
+    {
+      "file": "server/text-plugin.mjs",
+      "bytes": 13402,
+      "sha256": "736f5a89676c00cfe675a8c8c1483a0b831c4826753728b090387d74a70a1f1b"
+    },
+    {
+      "file": "shared/course-text-sections.json",
+      "bytes": 46554,
+      "sha256": "5bc95505d7303b318647d9a6eba473480ce816479974ba67bb7d19c53dc02109"
+    },
+    {
+      "file": "shared/media-slots.json",
+      "bytes": 39988,
+      "sha256": "8114afca34623227f90749b85c9c28ae99277c196b5cf8b51eba6a3af763fd2f"
+    },
+    {
+      "file": "shared/text-sections.json",
+      "bytes": 61100,
+      "sha256": "d6a86c35a23bf20acd382813173a1968ef564adc7efa4a011bc2c903362e41b9"
+    },
+    {
+      "file": "Start-Proposal.ps1",
+      "bytes": 3225,
+      "sha256": "57c289833245412482b7f8990bec240b8f7346e8ee6441cac3f3934531ef033d"
+    },
+    {
+      "file": "Stop-Proposal.ps1",
+      "bytes": 1526,
+      "sha256": "ef5cfd6235fc3861eaf4e1af8b53183a86e5f9f8fb2dab8952ef8165894a7039"
+    },
+    {
+      "file": "user-data/media-settings.json",
+      "bytes": 4493,
+      "sha256": "7ec44a22d8b71de79bf359157341fed7c7e4cedc8da6f572b6e5ce707fa07fe9"
+    },
+    {
+      "file": "user-data/media/162ce454d7de92fa63e51d687fa3e8be.png",
+      "bytes": 567928,
+      "sha256": "7d488ed3dd3a3da9a474a6a2ed5751e318a9ada58028a17fd88937f46161662b"
+    },
+    {
+      "file": "user-data/media/2cfa5a0a818533c767b18b3a1ded561b.png",
+      "bytes": 685581,
+      "sha256": "10293e09114b4c609dc7e65a3d2e4a59f95d7922296045b771b99f26e236b084"
+    },
+    {
+      "file": "user-data/media/30b46d7816fba8ea1fe48e16f78cb255.png",
+      "bytes": 744958,
+      "sha256": "3ed5b9ef1e148ac78276ecbff8bdbd81ae33c6e7d02383149b4237c666516528"
+    },
+    {
+      "file": "user-data/media/57cfb89a4d141d2ad662d770f5592972.png",
+      "bytes": 805005,
+      "sha256": "0110d3a7f7463118a488f4e8ef457d834fec058928aa12cbda6d6ba81b4c4e46"
+    },
+    {
+      "file": "user-data/media/6726581a71e4391fbceecad5a13519e6.png",
+      "bytes": 929572,
+      "sha256": "8a96380120385909f0e204b84e6e063e9d82f3267e119fa09d0f50e982210f16"
+    },
+    {
+      "file": "user-data/media/6ed738c4786aec829102c4a6ceab6b5e.png",
+      "bytes": 438392,
+      "sha256": "64f514607032655b3ad764da990aa656097a58818031110c41bcb5cb5604cd66"
+    },
+    {
+      "file": "user-data/media/997c757165b1c8c0774a691c9d17ef65.png",
+      "bytes": 858322,
+      "sha256": "a1a608fcb7839dd7775603fe115c5ac203fdf09dd19499375b0068a5411d2d82"
+    },
+    {
+      "file": "user-data/media/ab2ed7e7ec2ccf1a21c65211a2cf1619.png",
+      "bytes": 859181,
+      "sha256": "250e375d06e92808eb36e2f1024ef1694eeb7229796226849d62abd3a5609cd4"
+    },
+    {
+      "file": "user-data/media/b68fa02d0efe0e7d22f15acd4ca07a2f.png",
+      "bytes": 760958,
+      "sha256": "2331c3e5b88f97de892c31ac47b1f523f63340bb6be87346871e7d34d2b85309"
+    },
+    {
+      "file": "user-data/media/b7cfd4d7f0e75b7ce6cbc2e5295dbf72.png",
+      "bytes": 747154,
+      "sha256": "3a61dbbcdb01f723b4549ceb3921429c72c0d6e3df5c6cef3674be2947898296"
+    },
+    {
+      "file": "user-data/media/baa3b1ee4e76336d7e01fe64de6efc29.png",
+      "bytes": 805005,
+      "sha256": "0110d3a7f7463118a488f4e8ef457d834fec058928aa12cbda6d6ba81b4c4e46"
+    },
+    {
+      "file": "user-data/media/f04aabecf4905b73a6936709df224c68.png",
+      "bytes": 899249,
+      "sha256": "7ba9e57aeaac472ee53579685ad9e2bb9eb471c0e0fc0e7a9ce6f1e37aa737d7"
+    },
+    {
+      "file": "user-data/media/fa6ee1cddfc21dcf4980550485943a76.png",
+      "bytes": 673907,
+      "sha256": "a0659251a004fc5caab79a4226aa7343ef95436edefc7a44272a7cc0336e3354"
+    },
+    {
+      "file": "user-data/text-settings.json",
+      "bytes": 38,
+      "sha256": "82fd87815594ccb4a6dc52c937a0e7bc19246c25ca400bcb7ea7c27d66adc987"
+    }
+  ]
+}

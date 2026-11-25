@@ -1,0 +1,102 @@
+[
+  {
+    "id": "campus-hero",
+    "category": "首页",
+    "title": "校园全景",
+    "usage": "首页背景：建筑偏左、右侧可叠加标题",
+    "filename": "campus-hero.png",
+    "source": "C:\\Users\\Admin\\.codex\\generated_images\\01a1c4ad-1cd3-73b0-8ca6-2fa9024bdf1b\\exec-d9eff2a7-3078-4f0b-be0d-170213ef6aa7.png",
+    "prompt": "Create one ultra-high-resolution photorealistic architectural photograph for a school website homepage, landscape 16:9. Use the attached ACTUAL campus photo as strict architectural/layout reference: preserve the red brick long five-storey teaching building and its gray window bands on the LEFT, the attached clock tower with dark pitched roof at upper left, blue athletics track and green field to the RIGHT, courtyard steps, real low wooded western Beijing mountains behind. Keep recognizable building shapes and campus layout; do not invent additional towers or a new campus. Reconstruct this low-resolution reference as a crisp, believable high-end full-frame architectural photograph, fine brick detail, realistic glass reflections, real grass and track texture, natural early-autumn foliage, soft clear morning sun and slight mountain atmospheric haze. Camera elevated oblique as reference but a cleaner wider panorama. Building mass occupies left 55 percent; keep right 40 percent relatively calm blue sky and green field for future web title overlay. Balanced elegant photographic color grading, warm brick, restrained green, natural sky blue. No humans required, no text overlaid, no added logos, no neon lines, no holograms, no futuristic fantasy buildings, no illustration or plastic CGI, no watermark. Output one single photo, maximum native detail, not a collage. This is an AI reconstruction for concept presentation; retain source architecture faithfully.",
+    "status": "AI生成，基于校园参考照片重建，非校园实拍"
+  },
+  {
+    "id": "learning-collaboration",
+    "category": "理念与机制",
+    "title": "一起解决真实问题",
+    "usage": "建设理念：课堂协作与开放学习",
+    "prompt": "Create ONE single premium editorial photograph, landscape 3:2, highest practical native detail. Authentic full-frame photography, 35mm lens, soft daylight, believable human anatomy and hands, real skin pores, individual faces, subtle material imperfections, realistic fabric, natural restrained warm-neutral color. Fictional Chinese secondary-school students aged 14–17 wear navy and white school sports uniforms without logos, adults are plainly dressed teachers. Not a posed class group portrait. No graphic overlays, no readable labels, logos or watermarks, no glowing neon, holograms, plastic CGI or illustration. Scene: a beautifully designed approximately100sqm advanced school makerspace, six students around a pale ash workbench thoughtfully designing a small environmental sensor and sketching ideas on paper, one female teacher listening at one side. One student explains a small physical prototype to two attentive classmates, others use laptop or measure parts, real organized tools and notebooks. Camera at student eye level, participants naturally interacting rather than looking at camera. Background real classroom windows and softly blurred additional worktables. Light oak, brushed aluminum, warm gray, sophisticated educational documentary magazine photography. Compose people and work on left two thirds, one clean wall area right for later web copy.",
+    "filename": "learning-collaboration.png",
+    "source": "C:\\Users\\Admin\\.codex\\generated_images\\01a1c4ad-1cd3-73b0-8ca6-2fa9024bdf1b\\exec-f01abb19-2e7e-4bf5-a770-5c3a57806370.png",
+    "status": "AI生成写实场景，人物与活动为虚构"
+  },
+  {
+    "id": "mentor-guidance",
+    "category": "理念与机制",
+    "title": "导师与学生共同验证",
+    "usage": "产业协同、专业指导与机制说明",
+    "prompt": "Create ONE single premium editorial photograph, landscape 3:2, highest practical native detail. Authentic full-frame photography, 35mm lens, soft daylight, believable human anatomy and hands, real skin pores, individual faces, subtle material imperfections, realistic fabric, natural restrained warm-neutral color. Fictional Chinese secondary-school students aged 14–17 wear navy and white school sports uniforms without logos, adults are plainly dressed teachers. Not a posed class group portrait. No graphic overlays, no readable labels, logos or watermarks, no glowing neon, holograms, plastic CGI or illustration. Scene: a professional Chinese engineer in his late30s and two teenage students at a precise but approachable electronics workbench in a modern school engineering classroom. They are testing a compact yellow tracked educational mobile robot with binocular camera eyes, real wires, a multimeter and laptop. Engineer uses a small screwdriver to point to a connector, girl operates laptop, boy carefully holds the small robot chassis. Careful concrete collaborative engineering activity, safe equipment, real hand proportions. Mid-close 50mm documentary photograph, soft sidelighting through window, graphite and pale wood surfaces, believable workshop components, cinematic but not staged, subject slightly right of center. No robot arms.",
+    "filename": "mentor-guidance.png",
+    "source": "C:\\Users\\Admin\\.codex\\generated_images\\01a1c4ad-1cd3-73b0-8ca6-2fa9024bdf1b\\exec-0e84915b-2c63-4bf6-ba54-4973e8f6da4c.png",
+    "status": "AI生成写实场景，人物与活动为虚构"
+  },
+  {
+    "id": "mentougou-landscape",
+    "category": "京西共创",
+    "title": "京西山水与城市",
+    "usage": "门头沟区域环境与实践场域主图",
+    "prompt": "One high-end photorealistic landscape photograph inspired by western Beijing Mentougou and the Yongding River valley, landscape16:9 maximum native detail. Elevated panoramic viewpoint over a winding natural river with clear restrained jade water, reeds and riverside ecological path, layered rugged low mountains with mixed early-autumn vegetation, compact contemporary city district far in the mid-distance, soft morning haze in mountain folds. Beautiful but plausible northern China terrain, dry rocky slopes and a few deciduous yellow trees, not tropical karst, not fictional huge snowy peaks. Architectural and travel photography, natural color science, subtle sunlight, detailed rocks and leaves, 35mm full-frame aerial shot, plenty of negative sky in top third. No labels, signage, logos, no recognizable fabricated landmarks, no text overlays, no CGI. A concept regional landscape photograph, not claimed documentary of one precise site.",
+    "filename": "mentougou-landscape.png",
+    "source": "C:\\Users\\Admin\\.codex\\generated_images\\01a1c4ad-1cd3-73b0-8ca6-2fa9024bdf1b\\exec-48a71d69-d403-44fb-b2f8-4c47973aa564.png",
+    "status": "AI生成写实场景，人物与活动为虚构"
+  },
+  {
+    "id": "industry-collaboration",
+    "category": "京西共创",
+    "title": "校企共研空间",
+    "usage": "京西智谷合作方向、工程共创配图（拟建活动）",
+    "prompt": "Generate one exceptionally realistic premium documentary photograph, landscape3:2, maximum native detail. Real skin textures, believable hands, candid expressions, different individual faces, natural fabrics, warm-neutral daylight, precise real camera optics. Fictional Chinese secondary-school students14–17 in navy/white sports uniforms without emblems, adult teachers/engineers in everyday clothing. No added text, watermarks, logos, neon or holograms. Not a group portrait, no CGI look, no illustration. Scene: a contemporary AI research and industry education collaboration studio in western Beijing, viewed through an open glass meeting room into a bright spacious but realistic laboratory. One Chinese engineer and four teenage students jointly explore a small mobile robot and environmental sensing prototype at a long clean oak table; a second researcher reviews a laptop at rear. Large windows show low wooded dry northern Beijing mountains and a modest business park outside, pale stone, graphite metal, oak shelving, a few recognizable real research instruments, tidy co-creation workspace. 35mm architectural editorial photograph, attention to tactile materials and real human behavior. This is a proposed collaboration interior concept; do not fabricate identifiable official park architecture or signage. No branding text anywhere.",
+    "filename": "industry-collaboration.png",
+    "source": "C:\\Users\\Admin\\.codex\\generated_images\\01a1c4ad-1cd3-73b0-8ca6-2fa9024bdf1b\\exec-e6ec8bea-8393-4911-b966-55ea5793c2d6.png",
+    "status": "AI生成写实场景，人物与活动为虚构"
+  },
+  {
+    "id": "ecology-fieldwork",
+    "category": "京西共创",
+    "title": "把学习带到京西山水之间",
+    "usage": "区域实践、生态观察、水环境研究",
+    "prompt": "Generate one exceptionally realistic premium documentary photograph, landscape3:2, maximum native detail. Real skin textures, believable hands, candid expressions, different individual faces, natural fabrics, warm-neutral daylight, precise real camera optics. Fictional Chinese secondary-school students14–17 in navy/white sports uniforms without emblems, adult teachers/engineers in everyday clothing. No added text, watermarks, logos, neon or holograms. Not a group portrait, no CGI look, no illustration. Scene: three students and a female science mentor beside a shallow stream on a safe flat riverbank in western Beijing autumn foothills, low dry rocky wooded mountains softly behind. Students collect and measure a small water sample using a transparent vial and handheld water-quality sensor; one girl writes observations in a field notebook, boy crouches near rock wearing practical gloves; teacher supervises beside them. They stand on dry bank and no one enters deep water. Plausible small scientific equipment, natural activity, candid environmental education photo. Camera close enough to show real faces, water texture, field gear and learning activity, medium wide documentary composition, sidelight, restrained olive/ochre foliage, no tropical vegetation. Leave top third quiet landscape.",
+    "filename": "ecology-fieldwork.png",
+    "source": "C:\\Users\\Admin\\.codex\\generated_images\\01a1c4ad-1cd3-73b0-8ca6-2fa9024bdf1b\\exec-74e0a5c9-2e56-446c-ae49-f52e43ddcbad.png",
+    "status": "AI生成写实场景，人物与活动为虚构"
+  },
+  {
+    "id": "student-project-showcase",
+    "category": "理念与愿景",
+    "title": "让作品进入真实交流",
+    "usage": "建设愿景、成果展示、产学研交流",
+    "prompt": "Generate one exceptionally realistic premium documentary photograph, landscape3:2, maximum native detail. Real skin textures, believable hands, candid expressions, different individual faces, natural fabrics, warm-neutral daylight, precise real camera optics. Fictional Chinese secondary-school students14–17 in navy/white sports uniforms without emblems, adult teachers/engineers in everyday clothing. No added text, watermarks, logos, neon or holograms. Not a group portrait, no CGI look, no illustration. Scene: student prototype presentation inside a refined but plausible school open studio. A teenage Chinese girl confidently explains an attractive small pale-wood truss bridge and a neat yellow mobile robot displayed on the same table, to a teacher and an adult industry mentor, while one boy demonstrates a laptop simulation. Objects physically coherent, high-quality student-made prototypes visible in foreground; listeners attentive and natural, not posing. Simple blurred pinned process sketches behind with no readable text. Afternoon daylight, pale warm walls, understated architectural interior, 50mm editorial photo, foreground product texture and engaged human interaction equally important. No trophy, no medals, no fictitious award plaque. Single photograph, not multi-panel.",
+    "filename": "student-project-showcase.png",
+    "source": "C:\\Users\\Admin\\.codex\\generated_images\\01a1c4ad-1cd3-73b0-8ca6-2fa9024bdf1b\\exec-e26b3dee-2885-4b8d-b5b0-cea2351678ca.png",
+    "status": "AI生成写实场景，人物与活动为虚构"
+  },
+  {
+    "id": "cafeteria-breakfast",
+    "category": "校园服务",
+    "title": "早餐：包子、鸡蛋与小米粥",
+    "usage": "食堂服务：早餐照片演示",
+    "prompt": "Generate ONE photorealistic food photograph, landscape4:3, highest practical native detail. A realistic clean Chinese secondary school cafeteria meal on a stainless steel compartment tray on a pale oak cafeteria table. Camera at 45 degrees, close composition showing every food clearly, soft window daylight, accurate cooked textures, subtle steam, appetizing but ordinary school portions, real metal reflections, natural neutral color, 50mm lens. No people, no hands, no napkins with writing, no readable text, logos, price or nutrition overlays, no collage, no excessively stylized restaurant plating. Breakfast with two steamed vegetable buns, one peeled boiled egg cut into two halves with natural yellow yolk, a small side of cucumber slices, a separate stainless bowl of golden millet congee and a plain white ceramic cup of warm soy milk, half an orange. Realistic clearly separated food compartments, balanced modest portions. Simple real school breakfast.",
+    "filename": "cafeteria-breakfast.png",
+    "source": "C:\\Users\\Admin\\.codex\\generated_images\\01a1c4ad-1cd3-73b0-8ca6-2fa9024bdf1b\\exec-7a0655c7-569f-4f84-b4f5-11abda38b676.png",
+    "status": "AI生成食堂菜品演示，非学校实际供餐记录"
+  },
+  {
+    "id": "cafeteria-lunch",
+    "category": "校园服务",
+    "title": "午餐：米饭、鸡肉与时蔬",
+    "usage": "食堂服务：午餐照片演示",
+    "prompt": "Generate ONE photorealistic food photograph, landscape4:3, highest practical native detail. A realistic clean Chinese secondary school cafeteria meal on a stainless steel compartment tray on a pale oak cafeteria table. Camera at 45 degrees, close composition showing every food clearly, soft window daylight, accurate cooked textures, subtle steam, appetizing but ordinary school portions, real metal reflections, natural neutral color, 50mm lens. No people, no hands, no napkins with writing, no readable text, logos, price or nutrition overlays, no collage, no excessively stylized restaurant plating. Lunch with a neat serving of white rice, braised chicken pieces with carrots and potatoes, stir-fried broccoli and sliced carrots, tomato scrambled eggs, a small separate steel bowl of winter melon soup, one small mandarin orange beside tray. Each dish occupies its own tray compartment, plausible tender chicken pieces not huge meats, ordinary Chinese school lunch fresh and home-style.",
+    "filename": "cafeteria-lunch.png",
+    "source": "C:\\Users\\Admin\\.codex\\generated_images\\01a1c4ad-1cd3-73b0-8ca6-2fa9024bdf1b\\exec-de641cae-4827-4e96-9b82-c6c37463bcac.png",
+    "status": "AI生成食堂菜品演示，非学校实际供餐记录"
+  },
+  {
+    "id": "cafeteria-dinner",
+    "category": "校园服务",
+    "title": "晚餐：杂粮饭与家常菜",
+    "usage": "食堂服务：晚餐照片演示",
+    "prompt": "Generate ONE photorealistic food photograph, landscape4:3, highest practical native detail. A realistic clean Chinese secondary school cafeteria meal on a stainless steel compartment tray on a pale oak cafeteria table. Camera at 45 degrees, close composition showing every food clearly, soft window daylight, accurate cooked textures, subtle steam, appetizing but ordinary school portions, real metal reflections, natural neutral color, 50mm lens. No people, no hands, no napkins with writing, no readable text, logos, price or nutrition overlays, no collage, no excessively stylized restaurant plating. Dinner with a portion of rice mixed with corn kernels and a little millet, a small serving of tomato-braised beef with potato, green bok choy and mushrooms, a rectangular braised tofu portion, separate small steel bowl of clear seaweed egg-drop soup and a few apple slices in a small steel dish. All foods are clearly distinguishable and naturally cooked, portioned like a real school cafeteria, no raw meats.",
+    "filename": "cafeteria-dinner.png",
+    "source": "C:\\Users\\Admin\\.codex\\generated_images\\01a1c4ad-1cd3-73b0-8ca6-2fa9024bdf1b\\exec-d730ca86-abdd-4aee-85c3-7c88be6e3ec9.png",
+    "status": "AI生成食堂菜品演示，非学校实际供餐记录"
+  }
+]

@@ -1,0 +1,98 @@
+{
+  "generatedDate": "2026-11-12",
+  "mode": "built-in imagegen",
+  "count": 7,
+  "assets": [
+    {
+      "filename": "hackathon-hero.png",
+      "title": "校园黑客松主视觉",
+      "use": "赛事入口／课程协作／导师指导",
+      "path": "E:/Project/景山实验中学/ai-classroom/jingshan-proposal/public/media/20261112/hackathon/hackathon-hero.png",
+      "url": "/media/20261112/hackathon/hackathon-hero.png",
+      "status": "AI生成写实方案素材，人物为虚构，不作为真实校内活动、已落地项目或获奖证据",
+      "generationMode": "built-in imagegen",
+      "prompt": "Use case: photorealistic-natural. Asset type: premium Chinese secondary school campus hackathon website hero, one single 16:9 landscape photograph. A real-world 100-square-metre bright maker classroom in west Beijing: large side windows, soft white walls, oak worktables, high quality engineering tools, restrained gray cabinetry. In foreground, four fictional Chinese teenage students aged 14-17 in navy and white school sports uniforms collaborate on a small beautifully engineered mustard-yellow box-shaped tracked educational robot with two binocular eyes, not a mechanical arm. One girl naturally holds a screwdriver near the side panel, one boy studies a laptop, another student tests the robot; an adult Chinese engineering mentor bends to discuss the visible physical prototype. Additional student teams gently blurred in background, not posed for camera. Authentic facial individuality, natural hand anatomy, skin pores, flyaway hair, creased uniforms, small fingerprints on metal and realistic cables. Editorial architectural/documentary photography, 35mm full-frame lens, eye-level, afternoon window light, warm-neutral whites, extremely realistic material surfaces and plausible human scale. Clear focused hands and robot, natural candid energy, elegant magazine composition, premium but believable ordinary learning environment. No readable text, no logos, no banners, no awards, no holograms, no neon strips, no sci-fi props, no 3D-render look, no collage, no plastic skin. Highest practical native resolution.",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2566143
+    },
+    {
+      "filename": "01-robot-complete.png",
+      "title": "智能瓦力机器人整机",
+      "use": "黑客松案例 01／AI＋生产／课程产品整机",
+      "path": "E:/Project/景山实验中学/ai-classroom/jingshan-proposal/public/media/20261112/hackathon/01-robot-complete.png",
+      "url": "/media/20261112/hackathon/01-robot-complete.png",
+      "status": "AI生成写实方案素材，人物为虚构，不作为真实校内活动、已落地项目或获奖证据",
+      "generationMode": "built-in imagegen",
+      "prompt": "Use case: product-mockup. Create one premium photorealistic editorial product photograph, landscape 4:3. A complete small friendly student-built WALL-E-like educational robot standing on an oak maker classroom table: compact upright mustard-yellow cubic metal torso, two expressive large binocular camera eyes on a short articulated neck, two little gripping arms folded at its sides, two black rubber caterpillar tracks; total height 32 cm, clearly a whole cute mobile robot, NOT a mechanical arm or excavator or car. Visible real fasteners, vent holes, discreet wiring, slightly worn powder-coated aluminium, black rubber track ridges, clear lens reflections. Three-quarter front view at robot's eye height, entire robot visible with space around it. Softly blurred background of a tasteful white/gray school maker classroom and a navy-white uniform sleeve, no extra competing products. Daylight from left, honest engineering prototype with precise fabricated parts, warm neutral color, realistic oak grain, 50mm full-frame photography, restrained contrast and very fine tactile detail. No readable text, no logos, no branded markings, no graphic overlays, no floating components, no sci-fi holograms, no cartoon or CGI appearance. Highest practical native resolution.",
+      "width": 1448,
+      "height": 1086,
+      "bytes": 2180678
+    },
+    {
+      "filename": "02-robot-assembly.png",
+      "title": "瓦力机器人零件装配",
+      "use": "黑客松案例 02／动手制作／机器人零件",
+      "path": "E:/Project/景山实验中学/ai-classroom/jingshan-proposal/public/media/20261112/hackathon/02-robot-assembly.png",
+      "url": "/media/20261112/hackathon/02-robot-assembly.png",
+      "status": "AI生成写实方案素材，人物为虚构，不作为真实校内活动、已落地项目或获奖证据",
+      "generationMode": "built-in imagegen",
+      "prompt": "Use case: photorealistic-natural. Asset type: a single 4:3 landscape educational project process photograph. The previous robot image is a product design reference: keep its compact yellow cubic torso, binocular metal camera-eye head, articulated neck, small gripper arms and paired black tracks. Now photograph the same kind of friendly robot partly disassembled on a tidy oak classroom engineering table while a fictional Chinese secondary school student assembles it, only the student's natural hands and navy-white uniform sleeves visible. Body shell on center-left, one intact rubber track module on each side, detached binocular eye head lying carefully on a soft mat, small screws in a compartment tray. Student's left hand steadies the upright torso while right hand turns a small screwdriver into a visible side screw. Every part resting on table, a physically plausible assembly sequence with correctly sized components, no floating exploded-view pieces. Three-quarter overhead documentary photograph, window daylight, neutral warm whites, detailed metal scratches, rubber ridges, real fingerprints and oak grain, natural skin and exactly two anatomically plausible hands. Show complete arrangement with breathing space, shallow background blur, honest school workshop rather than a factory. No words, no labels or brand logos, no neon, no holograms, no cartoon/CGI look, no collage, no extra hands. Highest native practical resolution.",
+      "width": 1448,
+      "height": 1086,
+      "bytes": 2658054
+    },
+    {
+      "filename": "03-printer-figurine.png",
+      "title": "3D 打印机与完成手办",
+      "use": "黑客松案例 03／3D 打印课程",
+      "path": "E:/Project/景山实验中学/ai-classroom/jingshan-proposal/public/media/20261112/hackathon/03-printer-figurine.png",
+      "url": "/media/20261112/hackathon/03-printer-figurine.png",
+      "status": "AI生成写实方案素材，人物为虚构，不作为真实校内活动、已落地项目或获奖证据",
+      "generationMode": "built-in imagegen",
+      "prompt": "Use case: photorealistic-natural. Asset type: single landscape 4:3 photograph for a school 3D printing project case. Close, three-quarter view of a premium enclosed desktop FDM 3D printer on an oak workbench in a bright Chinese secondary school maker classroom, clear glass front and matte white aluminum frame, realistic black linear rails, tidy print head and filament spool outside. A completed 12 cm pale sage green friendly robot figurine with box body, rounded binocular eyes and tiny boots stands upright centered on the actual textured build plate inside. Print head is parked away at back top, all motion stopped; detailed horizontal fine 0.2mm printed layer lines visible on figurine, realistic softened edges, no impossible levitation. Glass door is open safely and a fictional Chinese teenage girl in navy-white sports uniform looks delightedly at the successful print, face partly in soft background to right; adult teacher visible blurred farther away. Focus on entire figurine and printer interior. Documentary photography, 50mm lens, real natural window light, white and warm gray palette with one muted green object, microtextures of glass, metal and PLA, authentic human skin, not stock-photo posing. No brand logos, no legible text, no floating UI, no neon or holograms, no CGI rendering, no flames, no hands inside operating hot printer. Highest practical native resolution.",
+      "width": 1448,
+      "height": 1086,
+      "bytes": 2437727
+    },
+    {
+      "filename": "04-bridge-load-test.png",
+      "title": "桥梁结构承重试验",
+      "use": "黑客松案例 04／桥梁工程课程",
+      "path": "E:/Project/景山实验中学/ai-classroom/jingshan-proposal/public/media/20261112/hackathon/04-bridge-load-test.png",
+      "url": "/media/20261112/hackathon/04-bridge-load-test.png",
+      "status": "AI生成写实方案素材，人物为虚构，不作为真实校内活动、已落地项目或获奖证据",
+      "generationMode": "built-in imagegen",
+      "prompt": "Use case: photorealistic-natural. Asset type: one 4:3 landscape photograph of a credible student engineering bridge load test. In a bright secondary school maker classroom, a beautifully handmade 70cm-long pale basswood Warren truss model bridge spans a clear 55cm gap between TWO solid square timber support blocks on a worktable. Both bridge ends rest securely on the blocks; the central span has nothing underneath it. A small flat steel loading plate lies on the bridge deck at its exact midspan, holding a modest stack of three small metal calibration discs; forces visibly pass through the deck, symmetrical triangles and vertical joints, no unsupported floating load. An adult Chinese teacher and two fictional Chinese teenage students in navy-white uniforms watch the actual test intently, one student standing at the side records results on a clipboard, hands away from bridge; faces softly visible in background. Frame bridge prominently from low three-quarter side angle so the gap, supports, triangular trusses, joint glue and load are understandable immediately. Authentic documentary photograph, 50mm lens f/4, natural window light, sharp woodgrain and small glue marks, realistic skin and cloth. Elegant neutral classroom with restrained oak and gray materials. No dramatic collapse, no oversized weights, no blueprint overlays, no readable text, no logos or watermarks, no CGI or miniature toy-render effect. Highest practical native resolution.",
+      "width": 1448,
+      "height": 1086,
+      "bytes": 2314495
+    },
+    {
+      "filename": "05-ecology-sensing.png",
+      "title": "京西生态传感项目",
+      "use": "黑客松案例 05／区域实践／生态观察",
+      "path": "E:/Project/景山实验中学/ai-classroom/jingshan-proposal/public/media/20261112/hackathon/05-ecology-sensing.png",
+      "url": "/media/20261112/hackathon/05-ecology-sensing.png",
+      "status": "AI生成写实方案素材，人物为虚构，不作为真实校内活动、已落地项目或获奖证据",
+      "generationMode": "built-in imagegen",
+      "prompt": "Use case: photorealistic-natural. Asset type: one premium 4:3 landscape documentary photograph for an ecology sensing student project case in western Beijing. In a realistic green foothill setting in Mentougou, on the broad dry gravel bank beside a shallow clean stream, two fictional Chinese secondary-school students aged 15-17 wear navy-white school jackets with practical trainers and work with an adult female Chinese environmental scientist in simple outdoor clothing. Foreground a tidy small folding field table supports a weather-resistant student-built sensor electronics box, neatly wired probes, a small digital weather sensor mast, and an open laptop showing only an unobtrusive abstract line graph without readable words. One student carefully holds the grip of a real slender water-quality probe with its tip immersed in a clear sample beaker on the table, second student checks the laptop, mentor points to the sample and explains. No one standing in water. Natural varied faces, real hand anatomy, subtle skin detail, fabric creases, used field tools. Background low western Beijing green mountains and riverside willows gently out of focus, quiet late-summer morning. Editorial environmental photo, 35mm eye-level photography, rich but natural green/stone/white color palette, soft morning daylight, honest materials and believable compact equipment. Not a posed group portrait. No readable text, no logos, no neon/holograms, no sci-fi equipment, no CGI or painterly look. Highest practical native resolution.",
+      "width": 1448,
+      "height": 1086,
+      "bytes": 2799110
+    },
+    {
+      "filename": "06-campus-voice-assistant.png",
+      "title": "小景校园语音助手",
+      "use": "黑客松案例 06／校园服务／智能体应用",
+      "path": "E:/Project/景山实验中学/ai-classroom/jingshan-proposal/public/media/20261112/hackathon/06-campus-voice-assistant.png",
+      "url": "/media/20261112/hackathon/06-campus-voice-assistant.png",
+      "status": "AI生成写实方案素材，人物为虚构，不作为真实校内活动、已落地项目或获奖证据",
+      "generationMode": "built-in imagegen",
+      "prompt": "Use case: photorealistic-natural. Asset type: a single 4:3 landscape documentary photograph of a campus AI voice assistant demonstration. A sophisticated but realistic Chinese secondary-school corridor with tall windows, a glimpse of red brick school facade and green playground outside, pale terrazzo floor and white walls with warm oak details. On the left stands a slim human-height matte white school information kiosk with a portrait 32-inch touch display, physical discreet speaker and microphone grille. On screen a friendly simple round white robot face avatar with two dark eyes, and three clear generic pictorial cards for timetable, food and weather; only pictograms, no readable text or numerals. On the right, one fictional Chinese teenage student aged 15 in navy-white school sports uniform speaks naturally toward the kiosk at comfortable distance; beside them an adult Chinese female teacher listens with an interested warm expression. A second student gestures with an open relaxed hand toward a weather card without touching screen, candid moment of inquiry and assistance rather than posing. Proportional real human bodies and hands, natural skin pores, flyaway hair, cotton sports uniform texture, accurate screen reflections and subtle daylight shadows. Premium editorial architecture photography, 35mm eye-level lens, restrained light neutral palette, enough spatial context, sharp kiosk and foreground people. No branding, no slogans, no neon, no holographic interface, no futuristic spaceship, no cartoon people, no CGI rendering or stock-photo grin. Highest practical native resolution.",
+      "width": 1448,
+      "height": 1086,
+      "bytes": 2378988
+    }
+  ]
+}

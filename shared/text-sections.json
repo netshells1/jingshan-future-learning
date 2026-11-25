@@ -1,0 +1,1775 @@
+[
+  {
+    "id": "concept.hero",
+    "title": "京西实践",
+    "group": "concept",
+    "chapter": "concept",
+    "page": 0,
+    "fields": [
+      {
+        "id": "heading.1",
+        "label": "主标题 · 让AI走进真实的学习。",
+        "defaultText": "让AI走进\n真实的学习。",
+        "maxLength": 180
+      },
+      {
+        "id": "body.1",
+        "label": "正文 · 从京西的生产、生活与文化出发，让学生提出方案",
+        "defaultText": "从京西的生产、生活与文化出发，\n让学生提出方案，动手制作，用测试改进。",
+        "maxLength": 1600
+      },
+      {
+        "id": "caption.1",
+        "label": "说明 · 景山实验学校 × 京西智谷",
+        "defaultText": "景山实验学校 × 京西智谷",
+        "maxLength": 400
+      },
+      {
+        "id": "body.2",
+        "label": "正文 · 面向初一至高一，拟建设两间各约90㎡主题实验",
+        "defaultText": "面向初一至高一，拟建设两间各约90㎡主题实验室，统筹项目课程、小景平台与实施服务。\n把京西文化、生产与社区生活转成学习任务，形成可持续开课、可开放交流的智能教育实践。",
+        "maxLength": 1600
+      }
+    ]
+  },
+  {
+    "id": "concept.layers",
+    "title": "四层建设",
+    "group": "concept",
+    "chapter": "concept",
+    "page": 1,
+    "fields": [
+      {
+        "id": "heading.1",
+        "label": "主标题 · 空间、课程、成果，在这里相连。",
+        "defaultText": "空间、课程、成果，\n在这里相连。",
+        "maxLength": 180
+      },
+      {
+        "id": "body.1",
+        "label": "正文 · 四层建设相互支撑，先夯实校内教学，再以成熟课",
+        "defaultText": "四层建设相互支撑，先夯实校内教学，\n再以成熟课程与作品连接区域合作。",
+        "maxLength": 1600
+      },
+      {
+        "id": "emphasis.1",
+        "label": "重点 · 由校到区、由区到市",
+        "defaultText": "由校到区、由区到市",
+        "maxLength": 400
+      },
+      {
+        "id": "body.2",
+        "label": "正文 · 校园形成样板，区域完成复验，市域输出规范；评",
+        "defaultText": " 校园形成样板，区域完成复验，市域输出规范；评价与合作资源回流，推动持续改进。",
+        "maxLength": 1600
+      },
+      {
+        "id": "item.0.title",
+        "label": "空间开放 · 标题",
+        "defaultText": "空间开放",
+        "maxLength": 160
+      },
+      {
+        "id": "item.0.text",
+        "label": "空间开放 · 说明",
+        "defaultText": "两间主题实验室连接数字推演与实体操作，兼顾日常教学和预约体验。",
+        "maxLength": 1600
+      },
+      {
+        "id": "item.1.title",
+        "label": "课程共享 · 标题",
+        "defaultText": "课程共享",
+        "maxLength": 160
+      },
+      {
+        "id": "item.1.text",
+        "label": "课程共享 · 说明",
+        "defaultText": "将设备与场景转成项目任务，配套课件、材料和评价，试教后共享复用。",
+        "maxLength": 1600
+      },
+      {
+        "id": "item.2.title",
+        "label": "成果试用 · 标题",
+        "defaultText": "成果试用",
+        "maxLength": 160
+      },
+      {
+        "id": "item.2.text",
+        "label": "成果试用 · 说明",
+        "defaultText": "让产品原型与智能服务先在校园验证，再进入适宜区域场景复验。",
+        "maxLength": 1600
+      },
+      {
+        "id": "item.3.title",
+        "label": "校企协同 · 标题",
+        "defaultText": "校企协同",
+        "maxLength": 160
+      },
+      {
+        "id": "item.3.text",
+        "label": "校企协同 · 说明",
+        "defaultText": "以联合教学、专业指导与赛事培育积累合作，形成可迁移的实施方法。",
+        "maxLength": 1600
+      }
+    ]
+  },
+  {
+    "id": "concept.platform",
+    "title": "小景智能中枢",
+    "group": "concept",
+    "chapter": "concept",
+    "page": 2,
+    "fields": [
+      {
+        "id": "heading.1",
+        "label": "主标题 · 小景，串起每一次探索。",
+        "defaultText": "小景，\n串起每一次探索。",
+        "maxLength": 180
+      },
+      {
+        "id": "body.1",
+        "label": "正文 · 方案以小景作为统一的数字化中枢，贯通两间实验",
+        "defaultText": "方案以小景作为统一的数字化中枢，\n贯通两间实验室，连接任务、工具与学习成果。",
+        "maxLength": 1600
+      },
+      {
+        "id": "emphasis.1",
+        "label": "重点 · 建设原则",
+        "defaultText": "建设原则",
+        "maxLength": 400
+      },
+      {
+        "id": "body.2",
+        "label": "正文 · 教学可用、过程可管、成果可溯、扩展可接。让教",
+        "defaultText": " 教学可用、过程可管、成果可溯、扩展可接。让教师、学生与经授权的访客各得其所。",
+        "maxLength": 1600
+      },
+      {
+        "id": "item.0.title",
+        "label": "任务与课堂 · 标题",
+        "defaultText": "任务与课堂",
+        "maxLength": 160
+      },
+      {
+        "id": "item.0.text",
+        "label": "任务与课堂 · 说明",
+        "defaultText": "发布目标、资源和评价要求，组织分组、设备轮换与进度查看。",
+        "maxLength": 1600
+      },
+      {
+        "id": "item.1.title",
+        "label": "双端对照 · 标题",
+        "defaultText": "双端对照",
+        "maxLength": 160
+      },
+      {
+        "id": "item.1.text",
+        "label": "双端对照 · 说明",
+        "defaultText": "原理解释与推演对应模型、装置和实测反馈，让预测与结果可比较。",
+        "maxLength": 1600
+      },
+      {
+        "id": "item.2.title",
+        "label": "授权与审计 · 标题",
+        "defaultText": "授权与审计",
+        "maxLength": 160
+      },
+      {
+        "id": "item.2.text",
+        "label": "授权与审计 · 说明",
+        "defaultText": "建模、识别和装置工具按身份与任务开放，关键调用保留记录。",
+        "maxLength": 1600
+      },
+      {
+        "id": "item.3.title",
+        "label": "作品与版本 · 标题",
+        "defaultText": "作品与版本",
+        "maxLength": 160
+      },
+      {
+        "id": "item.3.text",
+        "label": "作品与版本 · 说明",
+        "defaultText": "保存设计、测试、反馈与修改说明，支撑教师评价、展示和后续研究。",
+        "maxLength": 1600
+      }
+    ]
+  },
+  {
+    "id": "concept.curriculum",
+    "title": "课程与样板",
+    "group": "concept",
+    "chapter": "concept",
+    "page": 3,
+    "fields": [
+      {
+        "id": "heading.1",
+        "label": "主标题 · 读懂原理，让作品经得起测试。",
+        "defaultText": "读懂原理，\n让作品经得起测试。",
+        "maxLength": 180
+      },
+      {
+        "id": "body.1",
+        "label": "正文 · 基础层完成操作并解释结果；进阶层比较条件、分",
+        "defaultText": "基础层完成操作并解释结果；\n进阶层比较条件、分析误差，用证据改进。",
+        "maxLength": 1600
+      },
+      {
+        "id": "emphasis.1",
+        "label": "重点 · 学习评价",
+        "defaultText": "学习评价",
+        "maxLength": 400
+      },
+      {
+        "id": "body.2",
+        "label": "正文 · 过程40% · 作品40% · 测试与迭代2",
+        "defaultText": " 过程40% · 作品40% · 测试与迭代20%。两类样板按轮次选用，三维课件融入模块，不另增固定课时。",
+        "maxLength": 1600
+      },
+      {
+        "id": "item.0.title",
+        "label": "12项课程资源 · 标题",
+        "defaultText": "12项课程资源",
+        "maxLength": 160
+      },
+      {
+        "id": "item.0.text",
+        "label": "12项课程资源 · 说明",
+        "defaultText": "生产7项、生活5项组成长期资源库，按学段、设备与年度主题选用。",
+        "maxLength": 1600
+      },
+      {
+        "id": "item.1.title",
+        "label": "8＋8课时 · 标题",
+        "defaultText": "8＋8课时",
+        "maxLength": 160
+      },
+      {
+        "id": "item.1.text",
+        "label": "8＋8课时 · 说明",
+        "defaultText": "每班两方向各选一项，各8课时、每课时45分钟，每间容纳30—40人。",
+        "maxLength": 1600
+      },
+      {
+        "id": "item.2.title",
+        "label": "重点展示样板 · 标题",
+        "defaultText": "重点展示样板",
+        "maxLength": 160
+      },
+      {
+        "id": "item.2.text",
+        "label": "重点展示样板 · 说明",
+        "defaultText": "PlantPal会说话的多肉与京西琉璃，呈现生活交互和地域文化特色。",
+        "maxLength": 1600
+      },
+      {
+        "id": "item.3.title",
+        "label": "首批试教样板 · 标题",
+        "defaultText": "首批试教样板",
+        "maxLength": 160
+      },
+      {
+        "id": "item.3.text",
+        "label": "首批试教样板 · 说明",
+        "defaultText": "智能小车自动避障与桥梁承重测试，先验证任务、轮换和联合教学。",
+        "maxLength": 1600
+      }
+    ]
+  },
+  {
+    "id": "concept.operations",
+    "title": "持续运营",
+    "group": "concept",
+    "chapter": "concept",
+    "page": 4,
+    "fields": [
+      {
+        "id": "heading.1",
+        "label": "主标题 · 把建设交付，变成持续开课。",
+        "defaultText": "把建设交付，\n变成持续开课。",
+        "maxLength": 180
+      },
+      {
+        "id": "body.1",
+        "label": "正文 · 建设、课程与联合教学同步准备，以课堂、作品和",
+        "defaultText": "建设、课程与联合教学同步准备，\n以课堂、作品和试用证据检验持续运行的价值。",
+        "maxLength": 1600
+      },
+      {
+        "id": "emphasis.1",
+        "label": "重点 · 方案测算190万元",
+        "defaultText": "方案测算190万元",
+        "maxLength": 400
+      },
+      {
+        "id": "body.2",
+        "label": "正文 · 覆盖建设与首年配套服务；具体配置与服务量在采",
+        "defaultText": " 覆盖建设与首年配套服务；具体配置与服务量在采购前复核，后续运营按学年另行统筹。",
+        "maxLength": 1600
+      },
+      {
+        "id": "item.0.title",
+        "label": "建议9个月建成试用 · 标题",
+        "defaultText": "建议9个月建成试用",
+        "maxLength": 160
+      },
+      {
+        "id": "item.0.text",
+        "label": "建议9个月建成试用 · 说明",
+        "defaultText": "深化设计、建设集成、联合试教、整改交付，按学校校历统筹推进。",
+        "maxLength": 1600
+      },
+      {
+        "id": "item.1.title",
+        "label": "校企联合授课 · 标题",
+        "defaultText": "校企联合授课",
+        "maxLength": 160
+      },
+      {
+        "id": "item.1.text",
+        "label": "校企联合授课 · 说明",
+        "defaultText": "建议8名校内骨干各研修48学时；共同备课，关键实践双方到场指导。",
+        "maxLength": 1600
+      },
+      {
+        "id": "item.2.title",
+        "label": "年度运营目标 · 标题",
+        "defaultText": "年度运营目标",
+        "maxLength": 160
+      },
+      {
+        "id": "item.2.text",
+        "label": "年度运营目标 · 说明",
+        "defaultText": "首个完整运行学年建议教研不少于6次、教师交流不少于3场，至少1项区域试用。",
+        "maxLength": 1600
+      },
+      {
+        "id": "item.3.title",
+        "label": "三年持续发展 · 标题",
+        "defaultText": "三年持续发展",
+        "maxLength": 160
+      },
+      {
+        "id": "item.3.text",
+        "label": "三年持续发展 · 说明",
+        "defaultText": "首年稳定开课与试用，次年完善共享项目包，第三年形成可迁移实施指南。",
+        "maxLength": 1600
+      }
+    ]
+  },
+  {
+    "id": "campus.xiaojing",
+    "title": "小景智能中枢",
+    "group": "campus",
+    "chapter": "campus",
+    "page": 0,
+    "fields": [
+      {
+        "id": "emphasis.1",
+        "label": "重点 · 小景",
+        "defaultText": "小景",
+        "maxLength": 400
+      },
+      {
+        "id": "caption.1",
+        "label": "说明 · 一个入口，连接整个学习过程。",
+        "defaultText": "一个入口，连接整个学习过程。",
+        "maxLength": 400
+      },
+      {
+        "id": "heading.1",
+        "label": "主标题 · 每次探索，都有小景同行。",
+        "defaultText": "每次探索，\n都有小景同行。",
+        "maxLength": 180
+      },
+      {
+        "id": "body.1",
+        "label": "正文 · 小景是两间实验室共用的智能教学中枢。连接任务",
+        "defaultText": "小景是两间实验室共用的智能教学中枢。\n连接任务、原理、工具与作品，让每一步学习都有依据。",
+        "maxLength": 1600
+      },
+      {
+        "id": "emphasis.2",
+        "label": "重点 · 学生的学习伙伴",
+        "defaultText": "学生的学习伙伴",
+        "maxLength": 400
+      },
+      {
+        "id": "body.2",
+        "label": "正文 · 理解原理，对照预测与实测，说明作品如何改进。",
+        "defaultText": "理解原理，对照预测与实测，说明作品如何改进。",
+        "maxLength": 1600
+      },
+      {
+        "id": "emphasis.3",
+        "label": "重点 · 教师的课堂助手",
+        "defaultText": "教师的课堂助手",
+        "maxLength": 400
+      },
+      {
+        "id": "body.3",
+        "label": "正文 · 组织任务与轮换，关联作品版本、测试记录和评价",
+        "defaultText": "组织任务与轮换，关联作品版本、测试记录和评价。",
+        "maxLength": 1600
+      },
+      {
+        "id": "emphasis.4",
+        "label": "重点 · 校园的服务入口",
+        "defaultText": "校园的服务入口",
+        "maxLength": 400
+      },
+      {
+        "id": "body.4",
+        "label": "正文 · 从校园问答与开放导览起步，连接课程、场景与成",
+        "defaultText": "从校园问答与开放导览起步，连接课程、场景与成果。",
+        "maxLength": 1600
+      },
+      {
+        "id": "body.5",
+        "label": "正文 · 教学可用，过程可管，成果可溯，扩展可接。",
+        "defaultText": "教学可用，过程可管，成果可溯，扩展可接。",
+        "maxLength": 1600
+      }
+    ]
+  },
+  {
+    "id": "campus.production",
+    "title": "AI＋生产",
+    "group": "campus",
+    "chapter": "campus",
+    "page": 1,
+    "fields": [
+      {
+        "id": "heading.1",
+        "label": "主标题 · 从设计出发，用作品回答。",
+        "defaultText": "从设计出发，\n用作品回答。",
+        "maxLength": 180
+      },
+      {
+        "id": "body.1",
+        "label": "正文 · 约90㎡，面向30—40人。文化推演、制造质",
+        "defaultText": "约90㎡，面向30—40人。文化推演、制造质检、结构与机器人测试、监测孪生四区协同。",
+        "maxLength": 1600
+      },
+      {
+        "id": "course-summary",
+        "label": "课程安排",
+        "defaultText": "7项核心资源 · 每模块8课时 · 45分钟／课时",
+        "maxLength": 300
+      }
+    ]
+  },
+  {
+    "id": "campus.life",
+    "title": "AI＋生活",
+    "group": "campus",
+    "chapter": "campus",
+    "page": 2,
+    "fields": [
+      {
+        "id": "heading.1",
+        "label": "主标题 · 从生活提问，让创意回应。",
+        "defaultText": "从生活提问，\n让创意回应。",
+        "maxLength": 180
+      },
+      {
+        "id": "body.1",
+        "label": "正文 · 约90㎡，面向30—40人。以智能出行、智慧",
+        "defaultText": "约90㎡，面向30—40人。以智能出行、智慧陪伴、跨学科趣味交互三个分区回应身边的问题。",
+        "maxLength": 1600
+      },
+      {
+        "id": "course-summary",
+        "label": "课程安排",
+        "defaultText": "5项核心资源 · 每模块8课时 · 45分钟／课时",
+        "maxLength": 300
+      },
+      {
+        "id": "extensions-title",
+        "label": "拓展课程分组标题",
+        "defaultText": "延展工坊",
+        "maxLength": 80
+      }
+    ]
+  },
+  {
+    "id": "campus.quest",
+    "title": "AI＋闯关",
+    "group": "campus",
+    "chapter": "campus",
+    "page": 3,
+    "fields": [
+      {
+        "id": "heading.1",
+        "label": "主标题 · 从观察实验，到创造自己的课件。",
+        "defaultText": "从观察实验，\n到创造自己的课件。",
+        "maxLength": 180
+      },
+      {
+        "id": "body.1",
+        "label": "正文 · 在电路、酸碱与杠杆的自动实验中观察现象",
+        "defaultText": "在电路、酸碱与杠杆的自动实验中观察现象、寻找证据。后续可在小景辅助下编写讲解、制作交互课件，经教师审校后回到课堂。",
+        "maxLength": 1600
+      },
+      {
+        "id": "body.2",
+        "label": "正文 · 配套原理课件，让抽象知识可视化",
+        "defaultText": "配套原理课件，让抽象知识可视化",
+        "maxLength": 1600
+      }
+    ]
+  },
+  {
+    "id": "campus.control",
+    "title": "全域中心",
+    "group": "campus",
+    "chapter": "campus",
+    "page": 4,
+    "fields": [
+      {
+        "id": "caption.1",
+        "label": "说明 · 景山实验学校",
+        "defaultText": "景山实验学校",
+        "maxLength": 400
+      },
+      {
+        "id": "emphasis.1",
+        "label": "重点 · 两室一厅，统一协同。",
+        "defaultText": "两室一厅，统一协同。",
+        "maxLength": 400
+      },
+      {
+        "id": "caption.2",
+        "label": "说明 · 规划配置",
+        "defaultText": "规划配置",
+        "maxLength": 400
+      },
+      {
+        "id": "note.1",
+        "label": "补充 · 空间效果",
+        "defaultText": "空间效果",
+        "maxLength": 400
+      },
+      {
+        "id": "caption.3",
+        "label": "说明 · 校企协同实施",
+        "defaultText": "校企协同实施",
+        "maxLength": 400
+      },
+      {
+        "id": "caption.4",
+        "label": "说明 · 开课 · 设备 · 作品 · 复盘",
+        "defaultText": "开课 · 设备 · 作品 · 复盘",
+        "maxLength": 400
+      },
+      {
+        "id": "heading.1",
+        "label": "主标题 · 让教学运行，有据可循。",
+        "defaultText": "让教学运行，\n有据可循。",
+        "maxLength": 180
+      },
+      {
+        "id": "body.1",
+        "label": "正文 · 从两间实验室起步，把课程、设备、作品与校企服",
+        "defaultText": "从两间实验室起步，把课程、设备、作品与校企服务纳入统一管理，逐步向校园和区域开放。",
+        "maxLength": 1600
+      },
+      {
+        "id": "subheading.1",
+        "label": "小标题 · 课堂与空间",
+        "defaultText": "课堂与空间",
+        "maxLength": 400
+      },
+      {
+        "id": "body.2",
+        "label": "正文 · 关联课表、工位轮换、设备预约和开放安排，日常",
+        "defaultText": "关联课表、工位轮换、设备预约和开放安排，日常教学优先。",
+        "maxLength": 1600
+      },
+      {
+        "id": "subheading.2",
+        "label": "小标题 · 作品与评价",
+        "defaultText": "作品与评价",
+        "maxLength": 400
+      },
+      {
+        "id": "body.3",
+        "label": "正文 · 保留版本、测试与个人贡献，按过程40%、作品",
+        "defaultText": "保留版本、测试与个人贡献，按过程40%、作品40%、迭代20%评价。",
+        "maxLength": 1600
+      },
+      {
+        "id": "subheading.3",
+        "label": "小标题 · 校企与运营",
+        "defaultText": "校企与运营",
+        "maxLength": 400
+      },
+      {
+        "id": "body.4",
+        "label": "正文 · 共同备课、联合授课，以导师参与、维护和试用反",
+        "defaultText": "共同备课、联合授课，以导师参与、维护和试用反馈支持持续改进。",
+        "maxLength": 1600
+      },
+      {
+        "id": "body.5",
+        "label": "正文 · 门厅负责导览与成果展示，不计入两室约180㎡",
+        "defaultText": "门厅负责导览与成果展示，不计入两室约180㎡教学面积。",
+        "maxLength": 1600
+      },
+      {
+        "id": "map.foyer",
+        "label": "关系示意 · 门厅名称",
+        "defaultText": "门厅 · 迎宾与成果",
+        "maxLength": 26
+      },
+      {
+        "id": "map.room.0.title",
+        "label": "关系示意 · AI＋生产名称",
+        "defaultText": "AI＋生产",
+        "maxLength": 18
+      },
+      {
+        "id": "map.room.0.resources",
+        "label": "关系示意 · AI＋生产资源",
+        "defaultText": "7项课程 · 4个功能区",
+        "maxLength": 28
+      },
+      {
+        "id": "map.room.1.title",
+        "label": "关系示意 · AI＋生活名称",
+        "defaultText": "AI＋生活",
+        "maxLength": 18
+      },
+      {
+        "id": "map.room.1.resources",
+        "label": "关系示意 · AI＋生活资源",
+        "defaultText": "5项课程 · 3个功能区",
+        "maxLength": 28
+      },
+      {
+        "id": "map.room.caption",
+        "label": "关系示意 · 两室说明",
+        "defaultText": "约90㎡ · 工位与装置共用",
+        "maxLength": 30
+      },
+      {
+        "id": "map.connection",
+        "label": "关系示意 · 统一协同",
+        "defaultText": "小景统一连接任务、设备与作品",
+        "maxLength": 32
+      },
+      {
+        "id": "metric.0.value",
+        "label": "主题实验室 · 数值",
+        "defaultText": "2",
+        "maxLength": 12
+      },
+      {
+        "id": "metric.0.label",
+        "label": "主题实验室 · 标签",
+        "defaultText": "主题实验室",
+        "maxLength": 36
+      },
+      {
+        "id": "metric.1.value",
+        "label": "每室学生容量 · 数值",
+        "defaultText": "30–40",
+        "maxLength": 12
+      },
+      {
+        "id": "metric.1.label",
+        "label": "每室学生容量 · 标签",
+        "defaultText": "每室学生容量",
+        "maxLength": 36
+      },
+      {
+        "id": "metric.2.value",
+        "label": "每班课程课时 · 数值",
+        "defaultText": "16",
+        "maxLength": 12
+      },
+      {
+        "id": "metric.2.label",
+        "label": "每班课程课时 · 标签",
+        "defaultText": "每班课程课时",
+        "maxLength": 36
+      },
+      {
+        "id": "metric.3.value",
+        "label": "项目课程资源 · 数值",
+        "defaultText": "12",
+        "maxLength": 12
+      },
+      {
+        "id": "metric.3.label",
+        "label": "项目课程资源 · 标签",
+        "defaultText": "项目课程资源",
+        "maxLength": 36
+      },
+      {
+        "id": "camera.0.title",
+        "label": "空间画面 · AI＋生产 · 空间画面",
+        "defaultText": "AI＋生产 · 空间画面",
+        "maxLength": 100
+      },
+      {
+        "id": "camera.1.title",
+        "label": "空间画面 · AI＋生活 · 空间画面",
+        "defaultText": "AI＋生活 · 空间画面",
+        "maxLength": 100
+      },
+      {
+        "id": "camera.2.title",
+        "label": "空间画面 · 门厅 · 迎宾与成果",
+        "defaultText": "门厅 · 迎宾与成果",
+        "maxLength": 100
+      }
+    ]
+  },
+  {
+    "id": "industry.scenes",
+    "title": "京西真实场景",
+    "group": "industry",
+    "chapter": "industry",
+    "page": 0,
+    "fields": [
+      {
+        "id": "heading.1",
+        "label": "主标题 · 把京西的场景，变成学习的任务。",
+        "defaultText": "把京西的场景，\n变成学习的任务。",
+        "maxLength": 180
+      },
+      {
+        "id": "body.1",
+        "label": "正文 · 以门头沟的交通、生态与农业为题材，把感知、识",
+        "defaultText": "以门头沟的交通、生态与农业为题材，\n把感知、识别、控制和数字表达连接到真实需求。",
+        "maxLength": 1600
+      },
+      {
+        "id": "body.2",
+        "label": "正文 · 三个场景融入现有 12 项课程与两室各 8 ",
+        "defaultText": "三个场景融入现有 12 项课程与两室各 8 课时。拟通过京西智谷对接部门、企业及研究团队，先校内验证，再开展教学与科普试用。",
+        "maxLength": 1600
+      },
+      {
+        "id": "scene.0.title",
+        "label": "公共交通智能导航 · 标题",
+        "defaultText": "公共交通智能导航",
+        "maxLength": 160
+      },
+      {
+        "id": "scene.0.field",
+        "label": "公共交通智能导航 · 任务",
+        "defaultText": "把山地出行，变成路线与控制任务。",
+        "maxLength": 900
+      },
+      {
+        "id": "scene.0.practice",
+        "label": "公共交通智能导航 · 实践",
+        "defaultText": "避障小车＋站点导览卡 · 比较停止距离、到达情况与指引理解",
+        "maxLength": 1200
+      },
+      {
+        "id": "scene.1.title",
+        "label": "区域生态环境观察 · 标题",
+        "defaultText": "区域生态环境观察",
+        "maxLength": 160
+      },
+      {
+        "id": "scene.1.field",
+        "label": "区域生态环境观察 · 任务",
+        "defaultText": "让环境读数，成为有依据的解释。",
+        "maxLength": 900
+      },
+      {
+        "id": "scene.1.practice",
+        "label": "区域生态环境观察 · 实践",
+        "defaultText": "PlantPal＋监测方法 · 对照正常、持续越限与数据缺失",
+        "maxLength": 1200
+      },
+      {
+        "id": "scene.2.title",
+        "label": "山区农业智能体验 · 标题",
+        "defaultText": "山区农业智能体验",
+        "maxLength": 160
+      },
+      {
+        "id": "scene.2.field",
+        "label": "山区农业智能体验 · 任务",
+        "defaultText": "从本地果蔬，理解识别与复核。",
+        "maxLength": 900
+      },
+      {
+        "id": "scene.2.practice",
+        "label": "山区农业智能体验 · 实践",
+        "defaultText": "外观分拣＋视觉质检 · 用新批次样本检查误判与适用条件",
+        "maxLength": 1200
+      }
+    ]
+  },
+  {
+    "id": "industry.projects",
+    "title": "四类成果服务",
+    "group": "industry",
+    "chapter": "industry",
+    "page": 1,
+    "fields": [
+      {
+        "id": "heading.1",
+        "label": "主标题 · 从课程原型，走向四类成果服务。",
+        "defaultText": "从课程原型，\n走向四类成果服务。",
+        "maxLength": 180
+      },
+      {
+        "id": "body.1",
+        "label": "正文 · 把学生的设计、装置与数字表达，逐步培育为可运",
+        "defaultText": "把学生的设计、装置与数字表达，\n逐步培育为可运行、可解释、可维护的资源。",
+        "maxLength": 1600
+      },
+      {
+        "id": "project.0.question",
+        "label": "数字制造 · 问题",
+        "defaultText": "让一套设计，能够再次被使用。",
+        "maxLength": 240
+      },
+      {
+        "id": "project.0.overview",
+        "label": "数字制造 · 任务与指导",
+        "defaultText": "把桥梁模型、连接件与机器人外壳整理为可调整的数字制造工具包。\n学校组织结构比较，拟由技术团队协助尺寸、接口与制作验证。",
+        "maxLength": 1600
+      },
+      {
+        "id": "project.0.verification",
+        "label": "数字制造 · 验证",
+        "defaultText": "统一材料和加载方法，核对装配精度、固定状态与重复使用表现。",
+        "maxLength": 1600
+      },
+      {
+        "id": "project.0.delivery",
+        "label": "数字制造 · 交付",
+        "defaultText": "可调整模型 · 结构样件 · 任务卡 · 测试记录",
+        "maxLength": 600
+      },
+      {
+        "id": "project.1.question",
+        "label": "农业科普 · 问题",
+        "defaultText": "一次识别，也要说清适用条件。",
+        "maxLength": 240
+      },
+      {
+        "id": "project.1.overview",
+        "label": "农业科普 · 任务与指导",
+        "defaultText": "面向山区农业研学，制作果蔬外观识别、分类讲解与受控抓取原型。\n拟与种植经营方确认样本和分类经验，技术导师指导拍摄、标注与联调。",
+        "maxLength": 1600
+      },
+      {
+        "id": "project.1.verification",
+        "label": "农业科普 · 验证",
+        "defaultText": "用未参与调试的新批次样本复测，分别记录识别、定位和执行结果。",
+        "maxLength": 1600
+      },
+      {
+        "id": "project.1.delivery",
+        "label": "农业科普 · 交付",
+        "defaultText": "识别演示 · 授权样本 · 误判清单 · 操作说明",
+        "maxLength": 600
+      },
+      {
+        "id": "project.2.question",
+        "label": "校园服务 · 问题",
+        "defaultText": "从一个提问，到一次完整服务。",
+        "maxLength": 240
+      },
+      {
+        "id": "project.2.overview",
+        "label": "校园服务 · 任务与指导",
+        "defaultText": "依托小景完善校园介绍、场所查询、活动问答和路线讲解，再按条件延伸至社区。\n学校与拟合作场景方核准资料，明确更新时间、维护联系人和人工帮助。",
+        "maxLength": 1600
+      },
+      {
+        "id": "project.2.verification",
+        "label": "校园服务 · 验证",
+        "defaultText": "邀请新用户独立完成任务，记录重复操作、所需帮助与知识缺漏。",
+        "maxLength": 1600
+      },
+      {
+        "id": "project.2.delivery",
+        "label": "校园服务 · 交付",
+        "defaultText": "服务页面 · 核准资料 · 运行说明 · 试用反馈",
+        "maxLength": 600
+      },
+      {
+        "id": "project.3.question",
+        "label": "琉璃研学 · 问题",
+        "defaultText": "让每一步选择，都有工艺依据。",
+        "maxLength": 240
+      },
+      {
+        "id": "project.3.overview",
+        "label": "琉璃研学 · 任务与指导",
+        "defaultText": "串联选土、制泥、成型、晾干、素烧、施釉和彩烧，形成工艺推演与数字讲解。\n拟邀工艺人员核验资料与反馈，学生制作单工序模块或串联完整流程。",
+        "maxLength": 1600
+      },
+      {
+        "id": "project.3.verification",
+        "label": "琉璃研学 · 验证",
+        "defaultText": "用专业评议检查内容，用用户测试观察停滞、工序理解和资料查找。",
+        "maxLength": 1600
+      },
+      {
+        "id": "project.3.delivery",
+        "label": "琉璃研学 · 交付",
+        "defaultText": "工艺推演页 · 数字讲解 · 分支核验 · 复测记录",
+        "maxLength": 600
+      },
+      {
+        "id": "flow.0",
+        "label": "协作流程 · 明确需求",
+        "defaultText": "明确需求",
+        "maxLength": 120
+      },
+      {
+        "id": "flow.1",
+        "label": "协作流程 · 确认资料",
+        "defaultText": "确认资料",
+        "maxLength": 120
+      },
+      {
+        "id": "flow.2",
+        "label": "协作流程 · 课程转化",
+        "defaultText": "课程转化",
+        "maxLength": 120
+      },
+      {
+        "id": "flow.3",
+        "label": "协作流程 · 原型验证",
+        "defaultText": "原型验证",
+        "maxLength": 120
+      },
+      {
+        "id": "flow.4",
+        "label": "协作流程 · 场景试用",
+        "defaultText": "场景试用",
+        "maxLength": 120
+      },
+      {
+        "id": "flow.5",
+        "label": "协作流程 · 反馈改进",
+        "defaultText": "反馈改进",
+        "maxLength": 120
+      }
+    ]
+  },
+  {
+    "id": "industry.transfer",
+    "title": "孵化与区域推广",
+    "group": "industry",
+    "chapter": "industry",
+    "page": 2,
+    "fields": [
+      {
+        "id": "heading.1",
+        "label": "主标题 · 由校到区，由区到市。",
+        "defaultText": "由校到区，\n由区到市。",
+        "maxLength": 180
+      },
+      {
+        "id": "body.1",
+        "label": "正文 · 用具体作品、交付资料和试用记录，让校企协作持",
+        "defaultText": "用具体作品、交付资料和试用记录，\n让校企协作持续发生，让成熟方法服务更多学校。",
+        "maxLength": 1600
+      },
+      {
+        "id": "subheading.1",
+        "label": "小标题 · 校园",
+        "defaultText": "校园",
+        "maxLength": 400
+      },
+      {
+        "id": "body.2",
+        "label": "正文 · 样板课堂 · 基础原型",
+        "defaultText": "样板课堂 · 基础原型",
+        "maxLength": 1600
+      },
+      {
+        "id": "subheading.2",
+        "label": "小标题 · 门头沟",
+        "defaultText": "门头沟",
+        "maxLength": 400
+      },
+      {
+        "id": "body.3",
+        "label": "正文 · 共享课程 · 场景试用",
+        "defaultText": "共享课程 · 场景试用",
+        "maxLength": 1600
+      },
+      {
+        "id": "subheading.3",
+        "label": "小标题 · 北京",
+        "defaultText": "北京",
+        "maxLength": 400
+      },
+      {
+        "id": "body.4",
+        "label": "正文 · 联合教研 · 方法输出",
+        "defaultText": "联合教研 · 方法输出",
+        "maxLength": 1600
+      },
+      {
+        "id": "body.5",
+        "label": "正文 · 拟以课程包、搭建说明、教师培训和运营手册输出",
+        "defaultText": "拟以课程包、搭建说明、教师培训和运营手册输出经过验证的方法；适用条件、版本与维护责任随成果一并交接。",
+        "maxLength": 1600
+      },
+      {
+        "id": "stage.0.title",
+        "label": "遴选与培育 · 标题",
+        "defaultText": "遴选与培育",
+        "maxLength": 160
+      },
+      {
+        "id": "stage.0.output",
+        "label": "遴选与培育 · 说明",
+        "defaultText": "从课堂、社团和真实需求中选择项目，完成基础原型与功能完善。",
+        "maxLength": 1600
+      },
+      {
+        "id": "stage.1.title",
+        "label": "联合研发 · 标题",
+        "defaultText": "联合研发",
+        "maxLength": 160
+      },
+      {
+        "id": "stage.1.output",
+        "label": "联合研发 · 说明",
+        "defaultText": "学校组织学习，合作方确认需求，技术人员协助核验、联调与维护。",
+        "maxLength": 1600
+      },
+      {
+        "id": "stage.2.title",
+        "label": "场景试用 · 标题",
+        "defaultText": "场景试用",
+        "maxLength": 160
+      },
+      {
+        "id": "stage.2.output",
+        "label": "场景试用 · 说明",
+        "defaultText": "依次完成校内验证、专业评议、小范围试用和复盘，留下前后对照。",
+        "maxLength": 1600
+      },
+      {
+        "id": "stage.3.title",
+        "label": "成果反哺 · 标题",
+        "defaultText": "成果反哺",
+        "maxLength": 160
+      },
+      {
+        "id": "stage.3.output",
+        "label": "成果反哺 · 说明",
+        "defaultText": "将有效方法、失败案例与新需求，转为下一轮课程、教研与合作任务。",
+        "maxLength": 1600
+      }
+    ]
+  },
+  {
+    "id": "hackathon.hero",
+    "title": "黑客松主视觉",
+    "group": "hackathon",
+    "chapter": "events",
+    "page": 0,
+    "fields": [
+      {
+        "id": "caption.1",
+        "label": "说明 · 校园黑客松",
+        "defaultText": "校园黑客松",
+        "maxLength": 400
+      },
+      {
+        "id": "heading.1",
+        "label": "主标题 · 从一堂课，开始一场创造。",
+        "defaultText": "从一堂课，\n开始一场创造。",
+        "maxLength": 180
+      },
+      {
+        "id": "body.1",
+        "label": "正文 · 围绕“小悟空杯”创新挑战、48小时创客马拉松",
+        "defaultText": "围绕“小悟空杯”创新挑战、48小时创客马拉松与课内微型黑客松，让课程作品经历真实命题、原型研发和用户验证。",
+        "maxLength": 1600
+      },
+      {
+        "id": "body.2",
+        "label": "正文 · 规划设置普及、提高、拔尖三类参与路径，以校内",
+        "defaultText": "规划设置普及、提高、拔尖三类参与路径，以校内导师与外部导师共同指导，让课程成果进入项目库，再走向展评。",
+        "maxLength": 1600
+      },
+      {
+        "id": "festival-name",
+        "label": "赛事品牌名称",
+        "defaultText": "小悟空杯",
+        "maxLength": 100
+      },
+      {
+        "id": "festival-caption",
+        "label": "赛事品牌说明",
+        "defaultText": "让课程成果，走向更大的舞台。",
+        "maxLength": 300
+      },
+      {
+        "id": "direction.0",
+        "label": "创作方向 · AI＋生产",
+        "defaultText": "AI＋生产",
+        "maxLength": 120
+      },
+      {
+        "id": "direction.1",
+        "label": "创作方向 · AI＋生活",
+        "defaultText": "AI＋生活",
+        "maxLength": 120
+      },
+      {
+        "id": "direction.2",
+        "label": "创作方向 · AI＋生态",
+        "defaultText": "AI＋生态",
+        "maxLength": 120
+      }
+    ]
+  },
+  {
+    "id": "hackathon.gallery",
+    "title": "黑客松作品灵感",
+    "group": "hackathon",
+    "chapter": "events",
+    "page": 1,
+    "fields": [
+      {
+        "id": "caption.1",
+        "label": "说明 · 作品灵感展",
+        "defaultText": "作品灵感展",
+        "maxLength": 400
+      },
+      {
+        "id": "heading.1",
+        "label": "主标题 · 小问题，也有大创造。",
+        "defaultText": "小问题，\n也有大创造。",
+        "maxLength": 180
+      },
+      {
+        "id": "work.0.title",
+        "label": "瓦力任务机器人 · 名称",
+        "defaultText": "瓦力任务机器人",
+        "maxLength": 200
+      },
+      {
+        "id": "work.0.caption",
+        "label": "瓦力任务机器人 · 说明",
+        "defaultText": "从瓦力智能机器人课程出发，设计校园运输任务，保留装配、控制与测试记录。",
+        "maxLength": 1600
+      },
+      {
+        "id": "work.1.title",
+        "label": "智能制造挑战 · 名称",
+        "defaultText": "智能制造挑战",
+        "maxLength": 200
+      },
+      {
+        "id": "work.1.caption",
+        "label": "智能制造挑战 · 说明",
+        "defaultText": "把零件质检、协作机器人与仓储调度转成教学任务，比较准确性与运行稳定性。",
+        "maxLength": 1600
+      },
+      {
+        "id": "work.2.title",
+        "label": "数字制造工具包 · 名称",
+        "defaultText": "数字制造工具包",
+        "maxLength": 200
+      },
+      {
+        "id": "work.2.caption",
+        "label": "数字制造工具包 · 说明",
+        "defaultText": "将模型、连接件与外壳设计做成可调整文件，测试装配精度与重复使用表现。",
+        "maxLength": 1600
+      },
+      {
+        "id": "work.3.title",
+        "label": "桥梁结构挑战 · 名称",
+        "defaultText": "桥梁结构挑战",
+        "maxLength": 200
+      },
+      {
+        "id": "work.3.caption",
+        "label": "桥梁结构挑战 · 说明",
+        "defaultText": "从桥梁设计与承重测试出发，在统一条件下加载，记录用料、形变与失效，再改进结构。",
+        "maxLength": 1600
+      },
+      {
+        "id": "work.4.title",
+        "label": "永定河生态守望 · 名称",
+        "defaultText": "永定河生态守望",
+        "maxLength": 200
+      },
+      {
+        "id": "work.4.caption",
+        "label": "永定河生态守望 · 说明",
+        "defaultText": "从公开数据与环境观察提出问题，围绕水质、岸线或生物多样性形成监测原型。",
+        "maxLength": 1600
+      },
+      {
+        "id": "work.5.title",
+        "label": "校园治理微创新 · 名称",
+        "defaultText": "校园治理微创新",
+        "maxLength": 200
+      },
+      {
+        "id": "work.5.caption",
+        "label": "校园治理微创新 · 说明",
+        "defaultText": "借助小景问答与校园服务原型，探索通行、餐饮节约和能耗管理中的具体改进。",
+        "maxLength": 1600
+      }
+    ]
+  },
+  {
+    "id": "hackathon.process",
+    "title": "黑客松创作过程",
+    "group": "hackathon",
+    "chapter": "events",
+    "page": 2,
+    "fields": [
+      {
+        "id": "caption.1",
+        "label": "说明 · 从灵感到作品",
+        "defaultText": "从灵感到作品",
+        "maxLength": 400
+      },
+      {
+        "id": "heading.1",
+        "label": "主标题 · 把创造的过程，也带上舞台。",
+        "defaultText": "把创造的过程，\n也带上舞台。",
+        "maxLength": 180
+      },
+      {
+        "id": "body.1",
+        "label": "正文 · 需求、数据、人机协同、原型、测试、伦理与表达",
+        "defaultText": "需求、数据、人机协同、原型、测试、伦理与表达七项训练，融入两室合计 16 课时；后续备赛按需安排。",
+        "maxLength": 1600
+      },
+      {
+        "id": "stage.0.title",
+        "label": "选题与立项 · 标题",
+        "defaultText": "选题与立项",
+        "maxLength": 160
+      },
+      {
+        "id": "stage.0.caption",
+        "label": "选题与立项 · 说明",
+        "defaultText": "用真实用户、需求记录和导师评议确定任务。",
+        "maxLength": 1600
+      },
+      {
+        "id": "stage.1.title",
+        "label": "研发原型 · 标题",
+        "defaultText": "研发原型",
+        "maxLength": 160
+      },
+      {
+        "id": "stage.1.caption",
+        "label": "研发原型 · 说明",
+        "defaultText": "用设计、数据与程序，完成最小可用原型。",
+        "maxLength": 1600
+      },
+      {
+        "id": "stage.2.title",
+        "label": "测试与迭代 · 标题",
+        "defaultText": "测试与迭代",
+        "maxLength": 160
+      },
+      {
+        "id": "stage.2.caption",
+        "label": "测试与迭代 · 说明",
+        "defaultText": "计划三轮测试、两次升级，留下修改证据。",
+        "maxLength": 1600
+      },
+      {
+        "id": "stage.3.title",
+        "label": "展评与回流 · 标题",
+        "defaultText": "展评与回流",
+        "maxLength": 160
+      },
+      {
+        "id": "stage.3.caption",
+        "label": "展评与回流 · 说明",
+        "defaultText": "过程 50% · 作品 40% · 答辩 10%。",
+        "maxLength": 1600
+      }
+    ]
+  },
+  {
+    "id": "hackathon.outreach",
+    "title": "黑客松成果推广",
+    "group": "hackathon",
+    "chapter": "events",
+    "page": 3,
+    "fields": [
+      {
+        "id": "caption.1",
+        "label": "说明 · 多层次竞赛与交流",
+        "defaultText": "多层次竞赛与交流",
+        "maxLength": 400
+      },
+      {
+        "id": "heading.1",
+        "label": "主标题 · 从课堂出发，带着经验回来。",
+        "defaultText": "从课堂出发，\n带着经验回来。",
+        "maxLength": 180
+      },
+      {
+        "id": "body.1",
+        "label": "正文 · 用问题、方法、数据、效果、伦理和可复制性六项",
+        "defaultText": "用问题、方法、数据、效果、伦理和可复制性六项成果卡，连接展示、评审、试用与归档。",
+        "maxLength": 1600
+      },
+      {
+        "id": "body.3",
+        "label": "正文 · 配图为终稿收录的外部赛事案例：第43届北京青",
+        "defaultText": "配图为终稿收录的外部赛事案例：第43届北京青少年科技创新大赛，北京日报客户端，2024年3月28日。",
+        "maxLength": 1600
+      },
+      {
+        "id": "destination.0.name",
+        "label": "校内 · 阶段名称",
+        "defaultText": "校内",
+        "maxLength": 80
+      },
+      {
+        "id": "destination.0.title",
+        "label": "校内 · 标题",
+        "defaultText": "以“小悟空杯”，连接课堂与创新活动。",
+        "maxLength": 300
+      },
+      {
+        "id": "destination.0.text",
+        "label": "校内 · 说明",
+        "defaultText": "拟按学期组织创新挑战赛、48小时创客马拉松、AIGC主题创作与课内微型黑客松。课程、社团和课后服务成果进入同一项目库，成熟案例回流课堂。",
+        "maxLength": 1600
+      },
+      {
+        "id": "destination.1.name",
+        "label": "校际 · 阶段名称",
+        "defaultText": "校际",
+        "maxLength": 80
+      },
+      {
+        "id": "destination.1.title",
+        "label": "校际 · 标题",
+        "defaultText": "同一道题，让不同学校共同研究。",
+        "maxLength": 300
+      },
+      {
+        "id": "destination.1.text",
+        "label": "校际 · 说明",
+        "defaultText": "拟与景山教育集团成员校、门头沟兄弟学校和联盟校开展同题异构、联合作品发布与跨校评审，共享课程资源和评价标准。",
+        "maxLength": 1600
+      },
+      {
+        "id": "destination.2.name",
+        "label": "区域 · 阶段名称",
+        "defaultText": "区域",
+        "maxLength": 80
+      },
+      {
+        "id": "destination.2.title",
+        "label": "区域 · 标题",
+        "defaultText": "京西智谷青少年 AI 创新季。",
+        "maxLength": 300
+      },
+      {
+        "id": "destination.2.text",
+        "label": "区域 · 说明",
+        "defaultText": "按年度方案统筹主场、学校主题实验室与企业开放日、工程师工作坊、教师公开课。围绕永定河生态、古道导览、校园治理等真实主题共同展评。",
+        "maxLength": 1600
+      },
+      {
+        "id": "destination.3.name",
+        "label": "产业 · 阶段名称",
+        "defaultText": "产业",
+        "maxLength": 80
+      },
+      {
+        "id": "destination.3.title",
+        "label": "产业 · 标题",
+        "defaultText": "把专业反馈，带入作品的下一次迭代。",
+        "maxLength": 300
+      },
+      {
+        "id": "destination.3.text",
+        "label": "产业 · 说明",
+        "defaultText": "拟协同园区开展企业命题与工程师评审，联命题、联数据、联导师、联评审、联转化。优秀原型先验证，再按条件进入校园或合作方试用。",
+        "maxLength": 1600
+      },
+      {
+        "id": "destination.4.name",
+        "label": "全国 · 阶段名称",
+        "defaultText": "全国",
+        "maxLength": 80
+      },
+      {
+        "id": "destination.4.title",
+        "label": "全国 · 标题",
+        "defaultText": "带着经过验证的作品，走向更广的交流。",
+        "maxLength": 300
+      },
+      {
+        "id": "destination.4.text",
+        "label": "全国 · 说明",
+        "defaultText": "由学校依据当年正式名单、赛程和资格要求组织推荐，衔接白名单赛事及专业展评。统一成果卡和过程档案，把外部评价转成新的研究任务。",
+        "maxLength": 1600
+      }
+    ]
+  },
+  {
+    "id": "aigc.hero",
+    "title": "AIGC 主视觉",
+    "group": "aigc",
+    "chapter": "events",
+    "page": 4,
+    "fields": [
+      {
+        "id": "caption.1",
+        "label": "说明 · AIGC 大赛",
+        "defaultText": "AIGC 大赛",
+        "maxLength": 400
+      },
+      {
+        "id": "heading.1",
+        "label": "主标题 · 从一堂课，开始一场创造。",
+        "defaultText": "从一堂课，\n开始一场创造。",
+        "maxLength": 180
+      },
+      {
+        "id": "body.1",
+        "label": "正文 · 把课堂观察变成科学短片、无障碍内容、教学资源",
+        "defaultText": "把课堂观察变成科学短片、无障碍内容、教学资源与生成式设计。展示作品，也说清AI参与、人工判断和被人工推翻的结果。",
+        "maxLength": 1600
+      },
+      {
+        "id": "body.2",
+        "label": "正文 · 以人机分工清晰、内容真实准确为核心，保留来源",
+        "defaultText": "以人机分工清晰、内容真实准确为核心，保留来源、关键版本和AI使用说明，让创作经验成为下一次学习的资源。",
+        "maxLength": 1600
+      },
+      {
+        "id": "festival-name",
+        "label": "赛事品牌名称",
+        "defaultText": "小悟空杯",
+        "maxLength": 100
+      },
+      {
+        "id": "festival-caption",
+        "label": "赛事品牌说明",
+        "defaultText": "让课程成果，走向更大的舞台。",
+        "maxLength": 300
+      },
+      {
+        "id": "direction.0",
+        "label": "创作方向 · 科学与教学",
+        "defaultText": "科学与教学",
+        "maxLength": 120
+      },
+      {
+        "id": "direction.1",
+        "label": "创作方向 · 无障碍表达",
+        "defaultText": "无障碍表达",
+        "maxLength": 120
+      },
+      {
+        "id": "direction.2",
+        "label": "创作方向 · 京西叙事",
+        "defaultText": "京西叙事",
+        "maxLength": 120
+      }
+    ]
+  },
+  {
+    "id": "aigc.gallery",
+    "title": "AIGC 作品灵感",
+    "group": "aigc",
+    "chapter": "events",
+    "page": 5,
+    "fields": [
+      {
+        "id": "caption.1",
+        "label": "说明 · 作品灵感展",
+        "defaultText": "作品灵感展",
+        "maxLength": 400
+      },
+      {
+        "id": "heading.1",
+        "label": "主标题 · 每一种视角，都值得表达。",
+        "defaultText": "每一种视角，\n都值得表达。",
+        "maxLength": 180
+      },
+      {
+        "id": "work.0.title",
+        "label": "京西古道数字导览 · 名称",
+        "defaultText": "京西古道数字导览",
+        "maxLength": 200
+      },
+      {
+        "id": "work.0.caption",
+        "label": "京西古道数字导览 · 说明",
+        "defaultText": "核验地点与文化资料，用短片、语音和字幕制作可听、可读的导览内容。",
+        "maxLength": 1600
+      },
+      {
+        "id": "work.1.title",
+        "label": "科学传播短片 · 名称",
+        "defaultText": "科学传播短片",
+        "maxLength": 200
+      },
+      {
+        "id": "work.1.caption",
+        "label": "科学传播短片 · 说明",
+        "defaultText": "从一滴水的旅程讲清水循环，标注生成示意，再请同伴复述原理。",
+        "maxLength": 1600
+      },
+      {
+        "id": "work.2.title",
+        "label": "一堂课的生成资源 · 名称",
+        "defaultText": "一堂课的生成资源",
+        "maxLength": 200
+      },
+      {
+        "id": "work.2.caption",
+        "label": "一堂课的生成资源 · 说明",
+        "defaultText": "用机器人故事、分镜与交互提问制作教学资源，让同伴理解感知、判断与动作。",
+        "maxLength": 1600
+      },
+      {
+        "id": "work.3.title",
+        "label": "无障碍内容创作 · 名称",
+        "defaultText": "无障碍内容创作",
+        "maxLength": 200
+      },
+      {
+        "id": "work.3.caption",
+        "label": "无障碍内容创作 · 说明",
+        "defaultText": "为影像补齐准确字幕与声音描述，观察不同观众能否顺利理解关键信息。",
+        "maxLength": 1600
+      },
+      {
+        "id": "work.4.title",
+        "label": "听见京西 · 名称",
+        "defaultText": "听见京西",
+        "maxLength": 200
+      },
+      {
+        "id": "work.4.caption",
+        "label": "听见京西 · 说明",
+        "defaultText": "将山村故事或琉璃工艺整理为声音作品，保留资料依据、人工改写与生成说明。",
+        "maxLength": 1600
+      },
+      {
+        "id": "work.5.title",
+        "label": "京西视听展映 · 名称",
+        "defaultText": "京西视听展映",
+        "maxLength": 200
+      },
+      {
+        "id": "work.5.caption",
+        "label": "京西视听展映 · 说明",
+        "defaultText": "用原创脚本组织区域主题作品，带着版本和观众反馈走进校园展映与交流。",
+        "maxLength": 1600
+      }
+    ]
+  },
+  {
+    "id": "aigc.process",
+    "title": "AIGC 创作过程",
+    "group": "aigc",
+    "chapter": "events",
+    "page": 6,
+    "fields": [
+      {
+        "id": "caption.1",
+        "label": "说明 · 从灵感到作品",
+        "defaultText": "从灵感到作品",
+        "maxLength": 400
+      },
+      {
+        "id": "heading.1",
+        "label": "主标题 · 把创造的过程，也带上舞台。",
+        "defaultText": "把创造的过程，\n也带上舞台。",
+        "maxLength": 180
+      },
+      {
+        "id": "body.1",
+        "label": "正文 · 创作提案、来源清单、生成与修改记录、完整作品",
+        "defaultText": "创作提案、来源清单、生成与修改记录、完整作品和观众反馈，共同构成可以回看的学习过程。",
+        "maxLength": 1600
+      },
+      {
+        "id": "stage.0.title",
+        "label": "确立表达 · 标题",
+        "defaultText": "确立表达",
+        "maxLength": 160
+      },
+      {
+        "id": "stage.0.caption",
+        "label": "确立表达 · 说明",
+        "defaultText": "从自己的观察出发，确定想讲述的故事。",
+        "maxLength": 1600
+      },
+      {
+        "id": "stage.1.title",
+        "label": "生成与选择 · 标题",
+        "defaultText": "生成与选择",
+        "maxLength": 160
+      },
+      {
+        "id": "stage.1.caption",
+        "label": "生成与选择 · 说明",
+        "defaultText": "用生成工具探索画面，留下自己的选择。",
+        "maxLength": 1600
+      },
+      {
+        "id": "stage.2.title",
+        "label": "编排与校验 · 标题",
+        "defaultText": "编排与校验",
+        "maxLength": 160
+      },
+      {
+        "id": "stage.2.caption",
+        "label": "编排与校验 · 说明",
+        "defaultText": "剪辑、配音与校验，让表达完整而可信。",
+        "maxLength": 1600
+      },
+      {
+        "id": "stage.3.title",
+        "label": "策展与对话 · 标题",
+        "defaultText": "策展与对话",
+        "maxLength": 160
+      },
+      {
+        "id": "stage.3.caption",
+        "label": "策展与对话 · 说明",
+        "defaultText": "让作品与观众相遇，让表达产生回应。",
+        "maxLength": 1600
+      }
+    ]
+  },
+  {
+    "id": "aigc.outreach",
+    "title": "AIGC 成果推广",
+    "group": "aigc",
+    "chapter": "events",
+    "page": 7,
+    "fields": [
+      {
+        "id": "caption.1",
+        "label": "说明 · 展示、传播与示范输出",
+        "defaultText": "展示、传播与示范输出",
+        "maxLength": 400
+      },
+      {
+        "id": "heading.1",
+        "label": "主标题 · 让真实的创造，被看见，被理解。",
+        "defaultText": "让真实的创造，\n被看见，被理解。",
+        "maxLength": 180
+      },
+      {
+        "id": "body.1",
+        "label": "正文 · 让作品有展示渠道，让过程有传播价值，让经过验",
+        "defaultText": "让作品有展示渠道，让过程有传播价值，让经过验证的课程和方法服务更多学校。",
+        "maxLength": 1600
+      },
+      {
+        "id": "destination.0.name",
+        "label": "校园 · 阶段名称",
+        "defaultText": "校园",
+        "maxLength": 80
+      },
+      {
+        "id": "destination.0.title",
+        "label": "校园 · 标题",
+        "defaultText": "让作品有一个持续发布的地方。",
+        "maxLength": 300
+      },
+      {
+        "id": "destination.0.text",
+        "label": "校园 · 说明",
+        "defaultText": "拟以成果墙、数字成果库、校园电视台和官方平台呈现作品，通过成果发布日与开放课堂，邀请师生、家长和导师听讲解、看过程、给反馈。",
+        "maxLength": 1600
+      },
+      {
+        "id": "destination.1.name",
+        "label": "区域 · 阶段名称",
+        "defaultText": "区域",
+        "maxLength": 80
+      },
+      {
+        "id": "destination.1.title",
+        "label": "区域 · 标题",
+        "defaultText": "从 AI 视听创作，讲述真实的京西。",
+        "maxLength": 300
+      },
+      {
+        "id": "destination.1.text",
+        "label": "区域 · 说明",
+        "defaultText": "拟对接区融媒体中心、视听企业与创新季展评，以科学传播、无障碍字幕和区域文化表达为题，让作品同时接受内容与使用评价。",
+        "maxLength": 1600
+      },
+      {
+        "id": "destination.2.name",
+        "label": "市级 · 阶段名称",
+        "defaultText": "市级",
+        "maxLength": 80
+      },
+      {
+        "id": "destination.2.title",
+        "label": "市级 · 标题",
+        "defaultText": "一堂课、一个项目、一个人的成长。",
+        "maxLength": 300
+      },
+      {
+        "id": "destination.2.text",
+        "label": "市级 · 说明",
+        "defaultText": "围绕三条内容线整理可核验的项目故事，拟对接北京教育融媒体及政务平台，以课堂实践、迭代过程和共同指导说明建设价值。",
+        "maxLength": 1600
+      },
+      {
+        "id": "destination.3.name",
+        "label": "品牌 · 阶段名称",
+        "defaultText": "品牌",
+        "maxLength": 80
+      },
+      {
+        "id": "destination.3.title",
+        "label": "品牌 · 标题",
+        "defaultText": "空间、赛事与成长，形成共同的叙事。",
+        "maxLength": 300
+      },
+      {
+        "id": "destination.3.text",
+        "label": "品牌 · 说明",
+        "defaultText": "“小悟空空间站”承载空间，“小悟空杯”组织赛事，“小悟空 AI 少年”记录成长。品牌建设以真实问题、迭代过程和区域共同参与为依据。",
+        "maxLength": 1600
+      },
+      {
+        "id": "destination.4.name",
+        "label": "复用 · 阶段名称",
+        "defaultText": "复用",
+        "maxLength": 80
+      },
+      {
+        "id": "destination.4.title",
+        "label": "复用 · 标题",
+        "defaultText": "一次创作，留下可继续使用的方法。",
+        "maxLength": 300
+      },
+      {
+        "id": "destination.4.text",
+        "label": "复用 · 说明",
+        "defaultText": "计划沉淀《景山京西 AI 教育创新案例集》与《竞赛白皮书》，连同课程包、赛制标准和运营手册，通过联合教研、跟岗研修与结对共建输出经验。",
+        "maxLength": 1600
+      }
+    ]
+  }
+]

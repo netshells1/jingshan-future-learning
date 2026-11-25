@@ -1,0 +1,54 @@
+{
+  "createdAt": "2026-11-12",
+  "description": "Distinct photo assets for regional collaboration and festival presentation. Original images preserved; no post-generation image editing.",
+  "assets": [
+    {
+      "filename": "regional-workshop.png",
+      "title": "区域联合研修",
+      "prompt": "Use case: photorealistic-natural. Asset type: premium Chinese school education proposal website, editorial documentary photograph. High-resolution wide 16:9, 2048x1152 if possible. In a bright, sophisticated Jingxi Beijing regional teacher training workshop, two Chinese school teachers and two Chinese enterprise engineers discuss physical student invention prototypes, neat curriculum diagrams and a laptop around a pale oak table. One teenage student casually demonstrates a small environmental sensor. Candid concentration and natural gestures, not posing or looking into camera. Large side window, contemporary realistic Chinese educational interior, forested western Beijing hills softly visible outside. Main people and prototypes occupy left 60 percent; quieter soft background extends to right for webpage text. Natural daylight, restrained warm gray, oak, ivory, navy palette, tactile materials, accurate hands and faces, 35mm lens editorial architecture photography. No floating screens, no futuristic neon, no logos, no readable text, no watermarks, no group portrait. This must look like a real photograph, not a 3D illustration.",
+      "source": "C:/Users/Admin/.codex/generated_images/01a1cda7-1bbe-7510-9d6c-e323e00b233e/exec-c6bc1cbd-3860-497f-b47f-54e422cbc38d.png",
+      "width": 1672,
+      "height": 941,
+      "publicUrl": "/media/story-refresh-20261112/regional-workshop.png",
+      "generation": "built-in image_gen",
+      "useCase": "photorealistic-natural",
+      "provenance": "AI-generated illustrative educational scene; not documentary evidence of an actual event."
+    },
+    {
+      "filename": "hackathon-build-process.png",
+      "title": "黑客松工程制作",
+      "prompt": "Use case: photorealistic-natural. Asset type: premium school hackathon process website editorial photograph. High-resolution widescreen 16:9. Tight three-quarter overhead photograph of a real Chinese teenage student's two hands assembling a small friendly tracked robot at a beautifully organized school engineering workbench. One hand holds a miniature screwdriver to the yellow and brushed aluminum robot casing, the other steadies a removable sensor module. The robot has two expressive binocular-shaped optical sensors, real rubber caterpillar treads, tiny screws and realistic circuit board. Beside it: a small multimeter, safe low-voltage electronic modules, a pencil sketch engineering notebook with only indistinct diagrams, a laptop partially cropped in background. Real tactile metal, injection molded plastic, matte rubber. Robot and hands in left 60 percent, quiet dark gray workbench and blurred tools extending to right. Premium industrial design editorial photo, soft side daylight, shallow depth of field, crisp precise focus on robot. Restrained amber/oak/gray palette, natural skin. No adult faces needed, no text labels, no sci-fi holograms, no laser effects, no toy-like CGI, no extra fingers, no watermark. A genuinely plausible school prototyping scene.",
+      "source": "C:/Users/Admin/.codex/generated_images/01a1cda7-1bbe-7510-9d6c-e323e00b233e/exec-1313ddc3-eb55-4f66-8d93-e4da093b71ce.png",
+      "width": 1672,
+      "height": 941,
+      "publicUrl": "/media/story-refresh-20261112/hackathon-build-process.png",
+      "generation": "built-in image_gen",
+      "useCase": "photorealistic-natural",
+      "provenance": "AI-generated illustrative educational scene; not documentary evidence of an actual event."
+    },
+    {
+      "filename": "hackathon-exhibition.png",
+      "title": "校园创造节作品展览",
+      "prompt": "Use case: photorealistic-natural. Asset type: premium Chinese secondary school creativity festival exhibition editorial photo, high-resolution wide 16:9. An elegant contemporary school atrium temporarily transformed into a student invention exhibition. Candid side-wide view: two Chinese teenagers in simple navy and white school sportswear demonstrate a small orange-yellow tracked robot and a beautifully crafted wooden truss bridge on a long white exhibition plinth to visiting teachers and one parent. Additional tasteful plinths recede into the background with environmental sensor and miniature architecture projects. Audience naturally leaning to inspect the actual projects, not looking at camera, not posed. Light-filled double-height architectural space with pale stone floor, warm oak walls and clear glass, natural late-afternoon sunlight. Main student demonstrators and works strongly in left 60 percent; soft quieter atrium to right where a website will overlay text. Photograph from eye level with 28mm lens, rich physical texture, authentic faces and hands, refined neutral colors, realistic documentary magazine quality. No large text, no banners with gibberish, no badges with readable words, no neon, no futuristic CGI, no logos, no watermarks, no group portrait.",
+      "source": "C:/Users/Admin/.codex/generated_images/01a1cda7-1bbe-7510-9d6c-e323e00b233e/exec-5422d23e-8d9a-4ab0-aff9-fada58c2f473.png",
+      "width": 1672,
+      "height": 941,
+      "publicUrl": "/media/story-refresh-20261112/hackathon-exhibition.png",
+      "generation": "built-in image_gen",
+      "useCase": "photorealistic-natural",
+      "provenance": "AI-generated illustrative educational scene; not documentary evidence of an actual event."
+    },
+    {
+      "filename": "aigc-public-screening.png",
+      "title": "AIGC校园露天展映",
+      "prompt": "Use case: photorealistic-natural. Asset type: cinematic editorial photograph for premium school AIGC festival webpage. High-resolution wide 16:9 image. Early blue-hour evening in a realistic Chinese secondary school courtyard in western Beijing, an outdoor student film screening. Rear view of 25-35 Chinese teenagers seated quietly on simple chairs facing a large freestanding cinema screen on the LEFT side of the composition. The screen displays a beautiful landscape documentary shot of misty Jingxi mountains and a stream, no text or interface. A student filmmaker and a teacher stand unobtrusively beside the screen. Foreground audience silhouettes, textured brick pavement, subtle warm low-level practical lights near plants, simple contemporary school facade in background, believable evening sky. Main illuminated screen, students and activities grouped in left 60 percent; right has quieter tree shadows and dark building surfaces suitable for website text overlay. Elegant restrained cinematic photography, gentle cool blue and warm amber balance, realistic light falling from screen onto audience, delicate film grain, no exaggerated laser glow. No banners, no logos, no readable text, no watermark, no staged group portrait, no cartoon or CGI appearance.",
+      "source": "C:/Users/Admin/.codex/generated_images/01a1cda7-1bbe-7510-9d6c-e323e00b233e/exec-4165d332-26d1-4562-9256-38137927277b.png",
+      "width": 1672,
+      "height": 941,
+      "publicUrl": "/media/story-refresh-20261112/aigc-public-screening.png",
+      "generation": "built-in image_gen",
+      "useCase": "photorealistic-natural",
+      "provenance": "AI-generated illustrative educational scene; not documentary evidence of an actual event."
+    }
+  ]
+}
