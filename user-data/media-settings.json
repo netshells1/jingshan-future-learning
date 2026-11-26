@@ -87,8 +87,8 @@
       "mime": "image/png",
       "kind": "image",
       "fileName": "e54ed27f-076e-401d-a48a-1f1856472734.png",
-      "fit": "cover",
-      "position": "50% 50%",
+      "fit": "contain",
+      "position": "center",
       "updatedAt": "2026-11-16T01:11:54.779Z"
     },
     "industry.scenes.ecology": {
