@@ -3,173 +3,173 @@
   "overrides": {
     "concept.layers": {
       "id": "concept.layers",
-      "url": "/user-media/6726581a71e4391fbceecad5a13519e6.png",
+      "url": "/user-media/6c400998925be02cab89a9382451464e.png",
       "mime": "image/png",
       "kind": "image",
       "fileName": "5cc0a9f7-4b07-4253-9302-aa2b40de77e4.png",
       "fit": "cover",
       "position": "50% 50%",
-      "updatedAt": "2026-11-16T01:09:27.717Z"
+      "updatedAt": "2026-11-26T03:18:49.899Z"
     },
     "concept.platform": {
       "id": "concept.platform",
-      "url": "/user-media/6ed738c4786aec829102c4a6ceab6b5e.png",
+      "url": "/user-media/0cee46e3aaacc1914b21d003cae5c3f2.png",
       "mime": "image/png",
       "kind": "image",
       "fileName": "40a66c80-2a9c-4ccd-9f13-413a3b86de52.png",
       "fit": "contain",
       "position": "50% 50%",
-      "updatedAt": "2026-11-16T01:09:45.692Z"
+      "updatedAt": "2026-11-26T03:18:49.901Z"
     },
     "concept.curriculum": {
       "id": "concept.curriculum",
-      "url": "/user-media/ab2ed7e7ec2ccf1a21c65211a2cf1619.png",
+      "url": "/user-media/83f363172a95781219240ecfa2f327db.png",
       "mime": "image/png",
       "kind": "image",
       "fileName": "447e3dbd-a5a2-458c-8990-2a124d70ce9a.png",
       "fit": "cover",
       "position": "50% 50%",
-      "updatedAt": "2026-11-16T01:10:01.318Z"
+      "updatedAt": "2026-11-26T03:18:49.902Z"
     },
     "campus.production.1": {
       "id": "campus.production.1",
-      "url": "/user-media/8bb3ade5474a4f01366db916826098c5.png",
+      "url": "/user-media/5fc4aa369ca342e15349418e0dd61242.png",
       "mime": "image/png",
       "kind": "image",
       "fileName": "387bf43b86768933431738a459a64a9c.png",
       "fit": "cover",
       "position": "50% 50%",
-      "updatedAt": "2026-11-26T02:52:32.107Z"
+      "updatedAt": "2026-11-26T03:18:49.903Z"
     },
     "campus.production.2": {
       "id": "campus.production.2",
-      "url": "/user-media/072b81f23d32f5e3d072c68b59a7b257.png",
+      "url": "/user-media/bd54fc245e552c3b452ababf0d4c079a.png",
       "mime": "image/png",
       "kind": "image",
       "fileName": "8c739a77160b0645b7b89adf5cbf59c1.png",
       "fit": "cover",
       "position": "50% 50%",
-      "updatedAt": "2026-11-26T02:52:48.337Z"
+      "updatedAt": "2026-11-26T03:18:49.905Z"
     },
     "campus.production.5": {
       "id": "campus.production.5",
-      "url": "/user-media/b30af33fccfc76b023e0f21ce4fb0cd4.png",
+      "url": "/user-media/7c0364f3a9576f400631eaabcf299ac7.png",
       "mime": "image/png",
       "kind": "image",
       "fileName": "d974d2ac15df9785e8e0a130e523487a.png",
       "fit": "cover",
       "position": "50% 50%",
-      "updatedAt": "2026-11-26T02:53:18.214Z"
+      "updatedAt": "2026-11-26T03:18:49.908Z"
     },
     "campus.life.1": {
       "id": "campus.life.1",
-      "url": "/user-media/ae4a3047b7eff4e9a0f00761decd7ba1.png",
+      "url": "/user-media/ab27363ef43423c038d6159e5bd4eec7.png",
       "mime": "image/png",
       "kind": "image",
       "fileName": "fd81142e6121f1dd7e448c309ddc7d46.png",
       "fit": "cover",
       "position": "50% 50%",
-      "updatedAt": "2026-11-26T02:53:37.424Z"
+      "updatedAt": "2026-11-26T03:18:49.909Z"
     },
     "campus.life.2": {
       "id": "campus.life.2",
-      "url": "/user-media/bb71369dbff9ea52aa98a862038ef292.png",
+      "url": "/user-media/b55041c989bed659f307d2293178a8a5.png",
       "mime": "image/png",
       "kind": "image",
       "fileName": "d73abd3d8b091259f2c434670cf2e0e3.png",
       "fit": "cover",
       "position": "50% 50%",
-      "updatedAt": "2026-11-26T02:53:42.806Z"
+      "updatedAt": "2026-11-26T03:18:49.911Z"
     },
     "campus.control.life": {
       "id": "campus.control.life",
-      "url": "/user-media/86eb52587fcef570302163881b8fe789.png",
+      "url": "/user-media/0e616640c20fd0ce8a11d5f7e3ff464b.png",
       "mime": "image/png",
       "kind": "image",
       "fileName": "d73abd3d8b091259f2c434670cf2e0e3.png",
       "fit": "cover",
-      "position": "center 30%",
-      "updatedAt": "2026-11-26T02:53:57.286Z"
+      "position": "center",
+      "updatedAt": "2026-11-26T03:18:49.912Z"
     },
     "industry.scenes.ecology": {
       "id": "industry.scenes.ecology",
-      "url": "/user-media/19430313463c10ae4b71fd17a8586822.svg",
+      "url": "/user-media/0ff782406df27f8e31d3fe9b08f6b64b.svg",
       "mime": "image/svg+xml",
       "kind": "image",
       "fileName": "8.svg",
       "fit": "cover",
       "position": "50% 50%",
-      "updatedAt": "2026-11-26T02:09:38.467Z"
+      "updatedAt": "2026-11-26T03:18:49.914Z"
     },
     "industry.scenes.agriculture": {
       "id": "industry.scenes.agriculture",
-      "url": "/user-media/997c757165b1c8c0774a691c9d17ef65.png",
+      "url": "/user-media/95414f58752331196c4168d10d1dd6a6.png",
       "mime": "image/png",
       "kind": "image",
       "fileName": "d0f3307f-e6ff-4b5d-b291-5b2460efcb82.png",
       "fit": "cover",
       "position": "50% 50%",
-      "updatedAt": "2026-11-16T01:12:30.004Z"
+      "updatedAt": "2026-11-26T03:18:49.917Z"
     },
     "industry.transfer": {
       "id": "industry.transfer",
-      "url": "/user-media/30b46d7816fba8ea1fe48e16f78cb255.png",
+      "url": "/user-media/87105a55c28357d1e09fe491d77c1c4c.png",
       "mime": "image/png",
       "kind": "image",
       "fileName": "f34217c0-da33-4424-a231-56f64e29d2e9.png",
       "fit": "contain",
       "position": "50% 50%",
-      "updatedAt": "2026-11-16T01:12:43.187Z"
+      "updatedAt": "2026-11-26T03:18:49.918Z"
     },
     "aigc.process": {
       "id": "aigc.process",
-      "url": "/user-media/fa6ee1cddfc21dcf4980550485943a76.png",
+      "url": "/user-media/d5730850bc8177c0768f6bfa03006cb5.png",
       "mime": "image/png",
       "kind": "image",
       "fileName": "8abe5ab5-09db-4453-8eeb-9538d35e0ba8.png",
       "fit": "cover",
       "position": "50% 50%",
-      "updatedAt": "2026-11-16T01:13:03.788Z"
+      "updatedAt": "2026-11-26T03:18:49.919Z"
     },
     "campus.production.3": {
       "id": "campus.production.3",
-      "url": "/user-media/3c3808553141079d572f4500499f4f83.png",
+      "url": "/user-media/1f2659b4277bc25c8ce4d1476a3875e9.png",
       "mime": "image/png",
       "kind": "image",
       "fileName": "5cee5642b28b3328c232ee6b4032dd64.png",
       "fit": "cover",
       "position": "50% 50%",
-      "updatedAt": "2026-11-26T02:53:05.407Z"
+      "updatedAt": "2026-11-26T03:18:49.920Z"
     },
     "campus.production.4": {
       "id": "campus.production.4",
-      "url": "/user-media/657842366b5e478cfaef55133188a568.png",
+      "url": "/user-media/e2a1bdc54d9c23b31861fff99a63d832.png",
       "mime": "image/png",
       "kind": "image",
       "fileName": "4090c10fd98b67710b210e603ca4bfc7.png",
       "fit": "cover",
       "position": "50% 50%",
-      "updatedAt": "2026-11-26T02:53:11.587Z"
+      "updatedAt": "2026-11-26T03:18:49.922Z"
     },
     "campus.production.6": {
       "id": "campus.production.6",
-      "url": "/user-media/8cea58c6e392b4da9b731f3e0ab67ad0.png",
+      "url": "/user-media/d24ad6245e008884b407d066652b2cb4.png",
       "mime": "image/png",
       "kind": "image",
       "fileName": "c6a78e57cd520c9e3363e166f597465e.png",
       "fit": "cover",
       "position": "50% 50%",
-      "updatedAt": "2026-11-26T02:53:23.982Z"
+      "updatedAt": "2026-11-26T03:18:49.923Z"
     },
     "campus.control.production": {
       "id": "campus.control.production",
-      "url": "/user-media/721f261a4adff68032e7928a703e5b08.png",
+      "url": "/user-media/a8329a8fc63013c4cbb19d8c4c62dd52.png",
       "mime": "image/png",
       "kind": "image",
       "fileName": "8c739a77160b0645b7b89adf5cbf59c1.png",
       "fit": "cover",
       "position": "50% 50%",
-      "updatedAt": "2026-11-26T02:53:51.371Z"
+      "updatedAt": "2026-11-26T03:18:49.925Z"
     }
   }
 }
