@@ -74,7 +74,7 @@
     "fit": "cover",
     "aspect": "4:3",
     "chapter": "campus",
-    "page": 1,
+    "page": 2,
     "defaultSource": "/media/final-plan-20261113/production-main.jpg"
   },
   {
@@ -87,7 +87,7 @@
     "fit": "cover",
     "aspect": "4:3",
     "chapter": "campus",
-    "page": 1,
+    "page": 2,
     "defaultSource": "/media/final-plan-20261113/production-option-1.jpg"
   },
   {
@@ -100,7 +100,7 @@
     "fit": "cover",
     "aspect": "4:3",
     "chapter": "campus",
-    "page": 1,
+    "page": 2,
     "defaultSource": "/media/final-plan-20261113/production-option-2.jpg"
   },
   {
@@ -113,7 +113,7 @@
     "fit": "cover",
     "aspect": "4:3",
     "chapter": "campus",
-    "page": 1,
+    "page": 2,
     "defaultSource": "/media/final-plan-20261113/production-option-3.jpg"
   },
   {
@@ -126,7 +126,7 @@
     "fit": "cover",
     "aspect": "4:3",
     "chapter": "campus",
-    "page": 1,
+    "page": 2,
     "defaultSource": "/media/final-plan-20261113/warm-overview.jpg"
   },
   {
@@ -139,7 +139,7 @@
     "fit": "cover",
     "aspect": "4:3",
     "chapter": "campus",
-    "page": 1,
+    "page": 2,
     "defaultSource": "/media/final-plan-20261113/warm-front.jpg"
   },
   {
@@ -152,7 +152,7 @@
     "fit": "contain",
     "aspect": "4:3",
     "chapter": "campus",
-    "page": 1,
+    "page": 2,
     "defaultSource": "/media/final-plan-20261113/production-zones.jpg"
   },
   {
@@ -165,7 +165,7 @@
     "fit": "cover",
     "aspect": "4:3",
     "chapter": "campus",
-    "page": 2,
+    "page": 3,
     "defaultSource": "/media/final-plan-20261113/life-main.jpg"
   },
   {
@@ -178,7 +178,7 @@
     "fit": "cover",
     "aspect": "4:3",
     "chapter": "campus",
-    "page": 2,
+    "page": 3,
     "defaultSource": "/media/final-plan-20261113/life-overview.jpg"
   },
   {
@@ -191,7 +191,7 @@
     "fit": "contain",
     "aspect": "4:3",
     "chapter": "campus",
-    "page": 2,
+    "page": 3,
     "defaultSource": "/media/final-plan-20261113/life-zones.jpg"
   },
   {
@@ -204,7 +204,7 @@
     "fit": "cover",
     "aspect": "4:3",
     "chapter": "campus",
-    "page": 3,
+    "page": 4,
     "defaultSource": "/media/20261112/general/learning-collaboration.png"
   },
   {
@@ -217,7 +217,7 @@
     "fit": "cover",
     "aspect": "16:9",
     "chapter": "campus",
-    "page": 4,
+    "page": 5,
     "defaultSource": "/media/final-plan-20261113/production-main.jpg"
   },
   {
@@ -230,7 +230,7 @@
     "fit": "cover",
     "aspect": "16:9",
     "chapter": "campus",
-    "page": 4,
+    "page": 5,
     "defaultSource": "/media/final-plan-20261113/life-main.jpg"
   },
   {
@@ -243,7 +243,7 @@
     "fit": "cover",
     "aspect": "16:9",
     "chapter": "campus",
-    "page": 4,
+    "page": 5,
     "defaultSource": "/media/final-plan-20261113/foyer-welcome.jpg"
   },
   {
@@ -583,6 +583,84 @@
     "chapter": "events",
     "page": 7,
     "defaultSource": "/media/story-refresh-20261112/aigc-public-screening.png"
+  },
+  {
+    "id": "campus.spaces.foyer",
+    "group": "campus",
+    "section": "空间场景",
+    "title": "门厅 · 迎宾与成果",
+    "description": "门厅迎宾形象墙、数字迎宾主视角与成果展示区。",
+    "defaultKind": "image",
+    "fit": "cover",
+    "aspect": "16:9",
+    "chapter": "campus",
+    "page": 1,
+    "defaultSource": "/media/final-plan-20261113/foyer-welcome.jpg"
+  },
+  {
+    "id": "campus.spaces.foyerGallery",
+    "group": "campus",
+    "section": "空间场景",
+    "title": "门厅 · 成果展示区",
+    "description": "门厅成果展示区效果图，实体展品与学生作品。",
+    "defaultKind": "image",
+    "fit": "cover",
+    "aspect": "16:9",
+    "chapter": "campus",
+    "page": 1,
+    "defaultSource": "/media/final-plan-20261113/foyer-gallery.jpg"
+  },
+  {
+    "id": "campus.spaces.production",
+    "group": "campus",
+    "section": "空间场景",
+    "title": "数字智造工坊 · 主视角",
+    "description": "数字智造工坊实验室主视角：大屏、数字推演台与制造设备。",
+    "defaultKind": "image",
+    "fit": "cover",
+    "aspect": "16:9",
+    "chapter": "campus",
+    "page": 1,
+    "defaultSource": "/media/final-plan-20261113/production-main.jpg"
+  },
+  {
+    "id": "campus.spaces.productionZones",
+    "group": "campus",
+    "section": "空间场景",
+    "title": "数字智造工坊 · 分区流线",
+    "description": "数字智造工坊四个功能区与教学流线示意图。",
+    "defaultKind": "image",
+    "fit": "contain",
+    "aspect": "16:9",
+    "chapter": "campus",
+    "page": 1,
+    "defaultSource": "/media/final-plan-20261113/production-zones.jpg"
+  },
+  {
+    "id": "campus.spaces.life",
+    "group": "campus",
+    "section": "空间场景",
+    "title": "生活创想空间 · 主视角",
+    "description": "生活创想空间实验室主视角：中心互动台与周边体验区。",
+    "defaultKind": "image",
+    "fit": "cover",
+    "aspect": "16:9",
+    "chapter": "campus",
+    "page": 1,
+    "defaultSource": "/media/final-plan-20261113/life-main.jpg"
+  },
+  {
+    "id": "campus.spaces.lifeZones",
+    "group": "campus",
+    "section": "空间场景",
+    "title": "生活创想空间 · 分区流线",
+    "description": "生活创想空间智能出行、智慧陪伴与跨学科交互三个分区。",
+    "defaultKind": "image",
+    "fit": "contain",
+    "aspect": "16:9",
+    "chapter": "campus",
+    "page": 1,
+    "defaultSource": "/media/final-plan-20261113/life-zones.jpg"
   },
   {
     "id": "course.robot.demo",
