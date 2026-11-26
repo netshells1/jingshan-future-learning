@@ -170,6 +170,26 @@
       "fit": "cover",
       "position": "50% 50%",
       "updatedAt": "2026-11-26T03:18:49.925Z"
+    },
+    "campus.spaces.production": {
+      "id": "campus.spaces.production",
+      "url": "/user-media/84958a3ee589ad28fd8dc12884bb4aeb.png",
+      "mime": "image/png",
+      "kind": "image",
+      "fileName": "8c739a77160b0645b7b89adf5cbf59c1.png",
+      "fit": "cover",
+      "position": "50% 50%",
+      "updatedAt": "2026-11-26T08:16:17.591Z"
+    },
+    "campus.spaces.life": {
+      "id": "campus.spaces.life",
+      "url": "/user-media/d7180f2c277311094136bfe4c6bf8f51.png",
+      "mime": "image/png",
+      "kind": "image",
+      "fileName": "d974d2ac15df9785e8e0a130e523487a.png",
+      "fit": "cover",
+      "position": "50% 50%",
+      "updatedAt": "2026-11-26T08:16:54.272Z"
     }
   }
 }
