@@ -9,7 +9,7 @@ export const STATIC_TYPES = Object.freeze({
   '.webp': 'image/webp', '.gif': 'image/gif', '.svg': 'image/svg+xml',
   '.ico': 'image/x-icon', '.mp4': 'video/mp4', '.webm': 'video/webm',
   '.glb': 'model/gltf-binary', '.gltf': 'model/gltf+json',
-  '.bin': 'application/octet-stream', '.woff': 'font/woff',
+  '.bin': 'application/octet-stream', '.f32': 'application/octet-stream', '.woff': 'font/woff',
   '.woff2': 'font/woff2', '.ttf': 'font/ttf', '.otf': 'font/otf',
 });
 

@@ -1,0 +1,45 @@
+{
+  "source": "NOAA Physical Sciences Laboratory, Boulder, Colorado, USA",
+  "dataset": "NCEP/NCAR Reanalysis 1",
+  "climatology": "1991–2020 monthly long-term means",
+  "windLevel": "sigma 0.995 (near surface)",
+  "format": "little-endian Float32, [field u/v/slp][month 0..11][lat 90..-90][lon 0..357.5]",
+  "shape": [
+    3,
+    12,
+    73,
+    144
+  ],
+  "sources": [
+    {
+      "variable": "uwnd",
+      "url": "https://psl.noaa.gov/thredds/fileServer/Datasets/ncep.reanalysis.derived/surface/uwnd.sig995.mon.ltm.1991-2020.nc",
+      "units": "m/s",
+      "sha256": "41649c0ba4326a1d4d7963e9e36cda14642599bd34cf592a9126c34372ce6700",
+      "range": [
+        -14.34790325164795,
+        12.282282829284668
+      ]
+    },
+    {
+      "variable": "vwnd",
+      "url": "https://psl.noaa.gov/thredds/fileServer/Datasets/ncep.reanalysis.derived/surface/vwnd.sig995.mon.ltm.1991-2020.nc",
+      "units": "m/s",
+      "sha256": "445914f95dfea811cdc9572a7e8a25d197e24da60e739d05dafdf2e9022294a7",
+      "range": [
+        -10.381529808044434,
+        15.472723960876465
+      ]
+    },
+    {
+      "variable": "slp",
+      "url": "https://psl.noaa.gov/thredds/fileServer/Datasets/ncep.reanalysis.derived/surface/slp.mon.ltm.1991-2020.nc",
+      "units": "hPa",
+      "sha256": "ed706bfc61acccef796e333980685f1afc92ba46c627afac1eb41f6b7c817df5",
+      "range": [
+        972.7272338867188,
+        1061.0767822265625
+      ]
+    }
+  ]
+}
