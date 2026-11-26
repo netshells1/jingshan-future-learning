@@ -1,7 +1,7 @@
 {
   "format": "jingshan-windows-package",
   "version": 1,
-  "builtAt": "2026-11-26T07:24:40.295Z",
+  "builtAt": "2026-11-26T08:03:50.691Z",
   "runtime": {
     "version": "v24.22.0",
     "platform": "win32",
@@ -47,13 +47,13 @@
     },
     {
       "file": "dist/assets/index-CEFoGbBQ.js",
-      "bytes": 598950,
-      "sha256": "2fe934ce36be87bda97314a54b6adbd83ee0f8dbb1b7d28cdefd2bf7fc9f925b"
+      "bytes": 596367,
+      "sha256": "27350add6e545cd4a171c38161604f0334c482537112a9d0239f3849bf1d14c7"
     },
     {
       "file": "dist/assets/index-CiwR2OEh.css",
-      "bytes": 127496,
-      "sha256": "991b7d6a1875bb4c20c923ee426e5761c671ac863b9fbb273a4aa2331002dea0"
+      "bytes": 126853,
+      "sha256": "1a95b4db96cc32b037c0b6bf1d6bb50ce7ac7f0a24911da0e1ee94f2705b45d7"
     },
     {
       "file": "dist/assets/ProductionLab-DCexnW7s.css",
@@ -732,8 +732,8 @@
     },
     {
       "file": "shared/text-sections.json",
-      "bytes": 63390,
-      "sha256": "b665c4d2fd8286bc09e28a68210d6604818422947d0613124a209177fef0cf46"
+      "bytes": 62071,
+      "sha256": "fbe413881a142b63cde9c1854f1dcfddbdd9db8fe814b551c54e1dd8115bdcaa"
     },
     {
       "file": "Start-Proposal.ps1",
