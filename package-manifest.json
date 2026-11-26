@@ -1,7 +1,7 @@
 {
   "format": "jingshan-windows-package",
   "version": 1,
-  "builtAt": "2026-11-26T08:03:50.691Z",
+  "builtAt": "2026-11-26T08:54:53.884Z",
   "runtime": {
     "version": "v24.22.0",
     "platform": "win32",
@@ -47,13 +47,13 @@
     },
     {
       "file": "dist/assets/index-CEFoGbBQ.js",
-      "bytes": 596367,
-      "sha256": "27350add6e545cd4a171c38161604f0334c482537112a9d0239f3849bf1d14c7"
+      "bytes": 599196,
+      "sha256": "9c23a8b7906d00a765d9e8c31546bee36c4fcffb137940896d3bd7acc9a74d8c"
     },
     {
       "file": "dist/assets/index-CiwR2OEh.css",
-      "bytes": 126853,
-      "sha256": "1a95b4db96cc32b037c0b6bf1d6bb50ce7ac7f0a24911da0e1ee94f2705b45d7"
+      "bytes": 129614,
+      "sha256": "a929e5ad6051457ea90923b6c5f6aa0ba5437cfb264b9ac3ec73f0ce135fb905"
     },
     {
       "file": "dist/assets/ProductionLab-DCexnW7s.css",

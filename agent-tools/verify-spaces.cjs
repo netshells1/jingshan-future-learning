@@ -38,6 +38,10 @@ checks.push(['media registry in sync', JSON.stringify(embMedia) === JSON.stringi
 checks.push(['tab array has 空间场景', js.includes('it=[`小景智能中枢`,`空间场景`,`数字智造工坊`')]);
 checks.push(['css module map has spaces', js.includes('spaces:`_spaces_1aqkz_157`')]);
 checks.push(['component function exists', js.includes('function spacesPanel(){let{customized:e}=w(`campus.spaces`)')]);
+checks.push(['component uses 3D scene nodes', js.includes('R.spacesScene') && js.includes('R.spacesTilt') && js.includes('R.spacesOrbit') && js.includes('R.spacesDepth')]);
+checks.push(['component has depth copy', js.includes('R.spacesCardBack')]);
+checks.push(['component has pointer parallax', js.includes('--px') && js.includes('requestAnimationFrame')]);
+checks.push(['component has fly-through keyframe hook', js.includes('data-active')]);
 checks.push(['component inserted before ct', js.indexOf('function spacesPanel()') < js.indexOf('function ct({initialPage:e=0')]);
 checks.push(['panel uses spacesPanel', js.includes('(0,_.jsx)(spacesPanel,{})')]);
 checks.push(['no stray vt panel', !js.includes('(0,_.jsx)(vt,{})')]);
@@ -47,9 +51,10 @@ checks.push(['spaces media slots', embMedia.filter((s) => s.id.startsWith('campu
 
 const css = fs.readFileSync(path.join(root, 'dist', 'assets', 'index-CiwR2OEh.css'), 'utf8');
 const cssClasses = [
-  '_spaces_1aqkz_157', '_spacesLayers_1aqkz_173', '_spacesLayer_1aqkz_175', '_spacesLayerOn_1aqkz_177',
-  '_spacesScrim_1aqkz_179', '_spacesOverlay_1aqkz_181', '_spacesEyebrow_1aqkz_183', '_spacesCopy_1aqkz_185',
-  '_spacesCaption_1aqkz_187', '_spacesIndex_1aqkz_189', '_spacesIndexItem_1aqkz_191',
+  '_spaces_1aqkz_157', '_spacesLayers_1aqkz_173', '_spacesScene_1aqkz_197', '_spacesTilt_1aqkz_199',
+  '_spacesOrbit_1aqkz_201', '_spacesDepth_1aqkz_203', '_spacesCard_1aqkz_205', '_spacesCardBack_1aqkz_207',
+  '_spacesGhost_1aqkz_209', '_spacesScrim_1aqkz_179', '_spacesOverlay_1aqkz_181', '_spacesEyebrow_1aqkz_183',
+  '_spacesCopy_1aqkz_185', '_spacesCaption_1aqkz_187', '_spacesIndex_1aqkz_189', '_spacesIndexItem_1aqkz_191',
   '_spacesIndexNum_1aqkz_193', '_spacesIndexLabel_1aqkz_195',
 ];
 const missing = cssClasses.filter((c) => !css.includes('.' + c + '{'));
