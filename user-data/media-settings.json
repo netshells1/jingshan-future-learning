@@ -33,53 +33,53 @@
     },
     "campus.production.1": {
       "id": "campus.production.1",
-      "url": "/user-media/f04aabecf4905b73a6936709df224c68.png",
+      "url": "/user-media/b8e8b82cbe912a44ee14576d818f1a93.png",
       "mime": "image/png",
       "kind": "image",
-      "fileName": "3defc653-0b91-48e8-9ae4-ae9470e3c28f.png",
+      "fileName": "387bf43b86768933431738a459a64a9c.png",
       "fit": "cover",
       "position": "50% 50%",
-      "updatedAt": "2026-11-16T01:10:23.438Z"
+      "updatedAt": "2026-11-25T09:48:36.442Z"
     },
     "campus.production.2": {
       "id": "campus.production.2",
-      "url": "/user-media/2cfa5a0a818533c767b18b3a1ded561b.png",
+      "url": "/user-media/bc10ab70152349f4562185d017ed7b48.png",
       "mime": "image/png",
       "kind": "image",
-      "fileName": "fb2d0af1-093f-4491-bed4-be1272f1ffbf.png",
+      "fileName": "8c739a77160b0645b7b89adf5cbf59c1.png",
       "fit": "cover",
       "position": "50% 50%",
-      "updatedAt": "2026-11-16T01:10:39.492Z"
+      "updatedAt": "2026-11-25T09:16:57.317Z"
     },
     "campus.production.5": {
       "id": "campus.production.5",
-      "url": "/user-media/162ce454d7de92fa63e51d687fa3e8be.png",
+      "url": "/user-media/935e73f1380c727c4c23d893c8eb1672.png",
       "mime": "image/png",
       "kind": "image",
-      "fileName": "e46f189c-feb7-4ddf-86e6-035aa9c7458a.png",
+      "fileName": "d974d2ac15df9785e8e0a130e523487a.png",
       "fit": "cover",
       "position": "50% 50%",
-      "updatedAt": "2026-11-16T01:10:58.228Z"
+      "updatedAt": "2026-11-25T09:48:54.317Z"
     },
     "campus.life.1": {
       "id": "campus.life.1",
-      "url": "/user-media/b68fa02d0efe0e7d22f15acd4ca07a2f.png",
+      "url": "/user-media/c843049bd0bcaa0e66e8e2f606334261.png",
       "mime": "image/png",
       "kind": "image",
-      "fileName": "e177899c-38be-4d08-9801-aacd0f6603d3.png",
+      "fileName": "fd81142e6121f1dd7e448c309ddc7d46.png",
       "fit": "cover",
       "position": "50% 50%",
-      "updatedAt": "2026-11-16T01:11:15.188Z"
+      "updatedAt": "2026-11-25T09:49:08.711Z"
     },
     "campus.life.2": {
       "id": "campus.life.2",
-      "url": "/user-media/baa3b1ee4e76336d7e01fe64de6efc29.png",
+      "url": "/user-media/1cdbb35fd023cf70acf417950e783f82.png",
       "mime": "image/png",
       "kind": "image",
-      "fileName": "f2707108-7231-4d06-88d7-f95577543029.png",
+      "fileName": "d73abd3d8b091259f2c434670cf2e0e3.png",
       "fit": "cover",
       "position": "50% 50%",
-      "updatedAt": "2026-11-16T01:11:37.341Z"
+      "updatedAt": "2026-11-25T09:48:01.200Z"
     },
     "campus.control.life": {
       "id": "campus.control.life",
@@ -93,13 +93,13 @@
     },
     "industry.scenes.ecology": {
       "id": "industry.scenes.ecology",
-      "url": "/user-media/b7cfd4d7f0e75b7ce6cbc2e5295dbf72.png",
+      "url": "/user-media/1abb8fbc51c5d3cabe545e535edb3280.png",
       "mime": "image/png",
       "kind": "image",
-      "fileName": "3dcf1d45-2850-4416-9fd2-975efcd9908b.png",
+      "fileName": "2e78d4023ec96f9b1a7379245f2ee19a.png",
       "fit": "cover",
       "position": "50% 50%",
-      "updatedAt": "2026-11-16T01:12:14.412Z"
+      "updatedAt": "2026-11-25T09:49:49.256Z"
     },
     "industry.scenes.agriculture": {
       "id": "industry.scenes.agriculture",
@@ -130,6 +130,36 @@
       "fit": "cover",
       "position": "50% 50%",
       "updatedAt": "2026-11-16T01:13:03.788Z"
+    },
+    "campus.production.3": {
+      "id": "campus.production.3",
+      "url": "/user-media/f34828a9dc92fa12835681412aa2ff07.png",
+      "mime": "image/png",
+      "kind": "image",
+      "fileName": "5cee5642b28b3328c232ee6b4032dd64.png",
+      "fit": "cover",
+      "position": "50% 50%",
+      "updatedAt": "2026-11-25T09:47:27.678Z"
+    },
+    "campus.production.4": {
+      "id": "campus.production.4",
+      "url": "/user-media/a2bf96a0b24d315f1ec310760bb66b50.png",
+      "mime": "image/png",
+      "kind": "image",
+      "fileName": "4090c10fd98b67710b210e603ca4bfc7.png",
+      "fit": "cover",
+      "position": "50% 50%",
+      "updatedAt": "2026-11-25T09:48:47.415Z"
+    },
+    "campus.production.6": {
+      "id": "campus.production.6",
+      "url": "/user-media/687552d67c3deb1205e5cd868841d584.png",
+      "mime": "image/png",
+      "kind": "image",
+      "fileName": "c6a78e57cd520c9e3363e166f597465e.png",
+      "fit": "cover",
+      "position": "50% 50%",
+      "updatedAt": "2026-11-25T09:40:08.778Z"
     }
   }
 }
