@@ -1141,7 +1141,7 @@
   },
   {
     "id": "course.quest",
-    "title": "AI＋游戏闯关",
+    "title": "实验创课空间",
     "group": "courses",
     "chapter": "campus",
     "page": 3,
@@ -1150,13 +1150,13 @@
       {
         "id": "name",
         "label": "课程名称",
-        "defaultText": "AI＋游戏闯关",
+        "defaultText": "实验创课空间",
         "maxLength": 120
       },
       {
         "id": "subtitle",
         "label": "课程入口名称",
-        "defaultText": "AI＋游戏闯关",
+        "defaultText": "实验创课空间",
         "maxLength": 120
       },
       {

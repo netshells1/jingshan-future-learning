@@ -162,7 +162,7 @@
     {
       "id": "production-wide",
       "filename": "classroom/production-wide.png",
-      "title": "AI＋生产教室全景",
+      "title": "数字智造工坊全景",
       "category": "教室",
       "usage": "两间教室·生产教室入口全景",
       "width": 1672,
@@ -177,7 +177,7 @@
     {
       "id": "production-front",
       "filename": "classroom/production-front.png",
-      "title": "AI＋生产教室教学空间",
+      "title": "数字智造工坊教学空间",
       "category": "教室",
       "usage": "生产教室大屏与设备、导师指导",
       "width": 1672,
@@ -207,7 +207,7 @@
     {
       "id": "life-wide",
       "filename": "classroom/life-wide.png",
-      "title": "AI＋生活教室全景",
+      "title": "生活创想空间全景",
       "category": "教室",
       "usage": "生活教室入口全景、六组协作工位",
       "width": 1672,
@@ -222,7 +222,7 @@
     {
       "id": "life-teaching",
       "filename": "classroom/life-teaching.png",
-      "title": "AI＋生活课堂与小景大屏",
+      "title": "生活创想课堂与小景大屏",
       "category": "教室",
       "usage": "生活教室教学大屏、数字媒体创作",
       "width": 1672,
@@ -269,7 +269,7 @@
       "filename": "hackathon/01-robot-complete.png",
       "title": "智能瓦力机器人整机",
       "category": "黑客松",
-      "usage": "黑客松案例 01／AI＋生产／课程产品整机",
+      "usage": "黑客松案例 01／数字智造工坊／课程产品整机",
       "width": 1448,
       "height": 1086,
       "bytes": 2180678,

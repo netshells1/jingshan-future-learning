@@ -1,7 +1,7 @@
 {
   "format": "jingshan-windows-package",
   "version": 1,
-  "builtAt": "2026-11-26T02:09:38.997Z",
+  "builtAt": "2026-11-26T03:50:22.698Z",
   "runtime": {
     "version": "v24.22.0",
     "platform": "win32",
@@ -47,13 +47,13 @@
     },
     {
       "file": "dist/assets/index-CEFoGbBQ.js",
-      "bytes": 587166,
-      "sha256": "37f261e8fd249c2d906649a1ea92d28a2506ffea33dea3c2b72ee9f31491b971"
+      "bytes": 587799,
+      "sha256": "1272d26fe6a99706df4731f46aa8f99fc9ab1d4f7afde6fc4b0d664fbc9d9cfa"
     },
     {
       "file": "dist/assets/index-CiwR2OEh.css",
-      "bytes": 122793,
-      "sha256": "01d0bc2990b96c93fab71be7803d5116cbc8afeb3609229fad76cc49149503d5"
+      "bytes": 122813,
+      "sha256": "85a59398571ca4893359d4eaa72e65f7eedcd516be9712664485fb3cac95a4c5"
     },
     {
       "file": "dist/assets/ProductionLab-DCexnW7s.css",
@@ -117,13 +117,13 @@
     },
     {
       "file": "dist/media/20261112/assets-manifest.json",
-      "bytes": 59034,
-      "sha256": "0dcaafbc4244db87ec1f425425e95dc965e409f06f1193eb3e4e98f057341222"
+      "bytes": 59045,
+      "sha256": "dbd6c1946cab4427a9563b6c5ec024856d7a95d84c32dc164ba4c12826df9487"
     },
     {
       "file": "dist/media/20261112/classroom/classroom-manifest.json",
-      "bytes": 12266,
-      "sha256": "5b34e15832f74e39073647c55d944d39b2f8834aac234e5a6c98cf0ead2cf42a"
+      "bytes": 12270,
+      "sha256": "0a84191f5bcfbc62e621f2ffef32e3e455741e6c1143fa107e111842c029fd34"
     },
     {
       "file": "dist/media/20261112/classroom/life-collaboration.png",
@@ -247,13 +247,13 @@
     },
     {
       "file": "dist/media/20261112/hackathon/hackathon-manifest.json",
-      "bytes": 14678,
-      "sha256": "d021bfd0176fe28a8f6bb0cfae7eb40b94a4993186ebca5b51be35f19ed7f6b4"
+      "bytes": 14685,
+      "sha256": "408764f868f8fdd8666f25dee1e9e88e5149de09736a459f782ef7a6866ed1ee"
     },
     {
       "file": "dist/media/20261112/index.html",
-      "bytes": 29085,
-      "sha256": "b213453b81d4a9b404fee33c9b6478fcfbc53e79cdd01c41f38366b930eec17b"
+      "bytes": 29108,
+      "sha256": "d03c44f17477711d9ed9cfc2691ffdfbf34233af498248fbf4dde2b715a457d4"
     },
     {
       "file": "dist/media/classroom-design-20261112/classroom-design-01.png",
@@ -292,8 +292,8 @@
     },
     {
       "file": "dist/media/classroom-design-20261112/manifest.json",
-      "bytes": 6073,
-      "sha256": "39aaf9aaf9cee81571d5b9a21e38b5df5942727c68493c1ff7932666e0073247"
+      "bytes": 6080,
+      "sha256": "591c1a5c1a1a26bafc7026613c84607b651f33d087177f771dec60d925ce9507"
     },
     {
       "file": "dist/media/final-plan-20261113/bus-stop.jpg",
@@ -477,8 +477,8 @@
     },
     {
       "file": "dist/media/life-classroom-20261112/manifest.json",
-      "bytes": 11365,
-      "sha256": "2dd2bcfb18223d51d8e3041323886bff6e7db011974e4e883fdfabb0b6e389dd"
+      "bytes": 11393,
+      "sha256": "6fc712798856def7766fd3d7e4ab7aa61962bda47d6c560dcd006aee55fd63de"
     },
     {
       "file": "dist/media/manuscript-reference/agriculture-study.png",
@@ -702,8 +702,8 @@
     },
     {
       "file": "server/project-context.mjs",
-      "bytes": 28824,
-      "sha256": "f0e8dc672398dd5c27b26ea9fb7ed53cdd56c6815c81619d4a32d1d414d05fa6"
+      "bytes": 28888,
+      "sha256": "810bdd15fe1f823a2253cac97de52391f91fa348198389cb00da523549a2e979"
     },
     {
       "file": "server/standalone.mjs",
@@ -722,18 +722,18 @@
     },
     {
       "file": "shared/course-text-sections.json",
-      "bytes": 46554,
-      "sha256": "5bc95505d7303b318647d9a6eba473480ce816479974ba67bb7d19c53dc02109"
+      "bytes": 46557,
+      "sha256": "494f6175f1560ebc2a8a32ce931ad4da156b1cf1c77799f46b2beebbeb49a417"
     },
     {
       "file": "shared/media-slots.json",
-      "bytes": 39988,
-      "sha256": "8114afca34623227f90749b85c9c28ae99277c196b5cf8b51eba6a3af763fd2f"
+      "bytes": 40095,
+      "sha256": "4ee46b3c46911b24591beea9bdf3b29e5e4fb81b2b7a57c095c627740bed510a"
     },
     {
       "file": "shared/text-sections.json",
-      "bytes": 61100,
-      "sha256": "d6a86c35a23bf20acd382813173a1968ef564adc7efa4a011bc2c903362e41b9"
+      "bytes": 61233,
+      "sha256": "dce01962fe33152fb5d023b1aed4a871813f47794f5de2914778715a4bc82253"
     },
     {
       "file": "Start-Proposal.ps1",
@@ -747,8 +747,8 @@
     },
     {
       "file": "user-data/media-settings.json",
-      "bytes": 5249,
-      "sha256": "35a5df1fc2ce6a0df532f4822494d83792afab4722513fb0068c9f5c3b9d833b"
+      "bytes": 5813,
+      "sha256": "054d1338beb2f68658c1ca913b7dbc21cb53455a43f352ef24ce1b8e8bf6bbcb"
     },
     {
       "file": "user-data/text-settings.json",

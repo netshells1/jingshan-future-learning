@@ -67,7 +67,7 @@
   {
     "id": "campus.production.1",
     "group": "campus",
-    "section": "AI＋生产",
+    "section": "数字智造工坊",
     "title": "示例图 1",
     "description": "教室图片轮播中的独立选样位置。",
     "defaultKind": "image",
@@ -80,7 +80,7 @@
   {
     "id": "campus.production.2",
     "group": "campus",
-    "section": "AI＋生产",
+    "section": "数字智造工坊",
     "title": "示例图 2",
     "description": "教室图片轮播中的独立选样位置。",
     "defaultKind": "image",
@@ -93,7 +93,7 @@
   {
     "id": "campus.production.3",
     "group": "campus",
-    "section": "AI＋生产",
+    "section": "数字智造工坊",
     "title": "示例图 3",
     "description": "教室图片轮播中的独立选样位置。",
     "defaultKind": "image",
@@ -106,7 +106,7 @@
   {
     "id": "campus.production.4",
     "group": "campus",
-    "section": "AI＋生产",
+    "section": "数字智造工坊",
     "title": "示例图 4",
     "description": "教室图片轮播中的独立选样位置。",
     "defaultKind": "image",
@@ -119,7 +119,7 @@
   {
     "id": "campus.production.5",
     "group": "campus",
-    "section": "AI＋生产",
+    "section": "数字智造工坊",
     "title": "示例图 5",
     "description": "教室图片轮播中的独立选样位置。",
     "defaultKind": "image",
@@ -132,7 +132,7 @@
   {
     "id": "campus.production.6",
     "group": "campus",
-    "section": "AI＋生产",
+    "section": "数字智造工坊",
     "title": "示例图 6",
     "description": "教室图片轮播中的独立选样位置。",
     "defaultKind": "image",
@@ -145,7 +145,7 @@
   {
     "id": "campus.production.7",
     "group": "campus",
-    "section": "AI＋生产",
+    "section": "数字智造工坊",
     "title": "分区流线",
     "description": "教室图片轮播中的独立选样位置。",
     "defaultKind": "image",
@@ -158,7 +158,7 @@
   {
     "id": "campus.life.1",
     "group": "campus",
-    "section": "AI＋生活",
+    "section": "生活创想空间",
     "title": "示例图 1",
     "description": "教室图片轮播中的独立选样位置。",
     "defaultKind": "image",
@@ -171,7 +171,7 @@
   {
     "id": "campus.life.2",
     "group": "campus",
-    "section": "AI＋生活",
+    "section": "生活创想空间",
     "title": "示例图 2",
     "description": "教室图片轮播中的独立选样位置。",
     "defaultKind": "image",
@@ -184,7 +184,7 @@
   {
     "id": "campus.life.3",
     "group": "campus",
-    "section": "AI＋生活",
+    "section": "生活创想空间",
     "title": "分区流线",
     "description": "教室图片轮播中的独立选样位置。",
     "defaultKind": "image",
@@ -197,9 +197,9 @@
   {
     "id": "campus.quest",
     "group": "campus",
-    "section": "AI＋闯关",
+    "section": "实验创课空间",
     "title": "课堂协作主图",
-    "description": "游戏闯关与基础课件介绍的左侧主图。",
+    "description": "实验创课空间与基础课件介绍的左侧主图。",
     "defaultKind": "image",
     "fit": "cover",
     "aspect": "4:3",
@@ -211,7 +211,7 @@
     "id": "campus.control.production",
     "group": "campus",
     "section": "全域中心",
-    "title": "AI＋生产空间画面",
+    "title": "数字智造工坊 · 空间画面",
     "description": "全域中心空间选择中的独立画面，可与教室轮播使用不同素材。",
     "defaultKind": "image",
     "fit": "cover",
@@ -224,7 +224,7 @@
     "id": "campus.control.life",
     "group": "campus",
     "section": "全域中心",
-    "title": "AI＋生活空间画面",
+    "title": "生活创想空间 · 空间画面",
     "description": "全域中心空间选择中的独立画面，可与教室轮播使用不同素材。",
     "defaultKind": "image",
     "fit": "cover",
@@ -1018,7 +1018,7 @@
   {
     "id": "course.quest.demo",
     "group": "courses",
-    "section": "AI＋游戏闯关",
+    "section": "实验创课空间",
     "title": "默认演示",
     "description": "闭合电路、石蕊辨色与杠杆平衡三关自动虚拟实验。上传图片或视频后，将在课程默认视图显示；恢复后继续使用实验演示。",
     "defaultKind": "builtin",
@@ -1031,7 +1031,7 @@
   {
     "id": "course.quest.reference",
     "group": "courses",
-    "section": "AI＋游戏闯关",
+    "section": "实验创课空间",
     "title": "文档配图",
     "description": "此课程尚无独立文档配图；上传后会显示“文档配图”切换入口。",
     "defaultKind": "builtin",
