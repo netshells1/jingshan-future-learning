@@ -1,7 +1,7 @@
 {
   "format": "jingshan-windows-package",
   "version": 1,
-  "builtAt": "2026-11-25T09:18:51.252Z",
+  "builtAt": "2026-11-26T02:09:38.997Z",
   "runtime": {
     "version": "v24.22.0",
     "platform": "win32",
@@ -32,8 +32,8 @@
     },
     {
       "file": "使用说明.txt",
-      "bytes": 5437,
-      "sha256": "54a53ae60cee9ba027c1419c98b67a40cabb0c4800e920bcaa2bbc0e10ba88f8"
+      "bytes": 5443,
+      "sha256": "a1880dabd4bbc243285f1fc596838eae6ebeda1e48d4cbf73c551547ef4c1727"
     },
     {
       "file": "停止景山演示.cmd",
@@ -47,8 +47,8 @@
     },
     {
       "file": "dist/assets/index-CEFoGbBQ.js",
-      "bytes": 587129,
-      "sha256": "9160e95905a56e654d3a39cbcd1515af9c5baab6ecaf793bd4bd4fcba55ecdbf"
+      "bytes": 587166,
+      "sha256": "37f261e8fd249c2d906649a1ea92d28a2506ffea33dea3c2b72ee9f31491b971"
     },
     {
       "file": "dist/assets/index-CiwR2OEh.css",
@@ -697,8 +697,8 @@
     },
     {
       "file": "server/media-plugin.mjs",
-      "bytes": 22717,
-      "sha256": "db00c10a1ffe411dac243127ed62f4c77eb8db626b01781db48ed82f87fbe081"
+      "bytes": 23719,
+      "sha256": "b41be04da81da60a222817d1b1c460b4a13a8d1b448c896cc8ec3f8881235796"
     },
     {
       "file": "server/project-context.mjs",
@@ -747,8 +747,8 @@
     },
     {
       "file": "user-data/media-settings.json",
-      "bytes": 5492,
-      "sha256": "56f2bdca55b4008a2c27baffc17951eb75cecf4285d3468ad336c1377e693b5d"
+      "bytes": 5249,
+      "sha256": "35a5df1fc2ce6a0df532f4822494d83792afab4722513fb0068c9f5c3b9d833b"
     },
     {
       "file": "user-data/text-settings.json",
@@ -1056,14 +1056,14 @@
       "sha256": "0f5a2197fc82c9cfc390697efba2889eabe34ce5686eb928a07ecf3692323a3d"
     },
     {
-      "file": "user-data/media/1abb8fbc51c5d3cabe545e535edb3280.png",
-      "bytes": 2505984,
-      "sha256": "6ccc7f327179f32f0cc6caf387636b587c2ba3f70bcf1d1403d01c4a2fddc965"
+      "file": "user-data/media/042b79f323babf02fc07f0ce6b6b3558.svg",
+      "bytes": 3189096,
+      "sha256": "4879ee119f25abf410872a68ba8d0e1b873bdf4538d4b0c345dd41f1a46f8077"
     },
     {
-      "file": "user-data/media/1cdbb35fd023cf70acf417950e783f82.png",
-      "bytes": 1664964,
-      "sha256": "20ca8bfa41e9ed77e30bb49509e0e755e7acb136fff8707df3cd6ad1c8bf36cc"
+      "file": "user-data/media/19430313463c10ae4b71fd17a8586822.svg",
+      "bytes": 5861145,
+      "sha256": "2fb75bf081324be28ee39f94df0e2419cba27de27f5bd1c2e0e49c7eee44f5c3"
     },
     {
       "file": "user-data/media/30b46d7816fba8ea1fe48e16f78cb255.png",
@@ -1071,9 +1071,24 @@
       "sha256": "3ed5b9ef1e148ac78276ecbff8bdbd81ae33c6e7d02383149b4237c666516528"
     },
     {
+      "file": "user-data/media/47b16cb06bb4aaf3d5072d4087313840.svg",
+      "bytes": 8850782,
+      "sha256": "fed58e38a968f35ab2a3aa5b54d29b6e159615edf4f5f234bb957ccee90fd3bc"
+    },
+    {
       "file": "user-data/media/57cfb89a4d141d2ad662d770f5592972.png",
       "bytes": 805005,
       "sha256": "0110d3a7f7463118a488f4e8ef457d834fec058928aa12cbda6d6ba81b4c4e46"
+    },
+    {
+      "file": "user-data/media/5f4cde72b4929c1f9d04cefda537e09d.svg",
+      "bytes": 4716293,
+      "sha256": "35c790fc55ec140e786d9723d2c07d8a6a263df9a0f179a83cf8f027a6cfc763"
+    },
+    {
+      "file": "user-data/media/6156414fabf03ea853dafed5589f4faf.svg",
+      "bytes": 3543036,
+      "sha256": "1e51660a9f1e232b1223dc23d9951dfa743822e2975deaba3ae587abc100878a"
     },
     {
       "file": "user-data/media/6726581a71e4391fbceecad5a13519e6.png",
@@ -1081,19 +1096,9 @@
       "sha256": "8a96380120385909f0e204b84e6e063e9d82f3267e119fa09d0f50e982210f16"
     },
     {
-      "file": "user-data/media/687552d67c3deb1205e5cd868841d584.png",
-      "bytes": 1413910,
-      "sha256": "9a72f3c06ff4b5a2bfdb792ec1444076d397620e8de5176e421fe79a67409a20"
-    },
-    {
       "file": "user-data/media/6ed738c4786aec829102c4a6ceab6b5e.png",
       "bytes": 438392,
       "sha256": "64f514607032655b3ad764da990aa656097a58818031110c41bcb5cb5604cd66"
-    },
-    {
-      "file": "user-data/media/935e73f1380c727c4c23d893c8eb1672.png",
-      "bytes": 1452999,
-      "sha256": "6ab279b8ff7e1956a2846d292aad7aeb20fc908cb77d6b9d21fcf45c308adda1"
     },
     {
       "file": "user-data/media/997c757165b1c8c0774a691c9d17ef65.png",
@@ -1101,9 +1106,9 @@
       "sha256": "a1a608fcb7839dd7775603fe115c5ac203fdf09dd19499375b0068a5411d2d82"
     },
     {
-      "file": "user-data/media/a2bf96a0b24d315f1ec310760bb66b50.png",
-      "bytes": 1733639,
-      "sha256": "5d308ae3d2e0e5f12628aa209264553616527632ad9e66b47b564b9f82667bac"
+      "file": "user-data/media/9b832a65a0fe187199231ecb863c6b5c.svg",
+      "bytes": 11839346,
+      "sha256": "34ea51c0af32b91bcb07ca8172e7694081e7451066091d8d60b29b136287ca93"
     },
     {
       "file": "user-data/media/ab2ed7e7ec2ccf1a21c65211a2cf1619.png",
@@ -1111,29 +1116,24 @@
       "sha256": "250e375d06e92808eb36e2f1024ef1694eeb7229796226849d62abd3a5609cd4"
     },
     {
-      "file": "user-data/media/b8e8b82cbe912a44ee14576d818f1a93.png",
-      "bytes": 2544540,
-      "sha256": "c3ab1bc3d92216f4771c4537c9d10be7f35282c783f7cfa747c3045364d3a3c9"
+      "file": "user-data/media/e0833fd662c7b3be3a819e0ed3b86655.svg",
+      "bytes": 3026454,
+      "sha256": "f3cb8ad8454738b7122f3bf8d97de168b01622ab43dd9f43f10fc255b73926ec"
     },
     {
-      "file": "user-data/media/bc10ab70152349f4562185d017ed7b48.png",
-      "bytes": 6453364,
-      "sha256": "4a9ff93153c2e29f99910dc75248f63ea1e4864dd4fbc82e73fb9e041b4f3fa7"
-    },
-    {
-      "file": "user-data/media/c843049bd0bcaa0e66e8e2f606334261.png",
-      "bytes": 1713360,
-      "sha256": "dbf71aefedb19f74020396ba38ad2a5a3b5cfdaccf83a1e56417d8e3f5f5d8f3"
-    },
-    {
-      "file": "user-data/media/f34828a9dc92fa12835681412aa2ff07.png",
-      "bytes": 1426616,
-      "sha256": "de8108dd31eea348b1bc64f107246779f269e31ce9e389ca27521feabea2b783"
+      "file": "user-data/media/e7ac72c3145c29ca82b07513baab95dc.svg",
+      "bytes": 2554591,
+      "sha256": "442678b2e531a1480e9bd23eb159e8d1769f0398ec8dd958db8da429813489b7"
     },
     {
       "file": "user-data/media/fa6ee1cddfc21dcf4980550485943a76.png",
       "bytes": 673907,
       "sha256": "a0659251a004fc5caab79a4226aa7343ef95436edefc7a44272a7cc0336e3354"
+    },
+    {
+      "file": "user-data/media/fc2fe463c9762ec997c66d81d0511e56.svg",
+      "bytes": 3027770,
+      "sha256": "7323cb72efef58ffb63b8ba0fd9ea4f430ad0491fd965379b65617697c0937be"
     }
   ]
 }

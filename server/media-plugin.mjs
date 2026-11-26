@@ -15,10 +15,11 @@ export const MEDIA_LIMITS = Object.freeze({
 const gzipAsync = promisify(gzip);
 const gunzipAsync = promisify(gunzip);
 const API = '/api/media-settings';
-const FILE_PATTERN = /^[a-f0-9]{32}\.(png|jpg|webp|gif|mp4|webm)$/;
+const FILE_PATTERN = /^[a-f0-9]{32}\.(png|jpg|webp|gif|svg|mp4|webm)$/;
 const TYPES = {
   'image/png': ['png', 'image'], 'image/jpeg': ['jpg', 'image'],
   'image/webp': ['webp', 'image'], 'image/gif': ['gif', 'image'],
+  'image/svg+xml': ['svg', 'image'],
   'video/mp4': ['mp4', 'video'], 'video/webm': ['webm', 'video'],
 };
 
@@ -55,7 +56,7 @@ export function identifyMedia(bytes, requestedMime) {
   if (!Buffer.isBuffer(bytes) || !bytes.length) throw bad('素材文件为空。');
   if (bytes.length > MEDIA_LIMITS.file) throw new MediaError(413, 'FILE_TOO_LARGE', '单个素材不能超过 60 MiB，请压缩后再上传。');
   const mime = String(requestedMime || '').split(';')[0].trim().toLowerCase();
-  if (!Object.hasOwn(TYPES, mime)) throw new MediaError(415, 'UNSUPPORTED_MEDIA', '仅支持 PNG、JPEG、WebP、GIF 图片和 MP4、WebM 视频。');
+  if (!Object.hasOwn(TYPES, mime)) throw new MediaError(415, 'UNSUPPORTED_MEDIA', '仅支持 PNG、JPEG、WebP、GIF、SVG 图片和 MP4、WebM 视频。');
   let detected;
   if (bytes.length >= 24 && bytes.subarray(0, 8).equals(Buffer.from([137, 80, 78, 71, 13, 10, 26, 10]))
     && bytes.toString('ascii', 12, 16) === 'IHDR') detected = 'image/png';
@@ -69,6 +70,19 @@ export function identifyMedia(bytes, requestedMime) {
     && /^(isom|iso[2-9]|mp4[12]|avc1|M4V |MSNV|dash|cmfc|cmfs|3gp[456])$/.test(bytes.toString('ascii', 8, 12))) detected = 'video/mp4';
   else if (bytes.length >= 12 && bytes.subarray(0, 4).equals(Buffer.from([0x1a, 0x45, 0xdf, 0xa3]))
     && bytes.subarray(4, Math.min(bytes.length, 4096)).includes(Buffer.from('webm'))) detected = 'video/webm';
+  else if (mime === 'image/svg+xml') {
+    let header = bytes.toString('utf8', 0, 8192).trimStart().replace(/^<\?xml\s+[^?]*\?>\s*/, '');
+    while (header.startsWith('<!--')) {
+      const end = header.indexOf('-->');
+      if (end < 0) break;
+      header = header.slice(end + 3).trimStart();
+    }
+    const root = /^<svg(?=\s)([^<>]*)>/.exec(header);
+    if (root && /\sxmlns\s*=\s*(["'])http:\/\/www\.w3\.org\/2000\/svg\1/.test(root[1])
+        && (/\/\s*$/.test(root[1]) || /<\/svg\s*>\s*$/.test(bytes.toString('utf8', Math.max(0, bytes.length - 8192))))) {
+      detected = mime;
+    }
+  }
   if (detected !== mime) throw bad('文件内容与格式不符，或文件已损坏。请重新选择支持的图片或视频。');
   return { mime, extension: TYPES[mime][0], kind: TYPES[mime][1] };
 }
@@ -360,6 +374,10 @@ export function createMediaMiddleware(options = {}) {
         if (request.method !== 'GET' && request.method !== 'HEAD') throw new MediaError(405, 'METHOD_NOT_ALLOWED', '素材资源仅支持读取。');
         const resource = await store.resolveMedia(path.slice('/user-media/'.length));
         if (!resource) throw new MediaError(404, 'NOT_FOUND', '未找到该素材。');
+        if (resource.mime === 'image/svg+xml') {
+          // Apply image-only restrictions even when the SVG URL is opened as a document.
+          response.setHeader('Content-Security-Policy', "sandbox; default-src 'none'; style-src 'unsafe-inline'; img-src data:; base-uri 'none'; form-action 'none'; frame-ancestors 'none'");
+        }
         await serveFile(request, response, resource.path, resource.mime, { cacheControl: 'private, max-age=31536000, immutable' });
         return;
       }
