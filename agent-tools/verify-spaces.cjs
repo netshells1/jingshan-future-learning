@@ -5,16 +5,20 @@ const root = path.resolve(__dirname, '..');
 const jsPath = path.join(root, 'dist', 'assets', 'index-CEFoGbBQ.js');
 const js = fs.readFileSync(jsPath, 'utf8');
 
-if (typeof vm.SourceTextModule === 'undefined') {
-  let src = js
-    .replace(/import\.meta/g, '({url:"",env:{}})')
-    .replace(/^\s*import[\s\S]*?;$/gm, '')
-    .replace(/^\s*export\s+/gm, '');
-  try { new vm.Script(src, { filename: 'b.js' }); console.log('JS syntax: OK (heuristic)'); }
-  catch (e) { console.log('JS syntax ERROR:', e.message); process.exit(1); }
-} else {
-  try { new vm.SourceTextModule(js, { identifier: 'bundle.js' }); console.log('JS syntax: OK (module)'); }
-  catch (e) { console.log('JS syntax ERROR:', e.message); process.exit(1); }
+// Syntax check: write the bundle out as an ES module and let node parse it.
+{
+  const tmp = path.join(require('os').tmpdir(), 'bundle-check-' + Date.now() + '.mjs');
+  fs.writeFileSync(tmp, js, 'utf8');
+  const { execFileSync } = require('child_process');
+  try {
+    execFileSync(process.execPath, ['--check', tmp], { stdio: 'pipe' });
+    console.log('JS syntax: OK (module)');
+  } catch (e) {
+    console.log('JS syntax ERROR:', (e.stderr || '').toString().split('\n').slice(0, 4).join(' '));
+    process.exit(1);
+  } finally {
+    fs.unlinkSync(tmp);
+  }
 }
 
 function extractValue(at) {

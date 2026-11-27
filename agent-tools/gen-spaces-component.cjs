@@ -24,7 +24,7 @@ const S = [
     image: '${tt}foyer-welcome.jpg',
     alt: '最终方案图4-4，门厅迎宾形象墙与两室导览',
     title: '门厅与迎宾展示',
-    body: '迎宾、导览与成果展示，不计入两间实验室教学面积。',
+    body: '迎宾、导览与成果展示。',
     position: 'center 28%',
   },
   {
@@ -121,7 +121,7 @@ const bigCopy = '(0,_.jsxs)(`div`,{className:R.spacesCopy,key:r.key,children:['
   + ']})';
 
 const eyebrow = '(0,_.jsx)(E,{section:' + T('campus.spaces') + ',field:' + T('heading.1')
-  + ',as:`p`,className:R.spacesEyebrow,children:' + TXT('一门一厅 · 三处场景') + '})';
+  + ',as:`p`,className:R.spacesEyebrow,children:' + TXT('一处门厅 · 两间实验室') + '})';
 
 const caption = '(0,_.jsx)(E,{section:' + T('campus.spaces') + ',field:' + T('footnote')
   + ',as:`p`,className:R.spacesCaption,children:' + TXT('参观路线：门厅 → 数字智造工坊 → 生活创想空间') + '})';
@@ -159,13 +159,10 @@ const parallaxEffect = (
   + 'g.y=((e.clientY-r.top)/r.height)*2-1;'
   + 'kick()'
   + '};'
-  + 'let en=()=>{hv.current=!0};'
-  + 'let le=()=>{hv.current=!1;g.x=0;g.y=0;kick()};'
-  + 't.addEventListener(`pointerenter`,en);'
+  + 'let le=()=>{g.x=0;g.y=0;kick()};'
   + 't.addEventListener(`pointermove`,mv);'
   + 't.addEventListener(`pointerleave`,le);'
   + 'return()=>{'
-  + 't.removeEventListener(`pointerenter`,en);'
   + 't.removeEventListener(`pointermove`,mv);'
   + 't.removeEventListener(`pointerleave`,le);'
   + 'if(f)cancelAnimationFrame(f)'
@@ -173,8 +170,8 @@ const parallaxEffect = (
   + '},[])'
 );
 
-// --- gentle auto-advance: pauses while the pointer rests on the panel, when the
-//     panel scrolls out of view, when the tab is hidden, and for reduced motion ---
+// --- auto-advance: always runs without any click, only pauses when the panel is
+//     scrolled out of view, the tab is hidden, or reduced motion is requested ---
 const autoEffect = (
   '(0,l.useEffect)(()=>{'
   + 'if(typeof matchMedia==`function`&&matchMedia(`(prefers-reduced-motion: reduce)`).matches)return;'
@@ -184,7 +181,7 @@ const autoEffect = (
   + 'let io=new IntersectionObserver(e=>{seen=e[0].isIntersecting&&e[0].intersectionRatio>.25},{threshold:[0,.25,.6]});'
   + 'io.observe(t);'
   + 'let i=setInterval(()=>{'
-  + 'if(!hv.current&&seen&&!document.hidden)n(x=>(x+1)%' + scenes.length + ')'
+  + 'if(seen&&!document.hidden)n(x=>(x+1)%' + scenes.length + ')'
   + '},5000);'
   + 'return()=>{clearInterval(i);io.disconnect()}'
   + '},[])'
@@ -194,7 +191,6 @@ const out = 'function spacesPanel(){'
   + 'let{customized:e}=w(' + T('campus.spaces') + ');'
   + 'let[s,n]=(0,l.useState)(0);'
   + 'let b=(0,l.useRef)(null);'
-  + 'let hv=(0,l.useRef)(!1);'
   + parallaxEffect + ';'
   + autoEffect + ';'
   + 'let c=' + sceneArray + ';'

@@ -91,6 +91,30 @@ const compEnd = js.indexOf('function ct({initialPage');
 if (compStart < 0 || compEnd < 0 || compEnd < compStart) throw new Error('component bounds not found');
 js = js.slice(0, compStart) + component + js.slice(compEnd);
 
+// ---------------------------------------------------------------- registries
+function buildLiteral(obj) {
+  return JSON.stringify(obj).replace(/\\/g, '\\\\').replace(/`/g, '\\`').replace(/\$\{/g, '\\${');
+}
+function replaceEmbedded(source, marker, obj, label) {
+  const at = source.indexOf(marker);
+  if (at < 0) throw new Error('registry not found: ' + label);
+  const start = source.indexOf('JSON.parse(`', at) + 'JSON.parse(`'.length;
+  let i = start;
+  for (; i < source.length; i += 1) {
+    if (source[i] === '`') {
+      let bs = 0, j = i - 1;
+      while (source[j] === '\\') { bs += 1; j -= 1; }
+      if (bs % 2 === 0) break;
+    }
+  }
+  if (i >= source.length) throw new Error('unterminated literal: ' + label);
+  return source.slice(0, start) + buildLiteral(obj) + source.slice(i);
+}
+const sharedText = JSON.parse(fs.readFileSync(path.join(root, 'shared', 'text-sections.json'), 'utf8'));
+const sharedMedia = JSON.parse(fs.readFileSync(path.join(root, 'shared', 'media-slots.json'), 'utf8'));
+js = replaceEmbedded(js, 'JSON.parse(`[{"id":"concept.hero","title"', sharedText, 'text');
+js = replaceEmbedded(js, 'JSON.parse(`[{"id":"concept.hero","group":"concept","section"', sharedMedia, 'media');
+
 fs.writeFileSync(cssPath, css, 'utf8');
 fs.writeFileSync(jsPath, js, 'utf8');
 console.log('css updated:', css.length, 'bytes');

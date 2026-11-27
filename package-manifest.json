@@ -47,8 +47,8 @@
     },
     {
       "file": "dist/assets/index-CEFoGbBQ.js",
-      "bytes": 599311,
-      "sha256": "741641fbcd6d3644083c4cbb82fb847e20a4c6fc5bdf6370c8b07cfc4bd9aa7c"
+      "bytes": 599085,
+      "sha256": "b95734e28eec97379215ed3349882cd2db8a232b1c2f8ba3f88bc48db86d1689"
     },
     {
       "file": "dist/assets/index-CiwR2OEh.css",
@@ -732,8 +732,8 @@
     },
     {
       "file": "shared/text-sections.json",
-      "bytes": 62071,
-      "sha256": "fbe413881a142b63cde9c1854f1dcfddbdd9db8fe814b551c54e1dd8115bdcaa"
+      "bytes": 62038,
+      "sha256": "3766eaece13939f4636916c322b6b09f4419a7d70fefd24835e40eb20ed56df6"
     },
     {
       "file": "Start-Proposal.ps1",
@@ -747,8 +747,8 @@
     },
     {
       "file": "user-data/media-settings.json",
-      "bytes": 5813,
-      "sha256": "054d1338beb2f68658c1ca913b7dbc21cb53455a43f352ef24ce1b8e8bf6bbcb"
+      "bytes": 6503,
+      "sha256": "c9abe756a51d83699e7d90f67048b8ee222cd7b8642d1a94f609db256218988d"
     },
     {
       "file": "user-data/text-settings.json",

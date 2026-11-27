@@ -440,8 +440,8 @@
     "fields": [
       {
         "id": "heading.1",
-        "label": "页眉 · 一门一厅 · 三处场景",
-        "defaultText": "一门一厅 · 三处场景",
+        "label": "页眉 · 一处门厅 · 两间实验室",
+        "defaultText": "一处门厅 · 两间实验室",
         "maxLength": 120
       },
       {
@@ -489,7 +489,7 @@
       {
         "id": "foyer.body",
         "label": "场景 · 门厅 · 迎宾与成果 · 说明",
-        "defaultText": "迎宾、导览与成果展示，不计入两间实验室教学面积。",
+        "defaultText": "迎宾、导览与成果展示。",
         "maxLength": 120
       },
       {
