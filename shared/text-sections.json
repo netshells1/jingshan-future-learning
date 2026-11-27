@@ -458,14 +458,14 @@
       },
       {
         "id": "production.label",
-        "label": "场景 · 数字智造工坊 · 标签",
-        "defaultText": "数字智造工坊",
+        "label": "场景 · AI＋生产 · 标签",
+        "defaultText": "AI＋生产",
         "maxLength": 60
       },
       {
         "id": "life.label",
-        "label": "场景 · 生活创想空间 · 标签",
-        "defaultText": "生活创想空间",
+        "label": "场景 · AI＋生活 · 标签",
+        "defaultText": "AI＋生活",
         "maxLength": 60
       },
       {
@@ -476,13 +476,13 @@
       },
       {
         "id": "production.title",
-        "label": "场景 · 数字智造工坊 · 标题",
+        "label": "场景 · AI＋生产 · 标题",
         "defaultText": "AI＋生产实验室",
         "maxLength": 60
       },
       {
         "id": "life.title",
-        "label": "场景 · 生活创想空间 · 标题",
+        "label": "场景 · AI＋生活 · 标题",
         "defaultText": "AI＋生活实验室",
         "maxLength": 60
       },
@@ -494,27 +494,27 @@
       },
       {
         "id": "production.body",
-        "label": "场景 · 数字智造工坊 · 说明",
+        "label": "场景 · AI＋生产 · 说明",
         "defaultText": "四个功能区协同，完成设计—制作—验证的完整链路。",
         "maxLength": 120
       },
       {
         "id": "life.body",
-        "label": "场景 · 生活创想空间 · 说明",
+        "label": "场景 · AI＋生活 · 说明",
         "defaultText": "三个功能区，让身边物品回应一次有依据的操作。",
         "maxLength": 120
       },
       {
         "id": "footnote",
         "label": "底部署名 · 参观路线",
-        "defaultText": "参观路线：门厅 → 数字智造工坊 → 生活创想空间",
+        "defaultText": "参观路线：门厅 → AI＋生产 → AI＋生活",
         "maxLength": 200
       }
     ]
   },
   {
     "id": "campus.production",
-    "title": "数字智造工坊",
+    "title": "AI＋生产",
     "group": "campus",
     "chapter": "campus",
     "page": 2,
@@ -541,7 +541,7 @@
   },
   {
     "id": "campus.life",
-    "title": "生活创想空间",
+    "title": "AI＋生活",
     "group": "campus",
     "chapter": "campus",
     "page": 3,
@@ -704,25 +704,25 @@
       },
       {
         "id": "map.room.0.title",
-        "label": "关系示意 · 数字智造工坊名称",
-        "defaultText": "数字智造工坊",
+        "label": "关系示意 · AI＋生产名称",
+        "defaultText": "AI＋生产",
         "maxLength": 18
       },
       {
         "id": "map.room.0.resources",
-        "label": "关系示意 · 数字智造工坊资源",
+        "label": "关系示意 · AI＋生产资源",
         "defaultText": "7项课程 · 4个功能区",
         "maxLength": 28
       },
       {
         "id": "map.room.1.title",
-        "label": "关系示意 · 生活创想空间名称",
-        "defaultText": "生活创想空间",
+        "label": "关系示意 · AI＋生活名称",
+        "defaultText": "AI＋生活",
         "maxLength": 18
       },
       {
         "id": "map.room.1.resources",
-        "label": "关系示意 · 生活创想空间资源",
+        "label": "关系示意 · AI＋生活资源",
         "defaultText": "5项课程 · 3个功能区",
         "maxLength": 28
       },
@@ -788,14 +788,14 @@
       },
       {
         "id": "camera.0.title",
-        "label": "空间画面 · 数字智造工坊 · 空间画面",
-        "defaultText": "数字智造工坊 · 空间画面",
+        "label": "空间画面 · AI＋生产 · 空间画面",
+        "defaultText": "AI＋生产 · 空间画面",
         "maxLength": 100
       },
       {
         "id": "camera.1.title",
-        "label": "空间画面 · 生活创想空间 · 空间画面",
-        "defaultText": "生活创想空间 · 空间画面",
+        "label": "空间画面 · AI＋生活 · 空间画面",
+        "defaultText": "AI＋生活 · 空间画面",
         "maxLength": 100
       },
       {
@@ -1196,14 +1196,14 @@
       },
       {
         "id": "direction.0",
-        "label": "创作方向 · 数字智造工坊",
-        "defaultText": "数字智造工坊",
+        "label": "创作方向 · AI＋生产",
+        "defaultText": "AI＋生产",
         "maxLength": 120
       },
       {
         "id": "direction.1",
-        "label": "创作方向 · 生活创想空间",
-        "defaultText": "生活创想空间",
+        "label": "创作方向 · AI＋生活",
+        "defaultText": "AI＋生活",
         "maxLength": 120
       },
       {

@@ -40,7 +40,7 @@ const sharedMedia = JSON.parse(fs.readFileSync(path.join(root, 'shared', 'media-
 const checks = [];
 checks.push(['text registry in sync', JSON.stringify(embText) === JSON.stringify(sharedText)]);
 checks.push(['media registry in sync', JSON.stringify(embMedia) === JSON.stringify(sharedMedia)]);
-checks.push(['tab array has 空间场景', js.includes('it=[`小景智能中枢`,`空间场景`,`数字智造工坊`')]);
+checks.push(['tab array has 空间场景', js.includes('it=[`小景智能中枢`,`空间场景`,`AI＋生产`')]);
 checks.push(['chapter page counts bumped', js.includes('var ur=[5,6,3,8]')]);
 checks.push(['campus.spaces text section', embText.some((s) => s.id === 'campus.spaces')]);
 checks.push(['spaces media slots', embMedia.filter((s) => s.id.startsWith('campus.spaces')).length === 6]);

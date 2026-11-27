@@ -5,7 +5,7 @@
   "images": [
     {
       "id": "production-wide",
-      "title": "数字智造工坊全景",
+      "title": "AI＋生产全景",
       "use": "两间教室·生产教室入口全景",
       "filepath": "E:/Project/景山实验中学/ai-classroom/jingshan-proposal/public/media/20261112/classroom/production-wide.png",
       "source": "C:\\Users\\Admin\\.codex\\generated_images\\01a1cd4c-8c2e-7c32-9df8-d5a4a9ee5c55\\exec-d06e1920-0d80-4bd2-bd4b-0df432713cf1.png",
@@ -16,7 +16,7 @@
     },
     {
       "id": "production-front",
-      "title": "数字智造工坊教学空间",
+      "title": "AI＋生产教学空间",
       "use": "生产教室大屏与设备、导师指导",
       "filepath": "E:/Project/景山实验中学/ai-classroom/jingshan-proposal/public/media/20261112/classroom/production-front.png",
       "prompt": "Use case: photorealistic-natural. Asset: premium school AI production classroom architectural photography. Input image 1 is the generated design reference of this exact renovated classroom, preserve its specific design and restrained palette. Create one new 16:9 wide photograph from a closer oblique angle at the right side aisle toward the front teaching wall and left window-side manufacturing bench. Show the graphite built-in teaching wall with a large flush screen displaying a simple nonverbal exploded-view yellow binocular-eyed educational rover diagram, warm oak niches, carefully arranged hand tools, small component drawers and two enclosed desktop 3D printers. Two collaboration tables occupy foreground with normal-sized chairs; remaining tables recede to edge, room remains approximately100sqm with black-framed left windows, pale floor, exposedservices ceiling, white acoustic baffles. One adult Chinese engineering mentor in plain cream shirt and two fictional Chinese teenage students in navy-white school tracksuits lean naturally toward a physical yellow binocular-eyed educational rover on a worktable. Believable workshop lesson, candid concentration, no posing. Photographic skin detail, anatomically correct hands, subtle fabric wrinkles. 28mm lens adult eye level, warm natural window light, fine realistic material texture. Refined contemporary school interior, not sci-fi CG. No text, logos, watermark, neon, floating UI, collage.",
@@ -37,7 +37,7 @@
     },
     {
       "id": "life-wide",
-      "title": "生活创想空间全景",
+      "title": "AI＋生活全景",
       "use": "生活教室入口全景、六组协作工位",
       "filepath": "E:/Project/景山实验中学/ai-classroom/jingshan-proposal/public/media/20261112/classroom/life-wide.png",
       "source": "C:\\Users\\Admin\\.codex\\generated_images\\01a1cd4c-8c2e-7c32-9df8-d5a4a9ee5c55\\exec-ea17dddc-d17a-4ce2-84b3-145674864cd0.png",

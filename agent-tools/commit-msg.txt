@@ -1,0 +1,12 @@
+feat(campus): 数字智造工坊 / 生活创想空间 改名为 AI＋生产 / AI＋生活
+
+- 校园章节标签页、全域中心关系示意图与空间画面标题
+- 空间场景独立文件（dist/spaces/index.html）的场景标签与参观路线
+- 课程目录分组标题、课程入口与 CTA、黑客松三条创作方向主线
+- shared/text-sections.json、shared/media-slots.json 文本与素材槽位配置
+- server/project-context.mjs 小景知识库口径
+- dist/media 各 manifest 与素材索引页的图片标题
+- agent-tools/spaces-scenes.json 与 gen-spaces-component.cjs 元数据源同步
+- package-manifest.json 文件哈希同步更新
+
+全仓已无旧名称残留。

@@ -1,7 +1,7 @@
 {
   "format": "jingshan-windows-package",
   "version": 1,
-  "builtAt": "2026-11-27T05:30:52.682Z",
+  "builtAt": "2026-11-27T06:15:11.382Z",
   "runtime": {
     "version": "v24.22.0",
     "platform": "win32",
@@ -22,8 +22,8 @@
   "files": [
     {
       "file": "dist/assets/index-CEFoGbBQ.js",
-      "bytes": 593936,
-      "sha256": "004cbe0fce7fe64336e85189f4507b1153d9fad2174a00c3c746d7021a72bb64"
+      "bytes": 593464,
+      "sha256": "1294141ccb4a356675f5b7c68bdbe97e8315b0a008b09bad6585608c0aaa6fd1"
     },
     {
       "file": "dist/assets/index-CiwR2OEh.css",
@@ -92,13 +92,13 @@
     },
     {
       "file": "dist/media/20261112/assets-manifest.json",
-      "bytes": 59045,
-      "sha256": "dbd6c1946cab4427a9563b6c5ec024856d7a95d84c32dc164ba4c12826df9487"
+      "bytes": 59017,
+      "sha256": "95f73ffd2296da36387ecea26c4eeeef23db9af3d0e63124970a6de6f98acaef"
     },
     {
       "file": "dist/media/20261112/classroom/classroom-manifest.json",
-      "bytes": 12270,
-      "sha256": "0a84191f5bcfbc62e621f2ffef32e3e455741e6c1143fa107e111842c029fd34"
+      "bytes": 12249,
+      "sha256": "0eb38e368246ed1b2c3b81b412a56062f33459bf02c1b9bf24a36dde5d018f0c"
     },
     {
       "file": "dist/media/20261112/classroom/life-collaboration.png",
@@ -222,13 +222,13 @@
     },
     {
       "file": "dist/media/20261112/hackathon/hackathon-manifest.json",
-      "bytes": 14685,
-      "sha256": "408764f868f8fdd8666f25dee1e9e88e5149de09736a459f782ef7a6866ed1ee"
+      "bytes": 14678,
+      "sha256": "d021bfd0176fe28a8f6bb0cfae7eb40b94a4993186ebca5b51be35f19ed7f6b4"
     },
     {
       "file": "dist/media/20261112/index.html",
-      "bytes": 29108,
-      "sha256": "d03c44f17477711d9ed9cfc2691ffdfbf34233af498248fbf4dde2b715a457d4"
+      "bytes": 29017,
+      "sha256": "121189aa0c119232c0f00694b200ba412c5cc6e5df2584d0e1543e58fb906ca7"
     },
     {
       "file": "dist/media/classroom-design-20261112/classroom-design-01.png",
@@ -267,8 +267,8 @@
     },
     {
       "file": "dist/media/classroom-design-20261112/manifest.json",
-      "bytes": 6080,
-      "sha256": "591c1a5c1a1a26bafc7026613c84607b651f33d087177f771dec60d925ce9507"
+      "bytes": 6073,
+      "sha256": "39aaf9aaf9cee81571d5b9a21e38b5df5942727c68493c1ff7932666e0073247"
     },
     {
       "file": "dist/media/final-plan-20261113/bus-stop.jpg",
@@ -452,8 +452,8 @@
     },
     {
       "file": "dist/media/life-classroom-20261112/manifest.json",
-      "bytes": 11393,
-      "sha256": "6fc712798856def7766fd3d7e4ab7aa61962bda47d6c560dcd006aee55fd63de"
+      "bytes": 11365,
+      "sha256": "2dd2bcfb18223d51d8e3041323886bff6e7db011974e4e883fdfabb0b6e389dd"
     },
     {
       "file": "dist/media/manuscript-reference/agriculture-study.png",
@@ -1132,8 +1132,8 @@
     },
     {
       "file": "dist/spaces/index.html",
-      "bytes": 25028,
-      "sha256": "d033acef0bf5ae321943e4d9eff59924e685fdb1bd607ad7ef1ff5d5cdc25c7a"
+      "bytes": 24986,
+      "sha256": "f573a71dc8a807864626606aa0e7d26277167325bac0d3cc9291cee5067e4ac6"
     },
     {
       "file": "配置小景对话.cmd",
@@ -1227,8 +1227,8 @@
     },
     {
       "file": "server/project-context.mjs",
-      "bytes": 28888,
-      "sha256": "810bdd15fe1f823a2253cac97de52391f91fa348198389cb00da523549a2e979"
+      "bytes": 28839,
+      "sha256": "b9947a84ee954b9820597a43940f146bf0d102f3b25b1550aa0197d989c1a11c"
     },
     {
       "file": "server/standalone.mjs",
@@ -1252,13 +1252,13 @@
     },
     {
       "file": "shared/media-slots.json",
-      "bytes": 41420,
-      "sha256": "19b2aa730e57ce18d7c8868152c05c7e6e75f029a031806a2a6b8ce25e2f16ce"
+      "bytes": 41280,
+      "sha256": "3c906ea192c0a0709b28f132e411d83449fe91231baa69955d6ba4fbe9f89039"
     },
     {
       "file": "shared/text-sections.json",
-      "bytes": 62038,
-      "sha256": "3766eaece13939f4636916c322b6b09f4419a7d70fefd24835e40eb20ed56df6"
+      "bytes": 61856,
+      "sha256": "6dcb552addb2bfbd69ad8e61ca2d8afc17166df100c6fbe7482f85117ef7a403"
     },
     {
       "file": "Start-Proposal.ps1",

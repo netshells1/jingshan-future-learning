@@ -22,9 +22,9 @@ const S = [
   {
     key: 'production',
     slotId: 'campus.spaces.production',
-    label: '数字智造工坊',
+    label: 'AI＋生产',
     image: '/media/final-plan-20261113/production-main.jpg',
-    alt: '最终方案图4-1，数字智造工坊实验室大屏、协作工位与制造设备主视角',
+    alt: '最终方案图4-1，AI＋生产实验室大屏、协作工位与制造设备主视角',
     title: 'AI＋生产实验室',
     body: '四个功能区协同，完成设计—制作—验证的完整链路。',
     position: 'center 32%',
@@ -32,9 +32,9 @@ const S = [
   {
     key: 'life',
     slotId: 'campus.spaces.life',
-    label: '生活创想空间',
+    label: 'AI＋生活',
     image: '/media/final-plan-20261113/life-main.jpg',
-    alt: '最终方案图4-2，生活创想空间实验室中心互动台、周边体验区与教学屏幕',
+    alt: '最终方案图4-2，AI＋生活实验室中心互动台、周边体验区与教学屏幕',
     title: 'AI＋生活实验室',
     body: '三个功能区，让身边物品回应一次有依据的操作。',
     position: 'center 30%',
@@ -42,7 +42,7 @@ const S = [
 ];
 
 const eyebrow = '一处门厅 · 两间实验室';
-const caption = '参观路线：门厅 → 数字智造工坊 → 生活创想空间';
+const caption = '参观路线：门厅 → AI＋生产 → AI＋生活';
 
 // --- JSON data file (single source of truth for tooling) --------------
 const dataPath = path.join(__dirname, 'spaces-scenes.json');
