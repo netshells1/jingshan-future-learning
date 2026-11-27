@@ -46,14 +46,16 @@ checks.push(['campus.spaces text section', embText.some((s) => s.id === 'campus.
 checks.push(['spaces media slots', embMedia.filter((s) => s.id.startsWith('campus.spaces')).length === 6]);
 
 // --- the panel is now a thin iframe shell ---------------------------
-checks.push(['panel function exists', js.includes('function spacesPanel(){')]);
+checks.push(['panel function exists', js.includes('function spacesPanel({onStep:e}){')]);
 checks.push(['panel embeds the standalone file', js.includes('src:`./spaces/index.html`')]);
 checks.push(['panel uses the frame class', js.includes('R.spacesFrame')]);
 checks.push(['panel syncs visibility', js.includes('jingshan:spaces-visible')]);
-checks.push(['panel forwards arrow keys', js.includes('jingshan:spaces-key')]);
-checks.push(['component inserted before ct', js.indexOf('function spacesPanel()') < js.indexOf('function ct({initialPage:e=0')]);
-checks.push(['panel used by campus deck', js.includes('(0,_.jsx)(spacesPanel,{})')]);
-checks.push(['no duplicate spacesPanel', (js.match(/function spacesPanel\(\)/g) || []).length === 1]);
+checks.push(['panel forwards step requests', js.includes('jingshan:spaces-step')]);
+checks.push(['panel wires the step callback', js.includes('jsx)(spacesPanel,{onStep:')]);
+checks.push(['component inserted before ct', js.indexOf('function spacesPanel(') < js.indexOf('function ct({initialPage:e=0')]);
+checks.push(['panel used by campus deck', js.includes('jsx)(spacesPanel,{onStep:')]);
+checks.push(['no duplicate spacesPanel', (js.match(/function spacesPanel\(/g) || []).length === 1]);
+checks.push(['no stale arrow-key forwarding', !js.includes('jingshan:spaces-key')]);
 
 // --- the inline 3D implementation must be gone from the bundle ------
 for (const dead of ['R.spacesScene', 'R.spacesTilt', 'R.spacesOrbit', 'R.spacesDepth', 'R.spacesCardBack', 'R.spacesIndex']) {
@@ -78,8 +80,12 @@ checks.push(['standalone loads text overrides', standalone.includes('/api/text-s
 checks.push(['standalone loads media overrides', standalone.includes('/api/media-settings')]);
 checks.push(['standalone reads the text section', standalone.includes('campus.spaces')]);
 checks.push(['standalone links back to campus', standalone.includes('../#/campus')]);
-checks.push(['standalone offers a standalone window', standalone.includes('在新窗口打开')]);
+checks.push(['standalone drops the open-window link', !standalone.includes('在新窗口打开') && !standalone.includes('spacesOpen')]);
 checks.push(['standalone handles iframe embedding', standalone.includes('jingshan:spaces-visible')]);
+checks.push(['standalone forwards step requests', standalone.includes('jingshan:spaces-step')]);
+checks.push(['standalone switches scenes on wheel', standalone.includes("addEventListener('wheel'")]);
+checks.push(['standalone switches scenes on mouse drag', standalone.includes("addEventListener('pointerdown'") && standalone.includes("addEventListener('pointerup'")]);
+checks.push(['standalone switches scenes on touch', standalone.includes('touchmove')]);
 checks.push(['standalone defaults all three images', ['foyer-welcome.jpg', 'production-main.jpg', 'life-main.jpg'].every((f) => standalone.includes(f))]);
 
 // --- CSS -------------------------------------------------------------
