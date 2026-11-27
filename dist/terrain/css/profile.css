@@ -1,0 +1,94 @@
+/* Profile Drawer Panel */
+#profile-drawer {
+  position: absolute;
+  left: 312px;
+  right: 16px;
+  bottom: 46px;
+  height: 214px;
+  z-index: 15;
+  background: rgba(18, 21, 26, 0.94);
+  backdrop-filter: blur(10px);
+  border: 1px solid var(--border-strong);
+  border-radius: 6px;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.65);
+  display: none;
+  flex-direction: column;
+  overflow: hidden;
+  transition: left 0.24s ease;
+}
+#profile-drawer.open {
+  display: flex;
+}
+#profile-drawer.minimap-wide {
+  left: 432px;
+}
+.profile-head {
+  padding: 6px 12px;
+  border-bottom: 1px solid var(--border-subtle);
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 6px;
+  justify-content: space-between;
+  gap: 8px;
+  background: rgba(216, 179, 106, 0.05);
+}
+.profile-title-group {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-width: 0;
+}
+.profile-title {
+  font-family: var(--font-serif);
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--accent);
+  white-space: nowrap;
+}
+.profile-stats {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: var(--font-mono);
+  font-size: 10.5px;
+  color: var(--text-secondary);
+  white-space: nowrap;
+  overflow-x: auto;
+  flex-shrink: 1;
+  min-width: 0;
+}
+.profile-stats b { color: var(--text-primary); }
+.los-badge {
+  font-size: 10.5px;
+  padding: 1px 7px;
+  border-radius: 3px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+.los-badge.clear {
+  background: rgba(93, 187, 123, 0.16);
+  border: 1px solid rgba(93, 187, 123, 0.5);
+  color: var(--good);
+}
+.los-badge.blocked {
+  background: rgba(224, 97, 84, 0.16);
+  border: 1px solid rgba(224, 97, 84, 0.5);
+  color: var(--danger);
+}
+.profile-actions {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.profile-canvas-wrap {
+  flex: 1;
+  position: relative;
+  min-height: 0;
+  padding: 4px 8px 6px;
+}
+#profile-canvas {
+  width: 100%;
+  height: 100%;
+  display: block;
+}

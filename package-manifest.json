@@ -9,7 +9,7 @@
   },
   "mediaOverrides": 16,
   "textOverrides": 0,
-  "staticFiles": 176,
+  "staticFiles": 221,
   "excludes": [
     ".local",
     "DPAPI credentials",
@@ -47,8 +47,8 @@
     },
     {
       "file": "dist/assets/index-CEFoGbBQ.js",
-      "bytes": 596367,
-      "sha256": "27350add6e545cd4a171c38161604f0334c482537112a9d0239f3849bf1d14c7"
+      "bytes": 596572,
+      "sha256": "c6043ffe3f84a42befd67c7ce057f26431551b9c3085d620c43e6d0ec105baf2"
     },
     {
       "file": "dist/assets/index-CiwR2OEh.css",
@@ -502,8 +502,8 @@
     },
     {
       "file": "dist/media/manuscript-reference/contour-reference.png",
-      "bytes": 1135929,
-      "sha256": "1edf34c49ca2d6e8ff9f72260e8758c2911db16458eee313fdaabf9769920641"
+      "bytes": 847839,
+      "sha256": "6eecddd11c15be42340126c7b6a2213b7da3a1ba1637c79d3de694dab4b2a3ad"
     },
     {
       "file": "dist/media/manuscript-reference/english-cards.png",
@@ -1017,13 +1017,13 @@
     },
     {
       "file": "dist/atmosphere/assets/index-BpPBQWgI.css",
-      "bytes": 288784,
-      "sha256": "aad7839779ceb2a1dfbffb559e12e0bb18d8e56042800c468c096725e77e11ef"
+      "bytes": 289000,
+      "sha256": "4cb2b61baf22eb3e68cb9af15565ebbfcb3337bff04a6b97121cd35b4521a1f8"
     },
     {
       "file": "dist/atmosphere/assets/index-CCike6Ux.js",
-      "bytes": 103958,
-      "sha256": "fb6db512a79eb2679a8a29e87ea4c67d81cdede01e3ea212aeffbb52abcc017f"
+      "bytes": 104026,
+      "sha256": "19b113b50b6a757da382d3915ea29bbeff757171cc298789d975f263ed9751ad"
     },
     {
       "file": "dist/atmosphere/assets/ncep-1991-2020.f32",
@@ -1134,6 +1134,236 @@
       "file": "user-data/media/fc2fe463c9762ec997c66d81d0511e56.svg",
       "bytes": 3027770,
       "sha256": "7323cb72efef58ffb63b8ba0fd9ea4f430ad0491fd965379b65617697c0937be"
+    },
+    {
+      "file": "dist/terrain/css/base.css",
+      "bytes": 1732,
+      "sha256": "40e1d3dfb8ed2b0f81ca43114cca4a152bab52a7f6613405d1c76ed499387f7e"
+    },
+    {
+      "file": "dist/terrain/css/layout.css",
+      "bytes": 242,
+      "sha256": "7f4f072c28cda8766ad256b8e63caad4aaf47325d0eb4cce7c0567e2067befde"
+    },
+    {
+      "file": "dist/terrain/css/lesson.css",
+      "bytes": 4034,
+      "sha256": "a14807618e6e2c8047882056ed0fbfb4ca36e826f326b84aff30e0ad75609a5f"
+    },
+    {
+      "file": "dist/terrain/css/minimap.css",
+      "bytes": 2717,
+      "sha256": "cb3fbd4084e00804b40d41c94aa24a0eb44deb3e0c229b8aa07d85fc0aab0149"
+    },
+    {
+      "file": "dist/terrain/css/profile.css",
+      "bytes": 1894,
+      "sha256": "7dcabbde5445fe761e4f420c430068744f26808673ee6981b3c5bcc23277988b"
+    },
+    {
+      "file": "dist/terrain/css/quiz.css",
+      "bytes": 1987,
+      "sha256": "ca65934fad09698120cc5644009e91652fc1f3a875a6b08bd9ff9e0bbc829d03"
+    },
+    {
+      "file": "dist/terrain/css/responsive.css",
+      "bytes": 341,
+      "sha256": "9656e6e88294a5f33157482e2992ef18fdeaf3dfcdd781c4988163558e13fe85"
+    },
+    {
+      "file": "dist/terrain/css/sidebar-left.css",
+      "bytes": 2547,
+      "sha256": "12b74f473b2ae2f8b2a7287b3892e775ef211a7ce8ea62e17c30f2a0d436453d"
+    },
+    {
+      "file": "dist/terrain/css/topbar.css",
+      "bytes": 2585,
+      "sha256": "0c085b9a2c16a8a60914becae55acdf2d0521a4fafd4a9bdc4796e08543e9a71"
+    },
+    {
+      "file": "dist/terrain/css/view-panel.css",
+      "bytes": 2447,
+      "sha256": "c4d8a1f9fcef6955dbad9fd59c859f0fac2b29355e70ba25d13f5f5eef654394"
+    },
+    {
+      "file": "dist/terrain/css/viewport.css",
+      "bytes": 3700,
+      "sha256": "b8fe2b2c0fb05dceea3aae1032d4cece2e8bde1310dc361405a5a2d47938998d"
+    },
+    {
+      "file": "dist/terrain/index.html",
+      "bytes": 11620,
+      "sha256": "e8db5824bde03e5f9a0f5ff50e44832cd7df9a9222c9b464f5284774a75128fb"
+    },
+    {
+      "file": "dist/terrain/js/config/constants.js",
+      "bytes": 519,
+      "sha256": "90d22e51bd06b6abeb94cba84407b26f2fc1856ca7d7823bc280b4f624af2fa4"
+    },
+    {
+      "file": "dist/terrain/js/config/geography.js",
+      "bytes": 2652,
+      "sha256": "cfb3c32ca8ecc715e958c09914d27708842e21adbea2e7a4463d5f5f848cfb70"
+    },
+    {
+      "file": "dist/terrain/js/data/chapters.js",
+      "bytes": 4646,
+      "sha256": "8955264854e3b9569d7a8de519216f2a5d026e0c8302c4ea71bae683b6c49a9d"
+    },
+    {
+      "file": "dist/terrain/js/data/quiz.js",
+      "bytes": 5968,
+      "sha256": "03924512813d4c065d5c87d588c526487cc7cca8b0d863d458bf9a05ed38eca3"
+    },
+    {
+      "file": "dist/terrain/js/i18n/messages.js",
+      "bytes": 2183,
+      "sha256": "6f9cd6849976e90d220f0a96f2a1d18b174c9d415d436391b1d0e9de6eae2c0d"
+    },
+    {
+      "file": "dist/terrain/js/main.js",
+      "bytes": 1335,
+      "sha256": "c86c8a1163d70ff1508efca00d0ec00a4c6ffe67351683e801198b2d9223628c"
+    },
+    {
+      "file": "dist/terrain/js/map2d/minimap.js",
+      "bytes": 7398,
+      "sha256": "67d53b9af5b0d33835fa0032beb6e3057b00fa554fbc26d46bb6dce7879b4b70"
+    },
+    {
+      "file": "dist/terrain/js/map2d/profile.js",
+      "bytes": 9365,
+      "sha256": "34508fd203efa97898de7099adb3f8bd7507b88708940a722b7df3d473993cb1"
+    },
+    {
+      "file": "dist/terrain/js/map2d/water-layer.js",
+      "bytes": 1051,
+      "sha256": "fc6ab49ba4631dd200667d27b4927300b9273cee4ecd0895e3fdbe4a0efb8ef6"
+    },
+    {
+      "file": "dist/terrain/js/scene/camera.js",
+      "bytes": 2393,
+      "sha256": "018b99aef3ed3bbe23ca8392723a9e5b3216a378c2bcc8f23cbe078159059f41"
+    },
+    {
+      "file": "dist/terrain/js/scene/contour-lines.js",
+      "bytes": 1856,
+      "sha256": "1a46279db0abffdef4b56bb252af4db9707370a92d1353b4ee56f1dd3f7a7e1a"
+    },
+    {
+      "file": "dist/terrain/js/scene/labels.js",
+      "bytes": 2533,
+      "sha256": "3b35d0dde7d7d05380364cc7d00f72b818eeefbe9d8f17674f41149c8d128a17"
+    },
+    {
+      "file": "dist/terrain/js/scene/overlays.js",
+      "bytes": 9446,
+      "sha256": "88e4c8cf9fdda8fb39364c5758d501856b02ecde916a505c7c3a77c10168b2f2"
+    },
+    {
+      "file": "dist/terrain/js/scene/projection-base.js",
+      "bytes": 2947,
+      "sha256": "f98154d6852cff255b3e5fd288e3e2a31f8df2ad7a66b7cd4195ac7967314cce"
+    },
+    {
+      "file": "dist/terrain/js/scene/shaders.js",
+      "bytes": 7647,
+      "sha256": "2803e13cae140dae34ed5252139a68a43c6a95840dd8266ba0456187a0320e63"
+    },
+    {
+      "file": "dist/terrain/js/scene/stage.js",
+      "bytes": 1504,
+      "sha256": "5434785913894f1ad62f34a0b07fff456b9b454c54993ed3fcb14055424b6b1b"
+    },
+    {
+      "file": "dist/terrain/js/scene/terrain-mesh.js",
+      "bytes": 6354,
+      "sha256": "fb51f59ef680ae55b5f094cd093d5a750d511682ef343a3d72b745821b535f1b"
+    },
+    {
+      "file": "dist/terrain/js/scene/trees.js",
+      "bytes": 2369,
+      "sha256": "3c5f35cd7fb61edb942ca43c4b029e066aa2314a59660bbe7d89a059dcaac591"
+    },
+    {
+      "file": "dist/terrain/js/scene/water.js",
+      "bytes": 3078,
+      "sha256": "b129a2d13a53fc6ce7b1c075fdae22b3f697f330e50c005123ad18d4c99ea836"
+    },
+    {
+      "file": "dist/terrain/js/state/store.js",
+      "bytes": 931,
+      "sha256": "21ddf1e668a2d07faf31193493b49c31fd186a6a5a46478e0901338758df1b49"
+    },
+    {
+      "file": "dist/terrain/js/terrain/contours.js",
+      "bytes": 4079,
+      "sha256": "84e01d15e33600c252d596441f057665fe2be42fa4623f2729c73a1fc1a9fb73"
+    },
+    {
+      "file": "dist/terrain/js/terrain/coords.js",
+      "bytes": 289,
+      "sha256": "569099357ed5a51bf239dbe69187c5457c2c2fe2009b7b670419604611cc0609"
+    },
+    {
+      "file": "dist/terrain/js/terrain/heightmap.js",
+      "bytes": 9137,
+      "sha256": "07ccaa3a9b4292862d3f57c4d9681978c885aca0ee1649632d0f5612bf6722ae"
+    },
+    {
+      "file": "dist/terrain/js/terrain/noise.js",
+      "bytes": 1198,
+      "sha256": "a08106df8b9af4f691924b5d27f6168353f09594fc51e5f8dcdd66f5b26765c3"
+    },
+    {
+      "file": "dist/terrain/js/terrain/polyline.js",
+      "bytes": 1611,
+      "sha256": "500c18a66fe6e9c239e298ab11bd0bb77fda673a0e507b733ed41bf5a457b39f"
+    },
+    {
+      "file": "dist/terrain/js/ui/events.js",
+      "bytes": 4792,
+      "sha256": "74fc9e62023945d0cf0d705f566d3ffaf5634da44642b935548a91737b273aab"
+    },
+    {
+      "file": "dist/terrain/js/ui/hud.js",
+      "bytes": 1204,
+      "sha256": "7b0aead4d7ce484de50004233c95b879bdf74290744cf42b0902ef8b27466845"
+    },
+    {
+      "file": "dist/terrain/js/ui/i18n.js",
+      "bytes": 555,
+      "sha256": "c9ae4030ab3a69aa05a543cdf68dbba60b1a3a25bd1d5ede46b658c2a2b06ac1"
+    },
+    {
+      "file": "dist/terrain/js/ui/lesson.js",
+      "bytes": 25279,
+      "sha256": "d246eba2b49daee4949b775ab7a467acff6ba4a8b729a941b95ca00bc16e7c00"
+    },
+    {
+      "file": "dist/terrain/js/ui/navigation.js",
+      "bytes": 2550,
+      "sha256": "6483ce5a782bd1f5c8cd1477d7d80f464e019e04acad7b2a9c4f1a6f72bb219b"
+    },
+    {
+      "file": "dist/terrain/js/ui/settings.js",
+      "bytes": 1927,
+      "sha256": "4353fdb1eb148e2e0b7457d5f48b426632b81222751f3959957f1efadd0e8afa"
+    },
+    {
+      "file": "dist/terrain/vendor/OrbitControls.js",
+      "bytes": 26375,
+      "sha256": "02bb4ade710f3e607329e37a21f098bc3ac70eb6e33daf8a65e79f4db785e7b2"
+    },
+    {
+      "file": "dist/terrain/vendor/three.min.js",
+      "bytes": 603445,
+      "sha256": "9274bbcec8d96168626c732b5d31c775aa8cfb7eaa0599bec0c175908a2c1ce2"
+    },
+    {
+      "file": "licenses/media/terrain.md",
+      "bytes": 456,
+      "sha256": "4d6701f73e39b1fa111753af9ac600ea5a06264df9380ca1f3da7ce5ff58a96c"
     }
   ]
 }

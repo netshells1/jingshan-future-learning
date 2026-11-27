@@ -1,0 +1,58 @@
+:root {
+  --bg-base: #0b0d10;
+  --bg-panel: #12151a;
+  --bg-elevated: #181c23;
+  --bg-hover: #1e242d;
+  --border-subtle: rgba(232, 220, 200, 0.11);
+  --border-strong: rgba(216, 179, 106, 0.45);
+  --text-primary: #e8dcc8;
+  --text-secondary: #8a8d94;
+  --text-muted: #5f646d;
+  --accent: #d8b36a;
+  --accent-dim: rgba(216, 179, 106, 0.16);
+  --accent-glow: rgba(216, 179, 106, 0.35);
+  --water: #3a96d1;
+  --good: #5dbb7b;
+  --danger: #e06154;
+  --font-serif: "Noto Serif SC", "Source Han Serif SC", "Songti SC", "STSong", Georgia, serif;
+  --font-sans: "Noto Sans SC", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono: "JetBrains Mono", "SF Mono", "Menlo", "Consolas", monospace;
+  --header-h: 50px;
+  --left-w: 224px;
+  --right-w: 344px;
+  --minimap-size: 280px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: var(--bg-base);
+  color: var(--text-primary);
+  font-family: var(--font-sans);
+  font-size: 13px;
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+  user-select: none;
+}
+
+body.classroom-mode {
+  font-size: 15px;
+  --left-w: 244px;
+  --right-w: 380px;
+}
+body.classroom-mode #lesson-body { font-size: 14.5px; line-height: 1.68; }
+body.classroom-mode .chapter-overlay-title { font-size: 26px; }
+body.classroom-mode .landform-pin { font-size: 13px; padding: 3px 8px; }
+
+/* Scrollbars */
+::-webkit-scrollbar { width: 5px; height: 5px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: rgba(232, 220, 200, 0.16); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: rgba(216, 179, 106, 0.4); }

@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>认识等高线 · 等高线与三维地形</title>
+<link rel="stylesheet" href="css/base.css" />
+<link rel="stylesheet" href="css/layout.css" />
+<link rel="stylesheet" href="css/topbar.css" />
+<link rel="stylesheet" href="css/sidebar-left.css" />
+<link rel="stylesheet" href="css/viewport.css" />
+<link rel="stylesheet" href="css/minimap.css" />
+<link rel="stylesheet" href="css/profile.css" />
+<link rel="stylesheet" href="css/lesson.css" />
+<link rel="stylesheet" href="css/quiz.css" />
+<link rel="stylesheet" href="css/view-panel.css" />
+<link rel="stylesheet" href="css/responsive.css" />
+</head>
+<body>
+<div id="app">
+  <!-- Top Header Bar -->
+  <header id="topbar">
+    <div class="brand">
+      <a class="brand-back" href="../#/course/terrain">返回课程</a>
+      <span class="brand-en">CONTOUR·3D</span>
+      <span class="brand-sep">/</span>
+      <span class="brand-cn" id="brand-title-cn">认识等高线</span>
+    </div>
+
+    <div id="progress-bar" title="点击切换章节"></div>
+
+    <div class="top-actions">
+      <select id="lang-select" class="top-select" aria-label="Language">
+        <option value="zh">简体中文</option>
+        <option value="en">English</option>
+      </select>
+      <button id="btn-prev" class="top-btn icon-btn" title="上一章 (←)">&lt;</button>
+      <button id="btn-next" class="top-btn icon-btn" title="下一章 (→)">&gt;</button>
+      <button id="btn-reset-view" class="top-btn" data-i18n="resetView" title="重置视角 (R)">视角</button>
+      <button id="btn-classroom" class="top-btn" data-i18n="classroom" title="大屏模式 (B)">大屏</button>
+      <button id="btn-fullscreen" class="top-btn" data-i18n="fullscreen" title="全屏模式 (F)">全屏</button>
+    </div>
+  </header>
+
+  <!-- Main 3-Column Workspace -->
+  <main id="workspace">
+    <!-- Left Sidebar -->
+    <aside id="sidebar-left">
+      <div class="panel-header">
+        <span data-i18n="chaptersHeader">CHAPTERS · 章节</span>
+        <span id="ch-counter" style="color: var(--accent);">00/09</span>
+      </div>
+      <div id="chapter-list"></div>
+      <div id="shortcuts-legend">
+        <div class="shortcuts-title" data-i18n="shortcutsTitle">快捷键 · SHORTCUTS</div>
+        <div class="shortcut-grid">
+          <div class="sc-row"><kbd>←</kbd><kbd>→</kbd> <span data-i18n="scChapter">切换章节</span></div>
+          <div class="sc-row"><kbd>R</kbd> <span data-i18n="scReset">重置视角</span></div>
+          <div class="sc-row"><kbd>1</kbd><kbd>2</kbd><kbd>3</kbd> <span data-i18n="scSurface">地表模式</span></div>
+          <div class="sc-row"><kbd>C</kbd> <span data-i18n="scContour">等高线</span></div>
+          <div class="sc-row"><kbd>L</kbd> <span data-i18n="scLabels">地貌标注</span></div>
+          <div class="sc-row"><kbd>Space</kbd> <span data-i18n="scRotate">自动旋转</span></div>
+          <div class="sc-row"><kbd>T</kbd> <span data-i18n="scTerrace">阶梯模型</span></div>
+          <div class="sc-row"><kbd>F</kbd> <span data-i18n="scFull">全屏显示</span></div>
+        </div>
+      </div>
+    </aside>
+
+    <!-- Center 3D Viewport -->
+    <section id="viewport">
+      <canvas id="gl-canvas"></canvas>
+      <div id="labels-layer"></div>
+
+      <!-- Floating Top-left Chapter Title Overlay -->
+      <div id="chapter-overlay">
+        <div class="chapter-overlay-kicker" id="overlay-kicker">CHAPTER 00 · SCALE 1:50,000</div>
+        <div class="chapter-overlay-title" id="overlay-title">认识等高线地形图</div>
+        <div class="chapter-overlay-sub" id="overlay-sub">Overview · 8 km × 8 km 合成山地模型</div>
+        <div id="hud-readout">
+          <span id="hud-coord">坐标 <b>--</b></span>
+          <span id="hud-elev">海拔 <b>--</b></span>
+          <span id="hud-slope">坡度 <b>--</b></span>
+        </div>
+      </div>
+
+      <!-- Top-right Interactive Compass -->
+      <div id="compass-wrap">
+        <button id="compass-btn" title="点击指北针重置正北方向">
+          <svg id="compass-dial" viewBox="0 0 64 64">
+            <circle cx="32" cy="32" r="28" fill="none" stroke="rgba(232,220,200,0.22)" stroke-width="1"/>
+            <circle cx="32" cy="32" r="22" fill="none" stroke="rgba(216,179,106,0.25)" stroke-width="0.75" stroke-dasharray="2 3"/>
+            <path d="M32 6 L37 32 L32 28 L27 32 Z" fill="#d8b36a"/>
+            <path d="M32 58 L37 32 L32 36 L27 32 Z" fill="rgba(232,220,200,0.35)"/>
+            <text x="32" y="13.5" text-anchor="middle" font-size="8" font-family="monospace" font-weight="700" fill="#0b0d10">N</text>
+            <text x="32" y="55" text-anchor="middle" font-size="6.5" font-family="monospace" fill="rgba(232,220,200,0.6)">S</text>
+            <text x="53" y="34.5" text-anchor="middle" font-size="6.5" font-family="monospace" fill="rgba(232,220,200,0.6)">E</text>
+            <text x="11" y="34.5" text-anchor="middle" font-size="6.5" font-family="monospace" fill="rgba(232,220,200,0.6)">W</text>
+          </svg>
+        </button>
+        <div class="compass-caption" id="compass-deg">N 000°</div>
+      </div>
+
+      <!-- Bottom-left 2D Contour Minimap -->
+      <div id="minimap-box">
+        <div class="minimap-head">
+          <span class="minimap-head-title" data-i18n="minimapTitle">2D 等高线地形图</span>
+          <div class="minimap-head-actions">
+            <span id="minimap-hint" style="font-size: 9.5px; color: var(--text-muted);" data-i18n="minimapHint">点击定位·拖拽剖面</span>
+            <button id="btn-minimap-enlarge" class="mini-btn" data-i18n="enlarge">放大</button>
+          </div>
+        </div>
+        <div class="minimap-canvas-wrap">
+          <canvas id="minimap-canvas"></canvas>
+        </div>
+        <div class="minimap-foot">
+          <div class="scale-bar-wrap">
+            <div class="scale-bar"></div>
+            <span>0 &nbsp; 1 &nbsp; 2 km</span>
+          </div>
+          <span style="font-family: var(--font-mono); color: var(--accent);">1:50 000</span>
+        </div>
+      </div>
+
+      <!-- Profile Chart Drawer -->
+      <div id="profile-drawer">
+        <div class="profile-head">
+          <div class="profile-title-group">
+            <span class="profile-title" id="profile-title">地形剖面图 A — B</span>
+            <div class="profile-stats" id="profile-stats"></div>
+            <span class="los-badge clear" id="los-badge">通视良好 ✓</span>
+          </div>
+          <div class="profile-actions">
+            <button id="btn-los-toggle" class="mini-btn active" data-i18n="intervisibility">通视线</button>
+            <button id="btn-profile-clear" class="mini-btn" title="关闭剖面">✕</button>
+          </div>
+        </div>
+        <div class="profile-canvas-wrap">
+          <canvas id="profile-canvas"></canvas>
+        </div>
+      </div>
+
+      <!-- Bottom-right WeduLab badge -->
+      <div id="wedulab-badge">WeduLab</div>
+    </section>
+
+    <!-- Right Sidebar -->
+    <aside id="sidebar-right">
+      <section id="lesson">
+        <div class="lesson-kicker" id="lesson-kicker">SECTION 00</div>
+        <h2 class="lesson-title" id="lesson-title">认识等高线地形图</h2>
+        <div id="lesson-body"></div>
+      </section>
+
+      <section id="view">
+        <button id="view-toggle-bar" type="button">
+          <span data-i18n="viewSettings">VIEW · 显示设置</span>
+          <span id="view-chevron">▾</span>
+        </button>
+        <div id="view-body">
+          <div class="ctrl-row">
+            <div class="ctrl-label-line">
+              <span data-i18n="contourInterval">等高距 (Contour Interval)</span>
+              <span id="lbl-interval" style="font-family:var(--font-mono); color:var(--accent);">100 m</span>
+            </div>
+            <div class="seg-group" id="seg-interval">
+              <button class="seg-btn" data-val="50">50m</button>
+              <button class="seg-btn active" data-val="100">100m</button>
+              <button class="seg-btn" data-val="200">200m</button>
+            </div>
+          </div>
+
+          <div class="ctrl-row">
+            <div class="ctrl-label-line">
+              <span data-i18n="surfaceMode">地表渲染 (Surface)</span>
+            </div>
+            <div class="seg-group" id="seg-surface">
+              <button class="seg-btn active" data-val="realistic" data-i18n="surfReal">实景</button>
+              <button class="seg-btn" data-val="hypsometric" data-i18n="surfHypso">分层设色</button>
+              <button class="seg-btn" data-val="slope" data-i18n="surfSlope">坡度</button>
+            </div>
+          </div>
+
+          <div class="ctrl-row">
+            <div class="ctrl-label-line">
+              <span data-i18n="vertExag">垂直夸张 (Exaggeration)</span>
+              <span id="lbl-exag" style="font-family:var(--font-mono); color:var(--accent);">1.5x</span>
+            </div>
+            <input id="slider-exag" type="range" min="0.5" max="3.0" step="0.05" value="1.5" />
+          </div>
+
+          <div class="toggle-grid" id="view-toggles">
+            <button class="tog-btn active" data-key="contours" data-i18n="togContours">等高线</button>
+            <button class="tog-btn" data-key="terrace" data-i18n="togTerrace">阶梯模型</button>
+            <button class="tog-btn active" data-key="labels" data-i18n="togLabels">地貌标注</button>
+            <button class="tog-btn active" data-key="projBase" data-i18n="togBase">投影底图</button>
+            <button class="tog-btn active" data-key="water" data-i18n="togWater">河湖</button>
+            <button class="tog-btn active" data-key="trees" data-i18n="togTrees">植被</button>
+            <button class="tog-btn active" data-key="clouds" data-i18n="togClouds">云影</button>
+            <button class="tog-btn" data-key="autoRotate" data-i18n="togRotate">自动旋转</button>
+          </div>
+        </div>
+      </section>
+    </aside>
+  </main>
+</div>
+
+<!-- Three.js r128 & OrbitControls（离线随包） -->
+<script src="vendor/three.min.js"></script>
+<script src="vendor/OrbitControls.js"></script>
+
+<script src="js/config/constants.js"></script>
+<script src="js/config/geography.js"></script>
+<script src="js/state/store.js"></script>
+<script src="js/i18n/messages.js"></script>
+<script src="js/terrain/coords.js"></script>
+<script src="js/terrain/noise.js"></script>
+<script src="js/terrain/polyline.js"></script>
+<script src="js/terrain/heightmap.js"></script>
+<script src="js/terrain/contours.js"></script>
+<script src="js/data/quiz.js"></script>
+<script src="js/data/chapters.js"></script>
+<script src="js/scene/shaders.js"></script>
+<script src="js/scene/stage.js"></script>
+<script src="js/scene/terrain-mesh.js"></script>
+<script src="js/scene/contour-lines.js"></script>
+<script src="js/scene/projection-base.js"></script>
+<script src="js/scene/water.js"></script>
+<script src="js/scene/trees.js"></script>
+<script src="js/scene/overlays.js"></script>
+<script src="js/scene/labels.js"></script>
+<script src="js/scene/camera.js"></script>
+<script src="js/map2d/water-layer.js"></script>
+<script src="js/map2d/minimap.js"></script>
+<script src="js/map2d/profile.js"></script>
+<script src="js/ui/hud.js"></script>
+<script src="js/ui/lesson.js"></script>
+<script src="js/ui/navigation.js"></script>
+<script src="js/ui/settings.js"></script>
+<script src="js/ui/i18n.js"></script>
+<script src="js/ui/events.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
