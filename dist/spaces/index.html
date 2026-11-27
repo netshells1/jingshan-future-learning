@@ -178,9 +178,9 @@
   .spacesIndex {
     /* Fixed column widths keep all three rows aligned on the same two axes,
        and the right offset leaves room so nothing gets clipped. */
-    --idx-num-col: 46px;
-    --idx-label-col: 150px;
-    --idx-gap: 14px;
+    --idx-num-col: 52px;
+    --idx-label-col: 190px;
+    --idx-gap: 16px;
     position: absolute;
     top: 0;
     right: clamp(28px, 4.4vw, 88px);
@@ -190,7 +190,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: stretch;
-    gap: clamp(14px, 2.4vh, 30px);
+    /* The group sits a little below the optical centre so it clears the
+       headline block on the left. */
+    padding-top: clamp(100px, 17vh, 210px);
+    gap: clamp(16px, 2.6vh, 34px);
     transform-style: preserve-3d;
     transform: translateZ(30px);
   }
@@ -233,7 +236,7 @@
   .spacesIndexNum {
     display: block;
     text-align: right;
-    font-size: clamp(22px, 1.9vw, 32px);
+    font-size: clamp(26px, 2.2vw, 38px);
     font-weight: 600;
     line-height: 1;
     letter-spacing: .04em;
@@ -249,7 +252,7 @@
   .spacesIndexLabel {
     display: block;
     white-space: nowrap;
-    font-size: clamp(13px, 0.85vw, 15px);
+    font-size: clamp(15px, 1vw, 18px);
     line-height: 1.4;
     letter-spacing: .01em;
     text-shadow: 0 2px 14px #000a;
@@ -287,17 +290,17 @@
     .spacesOverlay { padding-bottom: 9%; }
     .spacesCopy h2 { font-size: clamp(48px, 4.8vw, 84px); }
     .spacesCopy p { font-size: 20px; }
-    .spacesIndex { --idx-num-col: 54px; --idx-label-col: 200px; --idx-gap: 18px; }
-    .spacesIndexNum { font-size: 34px; }
-    .spacesIndexLabel { font-size: 16px; }
+    .spacesIndex { --idx-num-col: 60px; --idx-label-col: 240px; --idx-gap: 20px; padding-top: clamp(120px, 16vh, 230px); }
+    .spacesIndexNum { font-size: 40px; }
+    .spacesIndexLabel { font-size: 19px; }
     .spacesGhost { font-size: clamp(280px, 34vw, 600px); }
   }
   @media (width <= 1150px) {
     .spacesOverlay { padding: 0 5% 7%; }
     .spacesCopy h2 { font-size: clamp(34px, 4.4vw, 58px); }
     .spacesCopy p { font-size: 16px; }
-    .spacesIndex { right: 28px; gap: 12px; --idx-num-col: 40px; --idx-label-col: 132px; --idx-gap: 12px; }
-    .spacesIndexLabel { font-size: 13px; }
+    .spacesIndex { right: 28px; gap: 14px; --idx-num-col: 44px; --idx-label-col: 156px; --idx-gap: 12px; padding-top: clamp(80px, 14vh, 150px); }
+    .spacesIndexLabel { font-size: 15px; }
     .spacesGhost { right: 4%; font-size: clamp(160px, 30vw, 320px); }
   }
   @media (height <= 680px) and (width >= 761px) {
@@ -305,9 +308,9 @@
     .spacesCopy h2 { margin-bottom: 10px; font-size: clamp(30px, 3.8vw, 44px); }
     .spacesCopy p { font-size: 14px; }
     .spacesEyebrow { margin-bottom: 10px; font-size: 11px; }
-    .spacesIndex { gap: 8px; }
-    .spacesIndexNum { font-size: 24px; }
-    .spacesIndexLabel { font-size: 12px; }
+    .spacesIndex { gap: 10px; padding-top: 70px; }
+    .spacesIndexNum { font-size: 26px; }
+    .spacesIndexLabel { font-size: 13px; }
     .spacesGhost { font-size: clamp(140px, 26vw, 280px); }
   }
   @media (width <= 760px) {
@@ -317,11 +320,11 @@
     .spacesCopy h2 { margin-bottom: 10px; font-size: 34px; }
     .spacesCopy p { font-size: 14px; }
     .spacesEyebrow { margin-bottom: 12px; font-size: 10px; }
-    .spacesIndex { top: 96px; right: 20px; bottom: auto; gap: 8px; justify-content: flex-start; --idx-num-col: 30px; --idx-label-col: 108px; --idx-gap: 8px; }
+    .spacesIndex { top: 96px; right: 20px; bottom: auto; gap: 10px; justify-content: flex-start; padding-top: 0; --idx-num-col: 32px; --idx-label-col: 122px; --idx-gap: 8px; }
     .spacesIndexItem { min-height: 34px; }
     .spacesIndexItem::before { left: -10px; }
-    .spacesIndexNum { font-size: 18px; }
-    .spacesIndexLabel { font-size: 11px; }
+    .spacesIndexNum { font-size: 19px; }
+    .spacesIndexLabel { font-size: 12px; }
     .spacesGhost { display: none; }
     .spacesBack { top: 12px; left: 14px; padding: 7px 13px; font-size: 12px; }
   }
