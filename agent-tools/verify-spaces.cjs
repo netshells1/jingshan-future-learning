@@ -1,9 +1,10 @@
 const fs = require('fs');
 const path = require('path');
-const vm = require('vm');
 const root = path.resolve(__dirname, '..');
 const jsPath = path.join(root, 'dist', 'assets', 'index-CEFoGbBQ.js');
 const js = fs.readFileSync(jsPath, 'utf8');
+const standalonePath = path.join(root, 'dist', 'spaces', 'index.html');
+const standalone = fs.readFileSync(standalonePath, 'utf8');
 
 // Syntax check: write the bundle out as an ES module and let node parse it.
 {
@@ -40,49 +41,73 @@ const checks = [];
 checks.push(['text registry in sync', JSON.stringify(embText) === JSON.stringify(sharedText)]);
 checks.push(['media registry in sync', JSON.stringify(embMedia) === JSON.stringify(sharedMedia)]);
 checks.push(['tab array has 空间场景', js.includes('it=[`小景智能中枢`,`空间场景`,`数字智造工坊`')]);
-checks.push(['css module map has spaces', js.includes('spaces:`_spaces_1aqkz_157`')]);
-checks.push(['component function exists', js.includes('function spacesPanel(){let{customized:e}=w(`campus.spaces`)')]);
-checks.push(['component uses 3D scene nodes', js.includes('R.spacesScene') && js.includes('R.spacesTilt') && js.includes('R.spacesOrbit') && js.includes('R.spacesDepth')]);
-checks.push(['component has depth copy', js.includes('R.spacesCardBack')]);
-checks.push(['component has pointer parallax', js.includes('--px') && js.includes('requestAnimationFrame')]);
-checks.push(['component has fly-through keyframe hook', js.includes('data-active')]);
-checks.push(['component inserted before ct', js.indexOf('function spacesPanel()') < js.indexOf('function ct({initialPage:e=0')]);
-checks.push(['panel uses spacesPanel', js.includes('(0,_.jsx)(spacesPanel,{})')]);
-checks.push(['no stray vt panel', !js.includes('(0,_.jsx)(vt,{})')]);
 checks.push(['chapter page counts bumped', js.includes('var ur=[5,6,3,8]')]);
 checks.push(['campus.spaces text section', embText.some((s) => s.id === 'campus.spaces')]);
 checks.push(['spaces media slots', embMedia.filter((s) => s.id.startsWith('campus.spaces')).length === 6]);
 
+// --- the panel is now a thin iframe shell ---------------------------
+checks.push(['panel function exists', js.includes('function spacesPanel(){')]);
+checks.push(['panel embeds the standalone file', js.includes('src:`./spaces/index.html`')]);
+checks.push(['panel uses the frame class', js.includes('R.spacesFrame')]);
+checks.push(['panel syncs visibility', js.includes('jingshan:spaces-visible')]);
+checks.push(['panel forwards arrow keys', js.includes('jingshan:spaces-key')]);
+checks.push(['component inserted before ct', js.indexOf('function spacesPanel()') < js.indexOf('function ct({initialPage:e=0')]);
+checks.push(['panel used by campus deck', js.includes('(0,_.jsx)(spacesPanel,{})')]);
+checks.push(['no duplicate spacesPanel', (js.match(/function spacesPanel\(\)/g) || []).length === 1]);
+
+// --- the inline 3D implementation must be gone from the bundle ------
+for (const dead of ['R.spacesScene', 'R.spacesTilt', 'R.spacesOrbit', 'R.spacesDepth', 'R.spacesCardBack', 'R.spacesIndex']) {
+  checks.push([`bundle no longer inlines ${dead}`, !js.includes(dead)]);
+}
+
+// --- the standalone file carries the full implementation ------------
+for (const cls of ['spaces', 'spacesLayers', 'spacesScene', 'spacesTilt', 'spacesOrbit', 'spacesDepth',
+  'spacesCard', 'spacesCardBack', 'spacesScrim', 'spacesOverlay', 'spacesGhost', 'spacesEyebrow',
+  'spacesCopy', 'spacesCaption', 'spacesIndex', 'spacesIndexItem', 'spacesIndexNum', 'spacesIndexLabel']) {
+  checks.push([`standalone has .${cls}`, standalone.includes(`.${cls}`)]);
+}
+checks.push(['standalone has 3 scenes', ['foyer', 'production', 'life'].every((k) => standalone.includes(`key: '${k}'`))]);
+checks.push(['standalone auto-advances every 5s', standalone.includes('const INTERVAL = 5000')]);
+checks.push(['standalone has no hover pause', !standalone.includes('pointerenter') && !standalone.includes('onMouseEnter')]);
+checks.push(['standalone keeps keyboard focus pause', standalone.includes('focusin') && standalone.includes('focusout')]);
+checks.push(['standalone respects reduced motion', standalone.includes('prefers-reduced-motion')]);
+checks.push(['standalone has pointer parallax', standalone.includes('requestAnimationFrame') && standalone.includes('--px')]);
+checks.push(['standalone has fly-through keyframes', standalone.includes('@keyframes spaces-fly')]);
+checks.push(['standalone has orbit keyframes', standalone.includes('@keyframes spaces-orbit')]);
+checks.push(['standalone loads text overrides', standalone.includes('/api/text-settings')]);
+checks.push(['standalone loads media overrides', standalone.includes('/api/media-settings')]);
+checks.push(['standalone reads the text section', standalone.includes('campus.spaces')]);
+checks.push(['standalone links back to campus', standalone.includes('../#/campus')]);
+checks.push(['standalone offers a standalone window', standalone.includes('在新窗口打开')]);
+checks.push(['standalone handles iframe embedding', standalone.includes('jingshan:spaces-visible')]);
+checks.push(['standalone defaults all three images', ['foyer-welcome.jpg', 'production-main.jpg', 'life-main.jpg'].every((f) => standalone.includes(f))]);
+
+// --- CSS -------------------------------------------------------------
 const css = fs.readFileSync(path.join(root, 'dist', 'assets', 'index-CiwR2OEh.css'), 'utf8');
-const cssClasses = [
-  '_spaces_1aqkz_157', '_spacesLayers_1aqkz_173', '_spacesScene_1aqkz_197', '_spacesTilt_1aqkz_199',
-  '_spacesOrbit_1aqkz_201', '_spacesDepth_1aqkz_203', '_spacesCard_1aqkz_205', '_spacesCardBack_1aqkz_207',
-  '_spacesGhost_1aqkz_209', '_spacesScrim_1aqkz_179', '_spacesOverlay_1aqkz_181', '_spacesEyebrow_1aqkz_183',
-  '_spacesCopy_1aqkz_185', '_spacesCaption_1aqkz_187', '_spacesIndex_1aqkz_189', '_spacesIndexItem_1aqkz_191',
-  '_spacesIndexNum_1aqkz_193', '_spacesIndexLabel_1aqkz_195',
-];
-const missing = cssClasses.filter((c) => !css.includes('.' + c + '{'));
-checks.push(['css classes present', missing.length === 0]);
-if (missing.length) console.log('  missing css classes:', missing.join(', '));
+checks.push(['css has the frame class', css.includes('._spacesFrame_1aqkz_211{')]);
+checks.push(['css no longer carries the inline 3D rules', !css.includes('._spacesOrbit_1aqkz_201') && !css.includes('._spacesCopy_1aqkz_185')]);
 
 // the CSS module map must reference exactly the classes that exist in the CSS
-const mapAt = js.indexOf('spaces:`_spaces_1aqkz_157`');
-const mapSeg = js.slice(mapAt, js.indexOf('}', mapAt));
-const mapClasses = [...mapSeg.matchAll(/`(_[^`]+)`/g)].map((m) => m[1]);
-const mapMissing = mapClasses.filter((c) => !css.includes('.' + c + '{'));
-checks.push(['css module map resolves', mapMissing.length === 0]);
-if (mapMissing.length) console.log('  unresolved map classes:', mapMissing.join(', '));
+const mapAt = js.indexOf('spacesFrame:`_spacesFrame_1aqkz_211`');
+checks.push(['css module map has the frame', mapAt > 0]);
+if (mapAt > 0) {
+  // The map is one flat object literal; scan it from its opening brace.
+  const objStart = js.lastIndexOf('{', mapAt);
+  const mapSeg = js.slice(objStart, js.indexOf('}', mapAt));
+  const mapClasses = [...mapSeg.matchAll(/`(_[^`]+)`/g)].map((m) => m[1]);
+  // `_cameraReveal_...` names an @keyframes rule, not a class.
+  const mapMissing = mapClasses.filter((c) => !css.includes('.' + c) && !css.includes(c));
+  checks.push(['css module map resolves', mapMissing.length === 0]);
+  if (mapMissing.length) console.log('  unresolved map classes:', mapMissing.join(', '));
+}
+
+// --- package manifest ------------------------------------------------
+const manifest = JSON.parse(fs.readFileSync(path.join(root, 'package-manifest.json'), 'utf8'));
+checks.push(['manifest tracks the standalone file', manifest.files.some((f) => f.file === 'dist/spaces/index.html')]);
+checks.push(['manifest staticFiles matches dist', manifest.staticFiles === manifest.files.filter((f) => f.file.startsWith('dist/')).length]);
 
 let ok = true;
 for (const [label, pass] of checks) { console.log((pass ? '  OK   ' : '  FAIL ') + label); if (!pass) ok = false; }
-
-// no duplicate identifiers introduced
-const decl = new Map();
-for (const m of js.matchAll(/\bfunction\s+([A-Za-z_$][\w$]*)/g)) decl.set(m[1], (decl.get(m[1]) || 0) + 1);
-for (const m of js.matchAll(/\b(?:var|let|const)\s+([A-Za-z_$][\w$]*)\s*=/g)) decl.set(m[1], (decl.get(m[1]) || 0) + 1);
-const dupes = [...decl].filter(([k, v]) => v > 1 && k === 'spacesPanel');
-checks.push(['no duplicate spacesPanel', dupes.length === 0]);
-console.log((dupes.length === 0 ? '  OK   ' : '  FAIL ') + 'no duplicate spacesPanel');
 
 if (!ok) process.exit(1);
 console.log('\nALL CHECKS PASSED');

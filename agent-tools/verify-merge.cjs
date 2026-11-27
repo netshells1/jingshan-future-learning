@@ -13,8 +13,9 @@ const checks = [
   ['terrain skips auto-advance timer', js.includes('if(!fe||e===`atmosphere`||e===`terrain`)return;')],
   ['terrain demo link', js.includes('"./terrain/index.html"')],
   ['atmosphere demo link kept', js.includes('"./atmosphere/index.html#6"')],
-  ['spaces eyebrow text', js.includes('一处门厅 · 两间实验室')],
-  ['spaces auto-advance 5s', /setInterval\(\(\)=>\{if\(seen&&!document\.hidden\)/.test(js)],
+  ['spaces eyebrow text', js.includes('一处门厅 · 两间实验室') || fs.readFileSync(path.join(root, 'dist', 'spaces', 'index.html'), 'utf8').includes('一处门厅 · 两间实验室')],
+  ['spaces auto-advance 5s', /setInterval\(\(\)=>\{if\(seen&&!document\.hidden\)/.test(js)
+    || /const INTERVAL = 5000/.test(fs.readFileSync(path.join(root, 'dist', 'spaces', 'index.html'), 'utf8'))],
   ['rover practice link kept', js.includes('开始避障练习')],
   ['rover practice page present', fs.existsSync(path.join(root, 'dist', 'rover-practice', 'index.html'))],
   ['terrain classroom present', fs.existsSync(path.join(root, 'dist', 'terrain', 'index.html'))],
