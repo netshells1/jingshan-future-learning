@@ -185,7 +185,7 @@ const autoEffect = (
   + 'io.observe(t);'
   + 'let i=setInterval(()=>{'
   + 'if(!hv.current&&seen&&!document.hidden)n(x=>(x+1)%' + scenes.length + ')'
-  + '},7000);'
+  + '},5000);'
   + 'return()=>{clearInterval(i);io.disconnect()}'
   + '},[])'
 );

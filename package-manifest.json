@@ -1,7 +1,7 @@
 {
   "format": "jingshan-windows-package",
   "version": 1,
-  "builtAt": "2026-11-26T08:54:53.884Z",
+  "builtAt": "2026-11-27T02:13:30.727Z",
   "runtime": {
     "version": "v24.22.0",
     "platform": "win32",
@@ -9,7 +9,7 @@
   },
   "mediaOverrides": 16,
   "textOverrides": 0,
-  "staticFiles": 176,
+  "staticFiles": 224,
   "excludes": [
     ".local",
     "DPAPI credentials",
@@ -47,8 +47,8 @@
     },
     {
       "file": "dist/assets/index-CEFoGbBQ.js",
-      "bytes": 599196,
-      "sha256": "9c23a8b7906d00a765d9e8c31546bee36c4fcffb137940896d3bd7acc9a74d8c"
+      "bytes": 599311,
+      "sha256": "741641fbcd6d3644083c4cbb82fb847e20a4c6fc5bdf6370c8b07cfc4bd9aa7c"
     },
     {
       "file": "dist/assets/index-CiwR2OEh.css",
@@ -752,8 +752,8 @@
     },
     {
       "file": "user-data/text-settings.json",
-      "bytes": 38,
-      "sha256": "82fd87815594ccb4a6dc52c937a0e7bc19246c25ca400bcb7ea7c27d66adc987"
+      "bytes": 371,
+      "sha256": "6a98df73da36e45f2abd9783dbc76853df0617d5cfff3c3e0e60175139b5b5de"
     },
     {
       "file": "dist/atmosphere/assets/002e502515bee8b9efa1b17a-B4HVAfHo.woff2",
@@ -1134,6 +1134,11 @@
       "file": "user-data/media/fc2fe463c9762ec997c66d81d0511e56.svg",
       "bytes": 3027770,
       "sha256": "7323cb72efef58ffb63b8ba0fd9ea4f430ad0491fd965379b65617697c0937be"
+    },
+    {
+      "file": "dist/rover-practice/index.html",
+      "bytes": 4734,
+      "sha256": "6ba39ea01a161c53243ad3164517265a7011fb886dffc3e7a2094a1a760d31eb"
     }
   ]
 }

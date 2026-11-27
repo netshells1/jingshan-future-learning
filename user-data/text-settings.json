@@ -1,4 +1,12 @@
 {
   "version": 1,
-  "overrides": {}
+  "overrides": {
+    "course.rover": {
+      "values": {
+        "introduction": "读懂距离数据，设置停止与转向条件，让小车完成一段约定路线。测距读数无效时，让小车先停下。从感知、判断到行动，理解智能系统。"
+      },
+      "additions": [],
+      "updatedAt": "2026-11-26T09:07:47Z"
+    }
+  }
 }
