@@ -184,47 +184,82 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-end;
-    gap: clamp(20px, 3.2vh, 38px);
+    align-items: stretch;
+    gap: clamp(12px, 2.1vh, 26px);
     transform-style: preserve-3d;
     transform: translateZ(90px);
   }
+  /* Two fixed columns keep the numbers in one vertical line and the labels
+     starting from the same x, no matter how long each label is. */
   .spacesIndexItem {
-    display: flex;
+    position: relative;
+    display: grid;
+    grid-template-columns: 2.4em minmax(0, 1fr);
     align-items: center;
-    justify-content: flex-end;
-    gap: 12px;
+    column-gap: clamp(10px, 1vw, 18px);
     min-height: 44px;
     padding: 6px 0;
     border: 0;
     background: none;
-    color: #a9a9b0;
+    color: #8e8e97;
     font: inherit;
-    text-align: right;
+    text-align: left;
     cursor: pointer;
-    transition: color .3s, transform .45s cubic-bezier(.2, .8, .3, 1);
+    transition: color .35s;
   }
-  .spacesIndexItem:hover { color: #fff; transform: translateX(-6px); }
-  .spacesIndexItem[aria-pressed="true"] { color: #fff; transform: translateX(-12px); }
+  /* The accent rail marks the scene on show. */
+  .spacesIndexItem::before {
+    content: '';
+    position: absolute;
+    left: -14px;
+    top: 50%;
+    width: 2px;
+    height: 0;
+    border-radius: 2px;
+    background: linear-gradient(180deg, #fff, #ffffff85);
+    transform: translateY(-50%);
+    opacity: 0;
+    transition: height .45s cubic-bezier(.2, .8, .3, 1), opacity .35s;
+  }
+  .spacesIndexItem:hover { color: #e4e4ea; }
+  .spacesIndexItem[aria-pressed="true"] { color: #fff; }
+  .spacesIndexItem[aria-pressed="true"]::before { height: 66%; opacity: 1; }
   .spacesIndexItem:focus-visible { outline: 2px solid #8cbfff; outline-offset: 4px; border-radius: 2px; }
   .spacesIndexNum {
     display: block;
+    text-align: right;
     font-size: clamp(20px, 1.7vw, 28px);
     font-weight: 600;
     line-height: 1;
     letter-spacing: .04em;
     font-variant-numeric: tabular-nums;
     text-shadow: 0 2px 14px #000a;
-    transition: text-shadow .35s;
+    transform-origin: 100% 50%;
+    transition: text-shadow .35s, transform .45s cubic-bezier(.2, .8, .3, 1), opacity .35s;
   }
-  .spacesIndexItem[aria-pressed="true"] .spacesIndexNum { text-shadow: 0 0 26px #ffffff5c; }
+  .spacesIndexItem[aria-pressed="true"] .spacesIndexNum {
+    text-shadow: 0 0 26px #ffffff66, 0 2px 14px #000a;
+    transform: scale(1.18);
+  }
   .spacesIndexLabel {
     display: block;
     white-space: nowrap;
     font-size: 12px;
     line-height: 1.4;
     text-shadow: 0 2px 14px #000a;
+    transition: font-weight .3s, letter-spacing .3s;
   }
+  .spacesIndexItem[aria-pressed="true"] .spacesIndexLabel {
+    font-weight: 600;
+    letter-spacing: .02em;
+  }
+  /* The scene on show gets a short pop so the change is felt, not just seen. */
+  @keyframes spaces-index-pop {
+    0% { transform: translateX(16px); opacity: .35; }
+    55% { transform: translateX(-4px); opacity: 1; }
+    100% { transform: none; opacity: 1; }
+  }
+  .spacesIndexItem.is-showing { animation: spaces-index-pop .55s cubic-bezier(.16, .84, .32, 1) both; }
 
   @keyframes spaces-orbit {
     0% { transform: rotateY(-4deg) rotateX(1.6deg) scale(1.035); }
@@ -254,7 +289,8 @@
     .spacesOverlay { padding: 0 5% 7%; }
     .spacesCopy h2 { font-size: clamp(34px, 4.4vw, 58px); }
     .spacesCopy p { font-size: 16px; }
-    .spacesIndex { right: 24px; gap: 20px; }
+    .spacesIndex { right: 24px; gap: 10px; }
+    .spacesIndexItem { grid-template-columns: 2.2em minmax(0, 1fr); column-gap: 10px; }
     .spacesIndexLabel { font-size: 11px; }
     .spacesGhost { right: 4%; font-size: clamp(160px, 30vw, 320px); }
   }
@@ -263,7 +299,7 @@
     .spacesCopy h2 { margin-bottom: 10px; font-size: clamp(30px, 3.8vw, 44px); }
     .spacesCopy p { font-size: 14px; }
     .spacesEyebrow { margin-bottom: 10px; font-size: 11px; }
-    .spacesIndex { gap: 14px; }
+    .spacesIndex { gap: 8px; }
     .spacesIndexNum { font-size: 20px; }
     .spacesGhost { font-size: clamp(140px, 26vw, 280px); }
   }
@@ -274,8 +310,9 @@
     .spacesCopy h2 { margin-bottom: 10px; font-size: 34px; }
     .spacesCopy p { font-size: 14px; }
     .spacesEyebrow { margin-bottom: 12px; font-size: 10px; }
-    .spacesIndex { top: 96px; right: 16px; bottom: auto; gap: 12px; justify-content: flex-start; }
-    .spacesIndexItem { min-height: 34px; gap: 8px; }
+    .spacesIndex { top: 96px; right: 16px; bottom: auto; gap: 8px; justify-content: flex-start; }
+    .spacesIndexItem { min-height: 34px; grid-template-columns: 1.9em minmax(0, 1fr); column-gap: 8px; }
+    .spacesIndexItem::before { left: -8px; }
     .spacesIndexNum { font-size: 16px; }
     .spacesIndexLabel { font-size: 10px; }
     .spacesGhost { display: none; }
@@ -288,6 +325,8 @@
     .spacesCopy { animation: none; }
     .spacesScene { transition: opacity .01s; }
     .spacesCard img { transition: none; }
+    .spacesIndexItem.is-showing { animation: none; }
+    .spacesIndexItem[aria-pressed="true"] .spacesIndexNum { transform: none; }
   }
 </style>
 </head>
@@ -437,15 +476,27 @@
   stage.append(layers, ghostNode, scrim, overlay, index);
 
   // ---- rendering ------------------------------------------------------
+  let lastIndex = -1;
   function setIndex(next) {
     const total = SCENES.length;
     state.index = ((next % total) + total) % total;
     const current = SCENES[state.index];
+    const changed = state.index !== lastIndex;
+    lastIndex = state.index;
     sceneNodes.forEach((entry, i) => {
       entry.sceneNode.dataset.active = i === state.index ? 'true' : 'false';
     });
     indexButtons.forEach((button, i) => {
-      button.setAttribute('aria-pressed', i === state.index ? 'true' : 'false');
+      const active = i === state.index;
+      button.setAttribute('aria-pressed', active ? 'true' : 'false');
+      if (active && changed) {
+        // Restart the pop so a scene that comes back into view is felt too.
+        button.classList.remove('is-showing');
+        void button.offsetWidth;
+        button.classList.add('is-showing');
+      } else if (!active) {
+        button.classList.remove('is-showing');
+      }
     });
     ghostNode.textContent = current.num;
     copyTitle.textContent = state.text[`${current.key}.title`] ?? current.title;

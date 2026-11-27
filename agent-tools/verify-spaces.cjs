@@ -69,6 +69,8 @@ for (const cls of ['spaces', 'spacesLayers', 'spacesScene', 'spacesTilt', 'space
   checks.push([`standalone has .${cls}`, standalone.includes(`.${cls}`)]);
 }
 checks.push(['standalone drops the 参观路线 caption', !standalone.includes('spacesCaption') && !standalone.includes('参观路线')]);
+checks.push(['standalone index uses a two-column grid', standalone.includes('grid-template-columns') && standalone.includes('.spacesIndexItem')]);
+checks.push(['standalone index highlights the active scene', standalone.includes('spaces-index-pop') && standalone.includes('is-showing')]);
 checks.push(['standalone has 3 scenes', ['foyer', 'production', 'life'].every((k) => standalone.includes(`key: '${k}'`))]);
 checks.push(['standalone auto-advances every 5s', standalone.includes('const INTERVAL = 5000')]);
 checks.push(['standalone has no hover pause', !standalone.includes('pointerenter') && !standalone.includes('onMouseEnter')]);

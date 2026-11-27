@@ -1,0 +1,8 @@
+feat(spaces): 空间场景右侧索引三列对齐，并在展示时突出当前场景
+
+- .spacesIndex 改为 stretch 布局，.spacesIndexItem 改为两列 grid（编号列 + 标签列）
+- 01/02/03 编号右对齐成一条竖线，标签统一从同一 x 坐标起排
+- 当前场景增加左侧白色高亮竖条、编号放大发光、标签加粗
+- 新增 spaces-index-pop 入场动画，切换场景时有短促滑入反馈
+- 同步三档响应式断点下的列宽与间距
+- agent-tools/verify-spaces.cjs 增加对齐与高亮断言
