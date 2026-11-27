@@ -1,0 +1,92 @@
+/* Quiz styling */
+.quiz-progress {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--text-secondary);
+  margin-bottom: 8px;
+}
+.quiz-question {
+  background: var(--bg-elevated);
+  border: 1px solid var(--border-subtle);
+  border-radius: 6px;
+  padding: 11px 12px;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--text-primary);
+  margin-bottom: 10px;
+  line-height: 1.55;
+}
+.quiz-options {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-bottom: 10px;
+}
+.quiz-opt {
+  text-align: left;
+  background: var(--bg-elevated);
+  border: 1px solid var(--border-subtle);
+  color: var(--text-primary);
+  border-radius: 5px;
+  padding: 8px 10px;
+  font-size: 12px;
+  font-family: var(--font-sans);
+  cursor: pointer;
+  transition: all 0.15s ease;
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+}
+.quiz-opt:hover:not(:disabled) {
+  border-color: var(--border-strong);
+  background: var(--bg-hover);
+}
+.quiz-opt.correct {
+  background: rgba(93, 187, 123, 0.18);
+  border-color: var(--good);
+  color: #cff5dc;
+}
+.quiz-opt.wrong {
+  background: rgba(224, 97, 84, 0.18);
+  border-color: var(--danger);
+  color: #ffd3ce;
+}
+.quiz-opt-key {
+  font-family: var(--font-mono);
+  font-weight: 700;
+  color: var(--accent);
+}
+.quiz-feedback {
+  border-radius: 5px;
+  padding: 9px 11px;
+  font-size: 11.8px;
+  line-height: 1.55;
+  margin-bottom: 10px;
+}
+.quiz-feedback.ok {
+  background: rgba(93, 187, 123, 0.12);
+  border: 1px solid rgba(93, 187, 123, 0.45);
+  color: #d6f7e0;
+}
+.quiz-feedback.no {
+  background: rgba(224, 97, 84, 0.12);
+  border: 1px solid rgba(224, 97, 84, 0.45);
+  color: #fcd7d3;
+}
+.quiz-summary {
+  background: var(--bg-elevated);
+  border: 1px solid var(--border-strong);
+  border-radius: 6px;
+  padding: 16px;
+  text-align: center;
+}
+.quiz-score-big {
+  font-family: var(--font-mono);
+  font-size: 32px;
+  font-weight: 700;
+  color: var(--accent);
+  margin: 6px 0;
+}

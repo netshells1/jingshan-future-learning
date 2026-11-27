@@ -1,0 +1,14 @@
+/* Responsive adjustments */
+@media (max-width: 1220px) {
+  :root {
+    --left-w: 196px;
+    --right-w: 306px;
+    --minimap-size: 230px;
+  }
+  #profile-drawer { left: 262px; }
+  #profile-drawer.minimap-wide { left: 382px; }
+}
+@media (max-width: 960px) {
+  #sidebar-left { display: none; }
+  #profile-drawer { left: 16px; bottom: 266px; }
+}

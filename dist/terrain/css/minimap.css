@@ -1,0 +1,128 @@
+/* Bottom-left 2D Contour Minimap */
+#minimap-box {
+  position: absolute;
+  left: 16px;
+  bottom: 16px;
+  z-index: 16;
+  background: rgba(18, 21, 26, 0.92);
+  backdrop-filter: blur(10px);
+  border: 1px solid var(--border-subtle);
+  border-radius: 6px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  transition: width 0.24s ease;
+}
+#minimap-box.enlarged {
+  --minimap-size: 400px;
+}
+.minimap-head {
+  height: 28px;
+  padding: 0 8px;
+  border-bottom: 1px solid var(--border-subtle);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 11px;
+  color: var(--text-secondary);
+  background: rgba(255, 255, 255, 0.02);
+}
+.minimap-head-title {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  letter-spacing: 0.08em;
+  color: var(--text-primary);
+}
+.minimap-head-actions {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.mini-btn {
+  background: var(--bg-elevated);
+  border: 1px solid var(--border-subtle);
+  color: var(--text-primary);
+  border-radius: 3px;
+  font-size: 10.5px;
+  padding: 1px 7px;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+.mini-btn:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+.minimap-canvas-wrap {
+  position: relative;
+  width: var(--minimap-size);
+  height: var(--minimap-size);
+  transition: width 0.24s ease, height 0.24s ease;
+}
+#minimap-canvas {
+  width: 100%;
+  height: 100%;
+  display: block;
+  cursor: crosshair;
+}
+.minimap-foot {
+  padding: 4px 8px;
+  border-top: 1px solid var(--border-subtle);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 10px;
+  color: var(--text-secondary);
+  background: rgba(0, 0, 0, 0.28);
+}
+.scale-bar-wrap {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-family: var(--font-mono);
+  font-size: 9.5px;
+}
+.scale-bar {
+  width: 44px;
+  height: 5px;
+  border: 1px solid var(--text-primary);
+  border-top: none;
+  position: relative;
+}
+.scale-bar::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  height: 4px;
+  width: 1px;
+  background: var(--text-primary);
+}
+
+/* Bottom-right WeduLab badge */
+#wedulab-badge {
+  position: absolute;
+  right: 16px;
+  bottom: 14px;
+  z-index: 13;
+  pointer-events: none;
+  background: rgba(18, 21, 26, 0.78);
+  border: 1px solid var(--border-subtle);
+  border-radius: 4px;
+  padding: 4px 10px;
+  font-family: var(--font-mono);
+  font-size: 10.5px;
+  letter-spacing: 0.12em;
+  color: var(--text-secondary);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+#wedulab-badge::before {
+  content: "";
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--accent);
+  box-shadow: 0 0 6px var(--accent);
+}
