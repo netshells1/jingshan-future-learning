@@ -176,28 +176,33 @@
     text-shadow: 0 2px 18px #000b;
   }
   .spacesIndex {
+    /* Fixed column widths keep all three rows aligned on the same two axes,
+       and the right offset leaves room so nothing gets clipped. */
+    --idx-num-col: 46px;
+    --idx-label-col: 150px;
+    --idx-gap: 14px;
     position: absolute;
     top: 0;
-    right: clamp(20px, 3.4vw, 64px);
+    right: clamp(28px, 4.4vw, 88px);
     bottom: 0;
     z-index: 4;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: stretch;
-    gap: clamp(12px, 2.1vh, 26px);
+    gap: clamp(14px, 2.4vh, 30px);
     transform-style: preserve-3d;
-    transform: translateZ(90px);
+    transform: translateZ(30px);
   }
   /* Two fixed columns keep the numbers in one vertical line and the labels
      starting from the same x, no matter how long each label is. */
   .spacesIndexItem {
     position: relative;
     display: grid;
-    grid-template-columns: 2.4em minmax(0, 1fr);
+    grid-template-columns: var(--idx-num-col) var(--idx-label-col);
     align-items: center;
-    column-gap: clamp(10px, 1vw, 18px);
-    min-height: 44px;
+    column-gap: var(--idx-gap);
+    min-height: 48px;
     padding: 6px 0;
     border: 0;
     background: none;
@@ -211,11 +216,11 @@
   .spacesIndexItem::before {
     content: '';
     position: absolute;
-    left: -14px;
+    left: -16px;
     top: 50%;
-    width: 2px;
+    width: 3px;
     height: 0;
-    border-radius: 2px;
+    border-radius: 3px;
     background: linear-gradient(180deg, #fff, #ffffff85);
     transform: translateY(-50%);
     opacity: 0;
@@ -228,7 +233,7 @@
   .spacesIndexNum {
     display: block;
     text-align: right;
-    font-size: clamp(20px, 1.7vw, 28px);
+    font-size: clamp(22px, 1.9vw, 32px);
     font-weight: 600;
     line-height: 1;
     letter-spacing: .04em;
@@ -244,8 +249,9 @@
   .spacesIndexLabel {
     display: block;
     white-space: nowrap;
-    font-size: 12px;
+    font-size: clamp(13px, 0.85vw, 15px);
     line-height: 1.4;
+    letter-spacing: .01em;
     text-shadow: 0 2px 14px #000a;
     transition: font-weight .3s, letter-spacing .3s;
   }
@@ -281,17 +287,17 @@
     .spacesOverlay { padding-bottom: 9%; }
     .spacesCopy h2 { font-size: clamp(48px, 4.8vw, 84px); }
     .spacesCopy p { font-size: 20px; }
-    .spacesIndexNum { font-size: 30px; }
-    .spacesIndexLabel { font-size: 13px; }
+    .spacesIndex { --idx-num-col: 54px; --idx-label-col: 200px; --idx-gap: 18px; }
+    .spacesIndexNum { font-size: 34px; }
+    .spacesIndexLabel { font-size: 16px; }
     .spacesGhost { font-size: clamp(280px, 34vw, 600px); }
   }
   @media (width <= 1150px) {
     .spacesOverlay { padding: 0 5% 7%; }
     .spacesCopy h2 { font-size: clamp(34px, 4.4vw, 58px); }
     .spacesCopy p { font-size: 16px; }
-    .spacesIndex { right: 24px; gap: 10px; }
-    .spacesIndexItem { grid-template-columns: 2.2em minmax(0, 1fr); column-gap: 10px; }
-    .spacesIndexLabel { font-size: 11px; }
+    .spacesIndex { right: 28px; gap: 12px; --idx-num-col: 40px; --idx-label-col: 132px; --idx-gap: 12px; }
+    .spacesIndexLabel { font-size: 13px; }
     .spacesGhost { right: 4%; font-size: clamp(160px, 30vw, 320px); }
   }
   @media (height <= 680px) and (width >= 761px) {
@@ -300,7 +306,8 @@
     .spacesCopy p { font-size: 14px; }
     .spacesEyebrow { margin-bottom: 10px; font-size: 11px; }
     .spacesIndex { gap: 8px; }
-    .spacesIndexNum { font-size: 20px; }
+    .spacesIndexNum { font-size: 24px; }
+    .spacesIndexLabel { font-size: 12px; }
     .spacesGhost { font-size: clamp(140px, 26vw, 280px); }
   }
   @media (width <= 760px) {
@@ -310,11 +317,11 @@
     .spacesCopy h2 { margin-bottom: 10px; font-size: 34px; }
     .spacesCopy p { font-size: 14px; }
     .spacesEyebrow { margin-bottom: 12px; font-size: 10px; }
-    .spacesIndex { top: 96px; right: 16px; bottom: auto; gap: 8px; justify-content: flex-start; }
-    .spacesIndexItem { min-height: 34px; grid-template-columns: 1.9em minmax(0, 1fr); column-gap: 8px; }
-    .spacesIndexItem::before { left: -8px; }
-    .spacesIndexNum { font-size: 16px; }
-    .spacesIndexLabel { font-size: 10px; }
+    .spacesIndex { top: 96px; right: 20px; bottom: auto; gap: 8px; justify-content: flex-start; --idx-num-col: 30px; --idx-label-col: 108px; --idx-gap: 8px; }
+    .spacesIndexItem { min-height: 34px; }
+    .spacesIndexItem::before { left: -10px; }
+    .spacesIndexNum { font-size: 18px; }
+    .spacesIndexLabel { font-size: 11px; }
     .spacesGhost { display: none; }
     .spacesBack { top: 12px; left: 14px; padding: 7px 13px; font-size: 12px; }
   }

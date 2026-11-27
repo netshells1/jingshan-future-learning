@@ -1,7 +1,7 @@
 {
   "format": "jingshan-windows-package",
   "version": 1,
-  "builtAt": "2026-11-27T06:42:37.443Z",
+  "builtAt": "2026-11-27T06:55:35.618Z",
   "runtime": {
     "version": "v24.22.0",
     "platform": "win32",
@@ -1132,8 +1132,8 @@
     },
     {
       "file": "dist/spaces/index.html",
-      "bytes": 26420,
-      "sha256": "ffd922f9abff86ee4f4653f87e5092852c44c67ebca838b964d27dda2fffe133"
+      "bytes": 26805,
+      "sha256": "cb5a6e405754674a70152d2c47bde422f581ce1ed9fe47ff81ad5c4f65f555e6"
     },
     {
       "file": "配置小景对话.cmd",
