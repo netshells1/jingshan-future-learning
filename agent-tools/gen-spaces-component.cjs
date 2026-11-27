@@ -42,11 +42,10 @@ const S = [
 ];
 
 const eyebrow = '一处门厅 · 两间实验室';
-const caption = '参观路线：门厅 → AI＋生产 → AI＋生活';
 
 // --- JSON data file (single source of truth for tooling) --------------
 const dataPath = path.join(__dirname, 'spaces-scenes.json');
-fs.writeFileSync(dataPath, JSON.stringify({ eyebrow, caption, scenes: S }, null, 2) + '\n', 'utf8');
+fs.writeFileSync(dataPath, JSON.stringify({ eyebrow, scenes: S }, null, 2) + '\n', 'utf8');
 console.log('written', dataPath);
 
 // --- scene block for the standalone page ------------------------------
@@ -80,7 +79,6 @@ const section = textSections.find((s) => s.id === 'campus.spaces');
 const field = (id) => section.fields.find((f) => f.id === id);
 const problems = [];
 if (field('heading.1').defaultText !== eyebrow) problems.push('heading.1');
-if (field('footnote').defaultText !== caption) problems.push('footnote');
 for (const s of S) {
   for (const part of ['title', 'body', 'label']) {
     if (field(`${s.key}.${part}`).defaultText !== s[part]) problems.push(`${s.key}.${part}`);

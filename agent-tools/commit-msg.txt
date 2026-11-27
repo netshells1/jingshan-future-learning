@@ -1,0 +1,7 @@
+feat(spaces): 空间场景界面删除“参观路线”副标
+
+- dist/spaces/index.html 移除 .spacesCaption 节点、样式与相关 JS 状态
+- shared/text-sections.json 删除 campus.spaces 的 footnote 字段
+- 重新嵌入 dist/assets/index-CEFoGbBQ.js 中的文字注册表
+- agent-tools/spaces-scenes.json 与 gen-spaces-component.cjs 元数据源同步
+- package-manifest.json 文件哈希同步更新

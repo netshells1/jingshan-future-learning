@@ -1,7 +1,7 @@
 {
   "format": "jingshan-windows-package",
   "version": 1,
-  "builtAt": "2026-11-27T06:15:11.382Z",
+  "builtAt": "2026-11-27T06:32:37.838Z",
   "runtime": {
     "version": "v24.22.0",
     "platform": "win32",
@@ -22,8 +22,8 @@
   "files": [
     {
       "file": "dist/assets/index-CEFoGbBQ.js",
-      "bytes": 593464,
-      "sha256": "1294141ccb4a356675f5b7c68bdbe97e8315b0a008b09bad6585608c0aaa6fd1"
+      "bytes": 593321,
+      "sha256": "fec52d379096354d174e23ef4db1d10c3cc7549d8c66171b67c64dce2e3ea739"
     },
     {
       "file": "dist/assets/index-CiwR2OEh.css",
@@ -1132,8 +1132,8 @@
     },
     {
       "file": "dist/spaces/index.html",
-      "bytes": 24986,
-      "sha256": "f573a71dc8a807864626606aa0e7d26277167325bac0d3cc9291cee5067e4ac6"
+      "bytes": 24337,
+      "sha256": "43673d3be2d5d9a98d16c38189dd3c650f1865bd10c9dd4065d955923cf46df4"
     },
     {
       "file": "配置小景对话.cmd",
@@ -1257,8 +1257,8 @@
     },
     {
       "file": "shared/text-sections.json",
-      "bytes": 61856,
-      "sha256": "6dcb552addb2bfbd69ad8e61ca2d8afc17166df100c6fbe7482f85117ef7a403"
+      "bytes": 61659,
+      "sha256": "539e89a99039bed718ea83adf9b73d5001e74eab8a5e242bcde007381b00304b"
     },
     {
       "file": "Start-Proposal.ps1",

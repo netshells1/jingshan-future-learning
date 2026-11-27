@@ -503,12 +503,6 @@
         "label": "场景 · AI＋生活 · 说明",
         "defaultText": "三个功能区，让身边物品回应一次有依据的操作。",
         "maxLength": 120
-      },
-      {
-        "id": "footnote",
-        "label": "底部署名 · 参观路线",
-        "defaultText": "参观路线：门厅 → AI＋生产 → AI＋生活",
-        "maxLength": 200
       }
     ]
   },

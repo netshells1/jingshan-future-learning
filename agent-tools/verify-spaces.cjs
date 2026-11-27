@@ -65,9 +65,10 @@ for (const dead of ['R.spacesScene', 'R.spacesTilt', 'R.spacesOrbit', 'R.spacesD
 // --- the standalone file carries the full implementation ------------
 for (const cls of ['spaces', 'spacesLayers', 'spacesScene', 'spacesTilt', 'spacesOrbit', 'spacesDepth',
   'spacesCard', 'spacesCardBack', 'spacesScrim', 'spacesOverlay', 'spacesGhost', 'spacesEyebrow',
-  'spacesCopy', 'spacesCaption', 'spacesIndex', 'spacesIndexItem', 'spacesIndexNum', 'spacesIndexLabel']) {
+  'spacesCopy', 'spacesIndex', 'spacesIndexItem', 'spacesIndexNum', 'spacesIndexLabel']) {
   checks.push([`standalone has .${cls}`, standalone.includes(`.${cls}`)]);
 }
+checks.push(['standalone drops the 参观路线 caption', !standalone.includes('spacesCaption') && !standalone.includes('参观路线')]);
 checks.push(['standalone has 3 scenes', ['foyer', 'production', 'life'].every((k) => standalone.includes(`key: '${k}'`))]);
 checks.push(['standalone auto-advances every 5s', standalone.includes('const INTERVAL = 5000')]);
 checks.push(['standalone has no hover pause', !standalone.includes('pointerenter') && !standalone.includes('onMouseEnter')]);
