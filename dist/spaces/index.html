@@ -181,6 +181,9 @@
     --idx-num-col: 52px;
     --idx-label-col: 190px;
     --idx-gap: 16px;
+    /* --idx-shift is set by the script so the first row lines up with the
+       heading line "一处门厅 · 两间实验室". */
+    --idx-shift: 0px;
     position: absolute;
     top: 0;
     right: clamp(28px, 4.4vw, 88px);
@@ -190,12 +193,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: stretch;
-    /* The group sits a little below the optical centre so it clears the
-       headline block on the left. */
-    padding-top: clamp(100px, 17vh, 210px);
     gap: clamp(16px, 2.6vh, 34px);
     transform-style: preserve-3d;
-    transform: translateZ(30px);
+    transform: translateZ(30px) translateY(var(--idx-shift));
   }
   /* Two fixed columns keep the numbers in one vertical line and the labels
      starting from the same x, no matter how long each label is. */
@@ -290,7 +290,7 @@
     .spacesOverlay { padding-bottom: 9%; }
     .spacesCopy h2 { font-size: clamp(48px, 4.8vw, 84px); }
     .spacesCopy p { font-size: 20px; }
-    .spacesIndex { --idx-num-col: 60px; --idx-label-col: 240px; --idx-gap: 20px; padding-top: clamp(120px, 16vh, 230px); }
+    .spacesIndex { --idx-num-col: 60px; --idx-label-col: 240px; --idx-gap: 20px; }
     .spacesIndexNum { font-size: 40px; }
     .spacesIndexLabel { font-size: 19px; }
     .spacesGhost { font-size: clamp(280px, 34vw, 600px); }
@@ -299,7 +299,7 @@
     .spacesOverlay { padding: 0 5% 7%; }
     .spacesCopy h2 { font-size: clamp(34px, 4.4vw, 58px); }
     .spacesCopy p { font-size: 16px; }
-    .spacesIndex { right: 28px; gap: 14px; --idx-num-col: 44px; --idx-label-col: 156px; --idx-gap: 12px; padding-top: clamp(80px, 14vh, 150px); }
+    .spacesIndex { right: 28px; gap: 14px; --idx-num-col: 44px; --idx-label-col: 156px; --idx-gap: 12px; }
     .spacesIndexLabel { font-size: 15px; }
     .spacesGhost { right: 4%; font-size: clamp(160px, 30vw, 320px); }
   }
@@ -308,7 +308,7 @@
     .spacesCopy h2 { margin-bottom: 10px; font-size: clamp(30px, 3.8vw, 44px); }
     .spacesCopy p { font-size: 14px; }
     .spacesEyebrow { margin-bottom: 10px; font-size: 11px; }
-    .spacesIndex { gap: 10px; padding-top: 70px; }
+    .spacesIndex { gap: 10px; }
     .spacesIndexNum { font-size: 26px; }
     .spacesIndexLabel { font-size: 13px; }
     .spacesGhost { font-size: clamp(140px, 26vw, 280px); }
@@ -320,7 +320,7 @@
     .spacesCopy h2 { margin-bottom: 10px; font-size: 34px; }
     .spacesCopy p { font-size: 14px; }
     .spacesEyebrow { margin-bottom: 12px; font-size: 10px; }
-    .spacesIndex { top: 96px; right: 20px; bottom: auto; gap: 10px; justify-content: flex-start; padding-top: 0; --idx-num-col: 32px; --idx-label-col: 122px; --idx-gap: 8px; }
+    .spacesIndex { top: 96px; right: 20px; bottom: auto; gap: 10px; justify-content: flex-start; --idx-num-col: 32px; --idx-label-col: 122px; --idx-gap: 8px; --idx-shift: 0px; }
     .spacesIndexItem { min-height: 34px; }
     .spacesIndexItem::before { left: -10px; }
     .spacesIndexNum { font-size: 19px; }
@@ -485,6 +485,30 @@
 
   stage.append(layers, ghostNode, scrim, overlay, index);
 
+  // ---- align the index with the heading line --------------------------
+  // The three index rows sit on the right. Their first row is nudged so it
+  // lines up with the "一处门厅 · 两间实验室" heading on the left, whatever
+  // the viewport height happens to be.
+  function alignIndexWithHeading() {
+    const headingBox = eyebrowNode.getBoundingClientRect();
+    const firstLabel = indexButtons[0] && indexButtons[0].querySelector('.spacesIndexLabel');
+    if (!headingBox.height || !firstLabel) return;
+    const labelBox = firstLabel.getBoundingClientRect();
+    if (!labelBox.height) return;
+    // The heading is a small line of text. Line the first label up with it so
+    // the two read as one row instead of drifting apart on tall screens.
+    const delta = (headingBox.top + headingBox.height / 2) - (labelBox.top + labelBox.height / 2);
+    const current = parseFloat(getComputedStyle(index).getPropertyValue('--idx-shift')) || 0;
+    index.style.setProperty('--idx-shift', `${(current + delta).toFixed(2)}px`);
+  }
+
+  function scheduleAlign() {
+    if (typeof requestAnimationFrame !== 'function') return;
+    requestAnimationFrame(alignIndexWithHeading);
+  }
+
+  stage.append(layers, ghostNode, scrim, overlay, index);
+
   // ---- rendering ------------------------------------------------------
   let lastIndex = -1;
   function setIndex(next) {
@@ -517,6 +541,7 @@
     copyNode.style.animation = 'none';
     void copyNode.offsetWidth;
     copyNode.style.animation = '';
+    scheduleAlign();
   }
 
   function applyText(values) {
@@ -745,6 +770,14 @@
     if (document.hidden) stopTimer();
     else if (!reduced) startTimer();
   });
+
+  // ---- keep the index aligned with the heading ------------------------
+  window.addEventListener('resize', scheduleAlign);
+  window.addEventListener('orientationchange', scheduleAlign);
+  if (typeof ResizeObserver === 'function') {
+    new ResizeObserver(scheduleAlign).observe(stage);
+  }
+  scheduleAlign();
 })();
 </script>
 </body>
