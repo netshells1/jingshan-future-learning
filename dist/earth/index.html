@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>地球运动课堂</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;600;700&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,400&display=swap" rel="stylesheet" />
+    <script type="module" crossorigin src="./assets/index-CXpgYSmS.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-CjBS_hP3.css">
+    <style>
+      .brand-back {
+        font: 600 12px/1.2 system-ui, sans-serif;
+        letter-spacing: 0.08em;
+        color: var(--dim, #9aa3b5);
+        text-decoration: none;
+        white-space: nowrap;
+        margin-right: 10px;
+        padding: 4px 0;
+        flex: none;
+      }
+      .brand { gap: 10px; }
+      .brand-back:hover,
+      .brand-back:focus-visible { color: var(--gold, #d8b26a); }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script>
+    (function () {
+      function mountBack() {
+        if (document.getElementById('brand-back')) return true;
+        var brand = document.querySelector('.brand');
+        if (!brand) return false;
+        var a = document.createElement('a');
+        a.id = 'brand-back';
+        a.className = 'brand-back';
+        a.href = '../#/course/earth';
+        a.textContent = '返回课程';
+        a.addEventListener('click', function (event) {
+          try {
+            if (document.referrer && new URL(document.referrer).origin === location.origin && history.length > 1) {
+              event.preventDefault();
+              history.back();
+            }
+          } catch (error) {}
+        });
+        brand.insertBefore(a, brand.firstChild);
+        return true;
+      }
+      if (mountBack()) return;
+      var obs = new MutationObserver(function () {
+        if (mountBack()) obs.disconnect();
+      });
+      obs.observe(document.documentElement, { childList: true, subtree: true });
+      setTimeout(function () { obs.disconnect(); }, 8000);
+    })();
+    </script>
+  </body>
+</html>

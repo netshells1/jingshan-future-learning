@@ -9,7 +9,7 @@
   },
   "mediaOverrides": 16,
   "textOverrides": 0,
-  "staticFiles": 223,
+  "staticFiles": 233,
   "excludes": [
     ".local",
     "DPAPI credentials",
@@ -22,8 +22,8 @@
   "files": [
     {
       "file": "dist/assets/index-CEFoGbBQ.js",
-      "bytes": 593321,
-      "sha256": "fec52d379096354d174e23ef4db1d10c3cc7549d8c66171b67c64dce2e3ea739"
+      "bytes": 596833,
+      "sha256": "524b05db7fc53ab297481f404960e0b14f33999a57df8d01da48729601b34a2f"
     },
     {
       "file": "dist/assets/index-CiwR2OEh.css",
@@ -1227,8 +1227,8 @@
     },
     {
       "file": "server/project-context.mjs",
-      "bytes": 28839,
-      "sha256": "b9947a84ee954b9820597a43940f146bf0d102f3b25b1550aa0197d989c1a11c"
+      "bytes": 28907,
+      "sha256": "ba7cdb4da03b88612e7f8afc89aaeb438e6e83d6256a90edbc4ecc6e763c2e24"
     },
     {
       "file": "server/standalone.mjs",
@@ -1247,13 +1247,13 @@
     },
     {
       "file": "shared/course-text-sections.json",
-      "bytes": 46557,
-      "sha256": "494f6175f1560ebc2a8a32ce931ad4da156b1cf1c77799f46b2beebbeb49a417"
+      "bytes": 47080,
+      "sha256": "f7bab843d5d4f204d89e53471ea0232c88374ffceb1e2da26df314f5a5b70c42"
     },
     {
       "file": "shared/media-slots.json",
-      "bytes": 41280,
-      "sha256": "3c906ea192c0a0709b28f132e411d83449fe91231baa69955d6ba4fbe9f89039"
+      "bytes": 42260,
+      "sha256": "7aa74adb8c5c6122c64a57a7b595944d4ccf336922eaf549ad52dab455cfef70"
     },
     {
       "file": "shared/text-sections.json",
@@ -1374,6 +1374,61 @@
       "file": "licenses/media/terrain.md",
       "bytes": 456,
       "sha256": "4d6701f73e39b1fa111753af9ac600ea5a06264df9380ca1f3da7ce5ff58a96c"
+    },
+    {
+      "file": "dist/earth/assets/index-CjBS_hP3.css",
+      "bytes": 19536,
+      "sha256": "ce593108afaa505bccb6019b81072cd2d3fc59df515913db12823793563e092e"
+    },
+    {
+      "file": "dist/earth/index.html",
+      "bytes": 2295,
+      "sha256": "43ec3656184026d7eaf4336549de62949a22a41b6a933863ae543e748b66d3da"
+    },
+    {
+      "file": "dist/earth/textures/clouds.png",
+      "bytes": 5033486,
+      "sha256": "35c46d8b29651a99e482401f33ed752bf4625837435fb3a89bb0032f72b88a3a"
+    },
+    {
+      "file": "dist/earth/textures/clouds_1k.png",
+      "bytes": 260222,
+      "sha256": "7d3b82ef6b3feb506fc06f02a744aed3d864e23e7417075005f4082a7ff935a4"
+    },
+    {
+      "file": "dist/earth/textures/day.jpg",
+      "bytes": 1392914,
+      "sha256": "61cd3d27489d80ed025d7954539a6d90b50d4433bbdd27e8c1af8a6f15f71e86"
+    },
+    {
+      "file": "dist/earth/textures/day_2k.jpg",
+      "bytes": 512606,
+      "sha256": "2faa400d1eade3bc44caf6750d1b772bd9bbb6d87362c02bc7c3304e78fa0a9d"
+    },
+    {
+      "file": "dist/earth/textures/night.png",
+      "bytes": 734910,
+      "sha256": "3cc6972d1d5b6310f33ea6ef4cc14a38f1dd141a91d26888206889327d983d7b"
+    },
+    {
+      "file": "dist/earth/textures/spec.jpg",
+      "bytes": 223421,
+      "sha256": "2df48906732d7a458b2d0a7cdec51a829262307c6bdee4cfdf079a4dd7c71c69"
+    },
+    {
+      "file": "dist/media/manuscript-reference/earth-reference.png",
+      "bytes": 736860,
+      "sha256": "5267e1fe22ec7c4e99f92f45798420c1ff5bec89484ab3aa1c969eed1fc2bbfc"
+    },
+    {
+      "file": "licenses/media/earth.md",
+      "bytes": 286,
+      "sha256": "76bf2f99265e87c4cbe41494522b68c3643ecf3464a7adbacf8e022290a20517"
+    },
+    {
+      "file": "dist/earth/assets/index-CXpgYSmS.js",
+      "bytes": 631441,
+      "sha256": "1c448917c5c0e4bc1ed81d3581aa01eebd5ccccfaa5f6ab5221b838d6eafd5a6"
     }
   ]
 }

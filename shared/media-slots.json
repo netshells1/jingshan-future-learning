@@ -1178,6 +1178,35 @@
     "previewSource": "/media/manuscript-reference/atmosphere-reference.png"
   },
   {
+    "id": "course.earth.demo",
+    "group": "courses",
+    "section": "地球运动演示",
+    "title": "默认演示",
+    "description": "地球运动原理展示。上传图片或视频后，将在课程默认视图显示；恢复后继续使用原演示。",
+    "defaultKind": "builtin",
+    "fit": "contain",
+    "aspect": "800:620",
+    "chapter": "campus",
+    "page": 3,
+    "course": "earth",
+    "previewSource": "/media/manuscript-reference/earth-reference.png"
+  },
+  {
+    "id": "course.earth.reference",
+    "group": "courses",
+    "section": "地球运动演示",
+    "title": "文档配图",
+    "description": "课程媒体左上角“文档配图”对应的位置。",
+    "defaultKind": "image",
+    "fit": "contain",
+    "aspect": "800:620",
+    "chapter": "campus",
+    "page": 3,
+    "defaultSource": "/media/manuscript-reference/earth-reference.png",
+    "course": "earth",
+    "previewSource": "/media/manuscript-reference/earth-reference.png"
+  },
+  {
     "id": "course.network.demo",
     "group": "courses",
     "section": "神经网络与手写数字识别",

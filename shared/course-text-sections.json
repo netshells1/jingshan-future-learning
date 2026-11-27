@@ -1368,6 +1368,82 @@
     ]
   },
   {
+    "id": "course.earth",
+    "title": "地球运动演示",
+    "group": "courses",
+    "chapter": "campus",
+    "page": 3,
+    "course": "earth",
+    "fields": [
+      {
+        "id": "name",
+        "label": "课程名称",
+        "defaultText": "地球运动演示",
+        "maxLength": 120
+      },
+      {
+        "id": "subtitle",
+        "label": "课程入口名称",
+        "defaultText": "地球运动演示",
+        "maxLength": 120
+      },
+      {
+        "id": "headline",
+        "label": "介绍标题",
+        "defaultText": "自转公转，四季由此而生。",
+        "maxLength": 120
+      },
+      {
+        "id": "introduction",
+        "label": "课程介绍",
+        "defaultText": "把地球自转、公转与昼夜四季放进同一立体模型，观察太阳直射点移动，让抽象的地球运动变得可见。",
+        "maxLength": 1200
+      },
+      {
+        "id": "step.0.title",
+        "label": "学习环节 1",
+        "defaultText": "认识自转",
+        "maxLength": 120
+      },
+      {
+        "id": "step.1.title",
+        "label": "学习环节 2",
+        "defaultText": "理解公转",
+        "maxLength": 120
+      },
+      {
+        "id": "step.2.title",
+        "label": "学习环节 3",
+        "defaultText": "解释四季",
+        "maxLength": 120
+      },
+      {
+        "id": "output",
+        "label": "作品成果",
+        "defaultText": "地球运动观察与原理说明",
+        "maxLength": 500
+      },
+      {
+        "id": "value",
+        "label": "学习价值",
+        "defaultText": "通过空间观察理解自转、公转与四季成因，建立地理过程的整体认识。",
+        "maxLength": 1200
+      },
+      {
+        "id": "agent",
+        "label": "小景支持说明",
+        "defaultText": "小景围绕自转方向、公转轨道和昼夜长短追问，帮助把观察转化为原理说明。",
+        "maxLength": 800
+      },
+      {
+        "id": "arrangement",
+        "label": "课程安排",
+        "defaultText": "可复用课件 · 计入项目课时",
+        "maxLength": 240
+      }
+    ]
+  },
+  {
     "id": "course.network",
     "title": "神经网络与手写数字识别",
     "group": "courses",
