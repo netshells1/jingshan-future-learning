@@ -1,7 +1,7 @@
 {
   "format": "jingshan-windows-package",
   "version": 1,
-  "builtAt": "2026-11-27T02:42:18.099Z",
+  "builtAt": "2026-11-27T03:02:24.148Z",
   "runtime": {
     "version": "v24.22.0",
     "platform": "win32",
@@ -47,8 +47,8 @@
     },
     {
       "file": "dist/assets/index-CEFoGbBQ.js",
-      "bytes": 599175,
-      "sha256": "9b668072762708c7b76820211f6afba9bdbf283d590a1cdb0070d26f6b1a1fc0"
+      "bytes": 599891,
+      "sha256": "0e6af6c9aae5aef89680686b430b7fa5b13114216c0a92fe2abfad6e61d9ef8e"
     },
     {
       "file": "dist/assets/index-CiwR2OEh.css",
@@ -1022,8 +1022,8 @@
     },
     {
       "file": "dist/atmosphere/assets/index-CCike6Ux.js",
-      "bytes": 104026,
-      "sha256": "19b113b50b6a757da382d3915ea29bbeff757171cc298789d975f263ed9751ad"
+      "bytes": 104199,
+      "sha256": "a26d524b40debba8d83880023cd840d459abb6bae690e698050acd1c3b6700f0"
     },
     {
       "file": "dist/atmosphere/assets/ncep-1991-2020.f32",
@@ -1136,11 +1136,6 @@
       "sha256": "7323cb72efef58ffb63b8ba0fd9ea4f430ad0491fd965379b65617697c0937be"
     },
     {
-      "file": "dist/rover-practice/index.html",
-      "bytes": 4734,
-      "sha256": "6ba39ea01a161c53243ad3164517265a7011fb886dffc3e7a2094a1a760d31eb"
-    },
-    {
       "file": "dist/terrain/css/base.css",
       "bytes": 1732,
       "sha256": "40e1d3dfb8ed2b0f81ca43114cca4a152bab52a7f6613405d1c76ed499387f7e"
@@ -1197,8 +1192,8 @@
     },
     {
       "file": "dist/terrain/index.html",
-      "bytes": 11620,
-      "sha256": "e8db5824bde03e5f9a0f5ff50e44832cd7df9a9222c9b464f5284774a75128fb"
+      "bytes": 11794,
+      "sha256": "968aceebb39bd2d36c7de10116ed7a45acdaa8b0b11ba0375cc514c9b5b23ae6"
     },
     {
       "file": "dist/terrain/js/config/constants.js",
@@ -1369,6 +1364,11 @@
       "file": "licenses/media/terrain.md",
       "bytes": 456,
       "sha256": "4d6701f73e39b1fa111753af9ac600ea5a06264df9380ca1f3da7ce5ff58a96c"
+    },
+    {
+      "file": "dist/rover-practice/index.html",
+      "bytes": 4734,
+      "sha256": "6ba39ea01a161c53243ad3164517265a7011fb886dffc3e7a2094a1a760d31eb"
     }
   ]
 }

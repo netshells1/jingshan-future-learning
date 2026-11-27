@@ -1,0 +1,18 @@
+[
+  [
+    "onClick:()=>{V.current=!0,window.location.assign(e===`atmosphere`?\"./atmosphere/index.html#6\":\"./terrain/index.html\")}",
+    "onClick:()=>{V.current=!0;(()=>{try{let t=history.state?.courseFrom;t&&sessionStorage.setItem(`jingshan.courseFrom`,JSON.stringify(t))}catch{}})();window.location.assign(e===`atmosphere`?\"./atmosphere/index.html#6\":\"./terrain/index.html\")}"
+  ],
+  [
+    "dr=()=>{let e=history.state?.courseFrom;return location.hash.startsWith(`#/course/`)&&Number.isInteger(e?.chapter)&&e.chapter>=0&&e.chapter<ur.length&&Number.isInteger(e?.page)&&e.page>=0&&e.page<ur[e.chapter]?e:{chapter:Math.max(0,cr.findIndex(e=>location.hash===`#/${e.id}`)),page:0}}",
+    "dr=()=>{let e=history.state?.courseFrom;let t=e=>Number.isInteger(e?.chapter)&&e.chapter>=0&&e.chapter<ur.length&&Number.isInteger(e?.page)&&e.page>=0&&e.page<ur[e.chapter];if(location.hash.startsWith(`#/course/`)&&t(e))return e;if(location.hash.startsWith(`#/course/`)){try{e=JSON.parse(sessionStorage.getItem(`jingshan.courseFrom`)||`null`)}catch{e=null}if(t(e))return history.replaceState({courseFrom:e},``,location.hash),e}return{chapter:Math.max(0,cr.findIndex(e=>location.hash===`#/${e.id}`)),page:0}}"
+  ],
+  [
+    "O=(0,l.useCallback)(e=>{x(!1),o?history.replaceState(history.state,``,`#/course/${e}`):history.pushState({courseFrom:i},``,`#/course/${e}`),s(e)},[o,i])",
+    "O=(0,l.useCallback)(e=>{x(!1),o?history.replaceState(history.state,``,`#/course/${e}`):(history.pushState({courseFrom:i},``,`#/course/${e}`),(()=>{try{sessionStorage.setItem(`jingshan.courseFrom`,JSON.stringify(i))}catch{}})()),s(e)},[o,i])"
+  ],
+  [
+    "te=(0,l.useCallback)(()=>{history.state?.courseFrom?history.back():(s(null),a({chapter:1,page:0}),history.replaceState(null,``,`#/campus`))},[])",
+    "te=(0,l.useCallback)(()=>{let e=history.state?.courseFrom;if(!e)try{e=JSON.parse(sessionStorage.getItem(`jingshan.courseFrom`)||`null`)}catch{e=null}if(Number.isInteger(e?.chapter)&&e.chapter>=0&&e.chapter<ur.length&&Number.isInteger(e?.page)&&e.page>=0&&e.page<ur[e.chapter])return s(null),a(e),void history.replaceState(null,``,`#/${cr[e.chapter].id}`);s(null),a({chapter:1,page:0}),history.replaceState(null,``,`#/campus`)},[])"
+  ]
+]
