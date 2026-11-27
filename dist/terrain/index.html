@@ -21,7 +21,7 @@
   <!-- Top Header Bar -->
   <header id="topbar">
     <div class="brand">
-      <a class="brand-back" href="../#/course/terrain">返回课程</a>
+      <a class="brand-back" id="brand-back" href="../#/course/terrain" onclick="try{if(document.referrer&&new URL(document.referrer).origin===location.origin&&history.length>1){event.preventDefault();history.back()}}catch(e){}">返回课程</a>
       <span class="brand-en">CONTOUR·3D</span>
       <span class="brand-sep">/</span>
       <span class="brand-cn" id="brand-title-cn">认识等高线</span>
@@ -239,5 +239,6 @@
 <script src="js/ui/i18n.js"></script>
 <script src="js/ui/events.js"></script>
 <script src="js/main.js"></script>
+
 </body>
 </html>

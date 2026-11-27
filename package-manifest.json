@@ -47,8 +47,8 @@
     },
     {
       "file": "dist/assets/index-CEFoGbBQ.js",
-      "bytes": 596572,
-      "sha256": "c6043ffe3f84a42befd67c7ce057f26431551b9c3085d620c43e6d0ec105baf2"
+      "bytes": 597288,
+      "sha256": "9e3bdc42918cba21b6f083c9dd3bf377bea7b380142a14fb31d260a13d9859ac"
     },
     {
       "file": "dist/assets/index-CiwR2OEh.css",
@@ -1022,8 +1022,8 @@
     },
     {
       "file": "dist/atmosphere/assets/index-CCike6Ux.js",
-      "bytes": 104026,
-      "sha256": "19b113b50b6a757da382d3915ea29bbeff757171cc298789d975f263ed9751ad"
+      "bytes": 104199,
+      "sha256": "a26d524b40debba8d83880023cd840d459abb6bae690e698050acd1c3b6700f0"
     },
     {
       "file": "dist/atmosphere/assets/ncep-1991-2020.f32",
@@ -1192,8 +1192,8 @@
     },
     {
       "file": "dist/terrain/index.html",
-      "bytes": 11620,
-      "sha256": "e8db5824bde03e5f9a0f5ff50e44832cd7df9a9222c9b464f5284774a75128fb"
+      "bytes": 11794,
+      "sha256": "968aceebb39bd2d36c7de10116ed7a45acdaa8b0b11ba0375cc514c9b5b23ae6"
     },
     {
       "file": "dist/terrain/js/config/constants.js",
